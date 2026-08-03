@@ -1,0 +1,813 @@
+window.BOOTSTRAP_PRODUCTS = [
+  {
+    "code": "JW-01",
+    "name": "Jimukka",
+    "category": "Jewellery",
+    "subcategory": "Earring",
+    "price": 6,
+    "originalPrice": 10,
+    "discountPct": 40,
+    "stockStatus": "INSTOCK",
+    "image": "images/1.jpeg",
+    "images": [
+      "images/1.jpeg"
+    ],
+    "size": "",
+    "description": "Add a touch of tradition without breaking the budget! 💛 Our beautiful Jimukkas are available in a variety of stunning shades to perfectly match your outfit.  🌸 Affordable • Stylish • Perfect for Every Occasion.",
+    "featured": false
+  },
+  {
+    "code": "JW-02",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 29,
+    "originalPrice": 35,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/4.jpeg",
+    "images": [
+      "images/4.jpeg"
+    ],
+    "size": "",
+    "description": "A beautifully crafted choker necklace featuring elegant green stones and a comfortable adjustable thread closure. The perfect statement piece for sarees, lehengas, weddings, festive occasions, and traditional celebrations. 💚✨",
+    "featured": false
+  },
+  {
+    "code": "LW-03",
+    "name": "Organza Floral Saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 74,
+    "originalPrice": 90,
+    "discountPct": 18,
+    "stockStatus": "INSTOCK",
+    "image": "images/5.jpeg",
+    "images": [
+      "images/5.jpeg"
+    ],
+    "size": "",
+    "description": "Grace meets elegance in this dreamy Soft Organza Saree, adorned with delicate floral prints and a beautifully finished scalloped border. Perfect for festive celebrations, parties, and special occasions. 🌸",
+    "featured": false
+  },
+  {
+    "code": "LW-04",
+    "name": "Chanderi 3-Piece Suit Set",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 68,
+    "originalPrice": 68,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/6.jpeg",
+    "images": [
+      "images/6.jpeg"
+    ],
+    "size": "",
+    "description": "Graceful, lightweight, and effortlessly elegant. This beautiful Mul Chanderi 3-piece set features delicate embroidery with a matching bottom and soft dupatta—perfect for festive celebrations, family gatherings, and everyday elegance  SIZE TILL 44",
+    "featured": false
+  },
+  {
+    "code": "KW-05",
+    "name": "Kids Pattu Pavada Set",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/7.jpeg",
+    "images": [
+      "images/7.jpeg"
+    ],
+    "size": "",
+    "description": "Celebrate every special moment in timeless tradition! ❤️ This elegant Kids Pattu Pavada features a beautifully printed lotus skirt with a rich maroon puff-sleeve blouse, making it a perfect choice for Onam, festivals, temple visits, and family celebrations. Size -3 yrs /5yrs /6yrs",
+    "featured": false
+  },
+  {
+    "code": "JW-06",
+    "name": "Ruby Antique Choke",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 29,
+    "originalPrice": 41,
+    "discountPct": 29,
+    "stockStatus": "INSTOCK",
+    "image": "images/8.jpg",
+    "images": [
+      "images/8.jpg"
+    ],
+    "size": "",
+    "description": "A beautifully crafted choker necklace featuring elegant green stones and a comfortable adjustable thread closure. The perfect statement piece for sarees, lehengas, weddings, festive occasions, and traditional celebrations. 💚✨",
+    "featured": false
+  },
+  {
+    "code": "LW-07",
+    "name": "Soft Tissue Saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 68,
+    "originalPrice": 83,
+    "discountPct": 18,
+    "stockStatus": "INSTOCK",
+    "image": "images/9.jpeg",
+    "images": [
+      "images/9.jpeg"
+    ],
+    "size": "",
+    "description": "Grace meets tradition in this elegant soft tissue saree, beautifully finished with a stunning floral Kalamkari-inspired border. A timeless choice for festive celebrations and special occasions.",
+    "featured": false
+  },
+  {
+    "code": "GW-08",
+    "name": "Men’s Kurta",
+    "category": "Men's Wear",
+    "subcategory": "",
+    "price": 62,
+    "originalPrice": 70,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/10.jpeg",
+    "images": [
+      "images/10.jpeg"
+    ],
+    "size": "",
+    "description": "Make a statement with this elegant premium embroidered kurta, crafted for weddings, festivals, and special occasions.",
+    "featured": false
+  },
+  {
+    "code": "LW-09",
+    "name": "Cotton Embroidered Blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 35,
+    "originalPrice": 43,
+    "discountPct": 19,
+    "stockStatus": "INSTOCK",
+    "image": "images/11.jpeg",
+    "images": [
+      "images/11.jpeg",
+      "images/df3d9838-004b-4a86-9075-49c17538c55b.jpg",
+      "images/11e4c6e5-82d6-479d-a903-4424e4b1a1e8.jpg"
+    ],
+    "size": "",
+    "description": "Elevate your saree look with our elegant free-size embroidered blouse, designed for both comfort and style. Free size – Fits 36–42 inches (with alteration margin)",
+    "featured": false
+  },
+  {
+    "code": "JW-10",
+    "name": "AD Pendant (Without Chain)",
+    "category": "Jewellery",
+    "subcategory": "Pendants",
+    "price": 28,
+    "originalPrice": 35,
+    "discountPct": 20,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/14.jpeg",
+    "images": [
+      "images/14.jpeg"
+    ],
+    "size": "",
+    "description": "A sparkling American Diamond pendant with matching earrings, designed to add effortless elegance to your look. Pair it with your favourite chain for a personalized style.",
+    "featured": false
+  },
+  {
+    "code": "JW-11",
+    "name": "Antique Pendant Set",
+    "category": "Jewellery",
+    "subcategory": "Pendants",
+    "price": 30,
+    "originalPrice": 36,
+    "discountPct": 17,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/16.jpeg",
+    "images": [
+      "images/16.jpeg"
+    ],
+    "size": "",
+    "description": "A stunning antique-finish pendant set accented with rich purple stones and matching earrings. Designed to bring a touch of vintage elegance to every festive look.",
+    "featured": false
+  },
+  {
+    "code": "JW-12",
+    "name": "Emerald Antique Pendant Set",
+    "category": "Jewellery",
+    "subcategory": "Pendants",
+    "price": 30,
+    "originalPrice": 49,
+    "discountPct": 39,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/18.jpeg",
+    "images": [
+      "images/18.jpeg"
+    ],
+    "size": "",
+    "description": "A graceful antique-finish pendant set featuring a stunning emerald-green stone with matching earrings. Perfect for adding timeless elegance to your ethnic look.",
+    "featured": false
+  },
+  {
+    "code": "LW-13",
+    "name": "Soft Tissue Saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 58,
+    "originalPrice": 63,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/20.jpeg",
+    "images": [
+      "images/20.jpeg"
+    ],
+    "size": "",
+    "description": "Light as a breeze, elegant in every drape. A soft tissue saree with beautiful lotus floral prints and a matching blouse piece—perfect for festive and special occasions.",
+    "featured": false
+  },
+  {
+    "code": "JW-13",
+    "name": "Nagapadam Necklace Set",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 30,
+    "originalPrice": 36,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/23.jpeg",
+    "images": [
+      "images/23.jpeg"
+    ],
+    "size": "",
+    "description": "A timeless Nagapadam necklace with matching jhumkas, beautifully crafted in royal blue and emerald green for a graceful traditional look.",
+    "featured": false
+  },
+  {
+    "code": "JW-15",
+    "name": "Semi Tusser Saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 80,
+    "originalPrice": 100,
+    "discountPct": 20,
+    "stockStatus": "INSTOCK",
+    "image": "images/24.jpeg",
+    "images": [
+      "images/24.jpeg"
+    ],
+    "size": "",
+    "description": "Rich wine-red semi tusser saree featuring an exquisite floral embroidered lace border. Elegant, lightweight, and perfect for festive celebrations, weddings, and special occasions.",
+    "featured": false
+  },
+  {
+    "code": "JW-16",
+    "name": "flower ear rings",
+    "category": "Jewellery",
+    "subcategory": "Earring",
+    "price": 21,
+    "originalPrice": 28,
+    "discountPct": 25,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/e2a2ec34-dc2e-4090-b325-67b69445b9dd.jpg",
+    "images": [
+      "images/e2a2ec34-dc2e-4090-b325-67b69445b9dd.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-14",
+    "name": "Silk Saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 89,
+    "originalPrice": 110,
+    "discountPct": 19,
+    "stockStatus": "INSTOCK",
+    "image": "images/e67c8e99-625e-4772-b3cc-daeca03c1dd4.jpg",
+    "images": [
+      "images/e67c8e99-625e-4772-b3cc-daeca03c1dd4.jpg",
+      "images/ff6718dd-402c-49e9-bf6e-4f5bca42721f.jpg",
+      "images/d8259ec9-5688-4b4d-9bb9-5572dbc0ab41.jpg"
+    ],
+    "size": "",
+    "description": "A rich maroon saree featuring an elegant gold saree border and beautifully woven traditional motifs—perfect for weddings, festive occasions and celebrations.",
+    "featured": false
+  },
+  {
+    "code": "LW-15",
+    "name": "Royal Green Brocade Blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 42,
+    "originalPrice": 50,
+    "discountPct": 16,
+    "stockStatus": "INSTOCK",
+    "image": "images/eb7df1cd-6b0d-42f9-9be7-44d51c6d527e.jpg",
+    "images": [
+      "images/eb7df1cd-6b0d-42f9-9be7-44d51c6d527e.jpg"
+    ],
+    "size": "",
+    "description": "A rich emerald-green blouse featuring elegant gold floral weaving and a stylish tie-back detail—perfect for pairing with silk, tissue, or festive sarees.",
+    "featured": false
+  },
+  {
+    "code": "JW-17",
+    "name": "Traditional Stone Choker",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 44,
+    "originalPrice": 50,
+    "discountPct": 12,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/a1c56268-4968-4ea5-ab01-51b256c4f4a6.jpg",
+    "images": [
+      "images/a1c56268-4968-4ea5-ab01-51b256c4f4a6.jpg"
+    ],
+    "size": "",
+    "description": "A graceful gold-toned choker adorned with ruby-green stones and sparkling accents—perfect for sarees, lehengas and festive looks.",
+    "featured": false
+  },
+  {
+    "code": "JW-18",
+    "name": "Ruby Radiance Necklace Set",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 41,
+    "originalPrice": 60,
+    "discountPct": 32,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/4a69a0a6-847f-4a32-83e5-743f681ad6b9.jpg",
+    "images": [
+      "images/4a69a0a6-847f-4a32-83e5-743f681ad6b9.jpg"
+    ],
+    "size": "",
+    "description": "A graceful stone-studded necklace with matching earrings—perfect for adding a rich, elegant sparkle to any special occasion.",
+    "featured": false
+  },
+  {
+    "code": "JW-19",
+    "name": "AD Stone Choker Set",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 34,
+    "originalPrice": 45,
+    "discountPct": 24,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/3366e4f8-6047-4d0e-81ba-c81b83319764.jpg",
+    "images": [
+      "images/3366e4f8-6047-4d0e-81ba-c81b83319764.jpg",
+      "images/54b330a1-5c22-45b7-8fbc-5c12387a8d04.jpg"
+    ],
+    "size": "",
+    "description": "A delicate gold-finish design with sparkling stones and matching studs—perfect for parties and special occasions.",
+    "featured": false
+  },
+  {
+    "code": "JW-20",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 26,
+    "originalPrice": 40,
+    "discountPct": 35,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/bfc3ccbe-db6b-494b-96a1-d4dcbb46e9a6.jpg",
+    "images": [
+      "images/bfc3ccbe-db6b-494b-96a1-d4dcbb46e9a6.jpg",
+      "images/aed5ffa5-8e72-4973-89ef-03fcd711aef3.jpg"
+    ],
+    "size": "",
+    "description": "A graceful traditional AD necklace featuring rich ruby-toned stones, a striking emerald-green centerpiece, and elegant pearl drops. Perfect for weddings, festive celebrations, and special occasions.",
+    "featured": false
+  },
+  {
+    "code": "JW-21",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 30,
+    "originalPrice": 46,
+    "discountPct": 35,
+    "stockStatus": "INSTOCK",
+    "image": "images/d260a0ff-0114-4653-8285-8a5afe33ec43.jpg",
+    "images": [
+      "images/d260a0ff-0114-4653-8285-8a5afe33ec43.jpg",
+      "images/749df6e2-3b93-4e55-928d-6a51fb361d97.jpg"
+    ],
+    "size": "",
+    "description": "Elegant antique-finish necklace featuring delicate pearl florals, rich ruby-toned stones and a beautifully detailed pendant. A graceful choice for festive and traditional looks.",
+    "featured": false
+  },
+  {
+    "code": "LW-16",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 38,
+    "originalPrice": 55,
+    "discountPct": 31,
+    "stockStatus": "INSTOCK",
+    "image": "images/c129d1b5-a9d7-413e-a9ba-ed756e6b96ce.jpg",
+    "images": [
+      "images/c129d1b5-a9d7-413e-a9ba-ed756e6b96ce.jpg"
+    ],
+    "size": "",
+    "description": "Emerald Glow Necklace Set 💚\nA stunning emerald-green stone necklace with matching earrings, beautifully framed with sparkling accents. Perfect for festive occasions, parties and elegant traditional looks.",
+    "featured": false
+  },
+  {
+    "code": "JW-22",
+    "name": "Pearl Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 34,
+    "originalPrice": 46,
+    "discountPct": 26,
+    "stockStatus": "INSTOCK",
+    "image": "images/efb45acd-3a86-4179-bc43-f4ed4608590c.jpg",
+    "images": [
+      "images/efb45acd-3a86-4179-bc43-f4ed4608590c.jpg"
+    ],
+    "size": "",
+    "description": "Pearl elegance with a radiant ruby-centred pendant—simple, graceful and timeless.",
+    "featured": false
+  },
+  {
+    "code": "JW-23",
+    "name": "Bangles with striking ruby-pink stones",
+    "category": "Jewellery",
+    "subcategory": "Bangles",
+    "price": 23,
+    "originalPrice": 32,
+    "discountPct": 28,
+    "stockStatus": "INSTOCK",
+    "image": "images/19c70259-71e8-4892-b897-5ffe5b75a8a2.jpg",
+    "images": [
+      "images/19c70259-71e8-4892-b897-5ffe5b75a8a2.jpg"
+    ],
+    "size": "",
+    "description": "Elegance in every detail ✨\nBeautifully crafted gold-tone bangles with striking ruby-pink stones—perfect for adding a royal touch to any outfit.\n$12 per piece.",
+    "featured": false
+  },
+  {
+    "code": "JW-24",
+    "name": "Royal Ruby AD Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 34,
+    "originalPrice": 45,
+    "discountPct": 24,
+    "stockStatus": "INSTOCK",
+    "image": "images/36a990df-97b7-4102-87c7-e8ece22eb01c.jpg",
+    "images": [
+      "images/36a990df-97b7-4102-87c7-e8ece22eb01c.jpg"
+    ],
+    "size": "",
+    "description": "Royal Ruby AD Necklace ✨\nAn elegant gold-tone necklace adorned with sparkling white stones and rich ruby accents—perfect for weddings, parties and festive occasions.",
+    "featured": false
+  },
+  {
+    "code": "JW-25",
+    "name": "Royal Kemp Bridal Necklace Set",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 41,
+    "originalPrice": 53,
+    "discountPct": 23,
+    "stockStatus": "INSTOCK",
+    "image": "images/cf2f6a9e-6775-46d3-81a6-71d59978a4d4.jpg",
+    "images": [
+      "images/cf2f6a9e-6775-46d3-81a6-71d59978a4d4.jpg"
+    ],
+    "size": "",
+    "description": "A grand gold-tone necklace adorned with ruby, emerald and sparkling stones, finished with elegant pearl drops and matching earrings—perfect for weddings and traditional celebrations.",
+    "featured": false
+  },
+  {
+    "code": "JW-26",
+    "name": "Palakka necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 26,
+    "originalPrice": 30,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/d685200c-aa2a-49aa-a40c-ff0e81b77b31.jpg",
+    "images": [
+      "images/d685200c-aa2a-49aa-a40c-ff0e81b77b31.jpg",
+      "images/76bcda54-8fcc-4d26-8d44-47ef8efa0999.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": true
+  },
+  {
+    "code": "KW-06",
+    "name": "Frock",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 14,
+    "originalPrice": 16,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/c7105671-a5a0-4d8e-ac6b-cd5ddaac98c6.jpg",
+    "images": [
+      "images/c7105671-a5a0-4d8e-ac6b-cd5ddaac98c6.jpg",
+      "images/536799ba-7341-40bd-9449-3467d1cd5f62.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-17",
+    "name": "Soft cotton cord set",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 49.96,
+    "originalPrice": 56,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/db1f3be6-3522-4112-8f3b-69d800c64db6.jpg",
+    "images": [
+      "images/db1f3be6-3522-4112-8f3b-69d800c64db6.jpg"
+    ],
+    "size": "38",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-18",
+    "name": "Crushed organza",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 74,
+    "originalPrice": 80,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/a12db22a-a74a-40f8-b684-c0e8a4fc7a39.jpg",
+    "images": [
+      "images/a12db22a-a74a-40f8-b684-c0e8a4fc7a39.jpg",
+      "images/e687a50e-173b-4f3f-860e-d3712e2ab7de.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-27",
+    "name": "Kids Bangle",
+    "category": "Jewellery",
+    "subcategory": "Bangles",
+    "price": 24,
+    "originalPrice": 31,
+    "discountPct": 23,
+    "stockStatus": "INSTOCK",
+    "image": "images/e489f3b2-e2ef-4f46-9271-149637630891.jpg",
+    "images": [
+      "images/e489f3b2-e2ef-4f46-9271-149637630891.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-19",
+    "name": "Semi linen saree with blouse material",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 69,
+    "originalPrice": 72,
+    "discountPct": 4,
+    "stockStatus": "INSTOCK",
+    "image": "images/c499e627-94d4-474f-97a9-795d83c56bba.jpg",
+    "images": [
+      "images/c499e627-94d4-474f-97a9-795d83c56bba.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-20",
+    "name": "Premium  soft organza saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 86,
+    "originalPrice": 100,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/f87f53fe-3742-4c06-8f10-173b9fa436a1.jpg",
+    "images": [
+      "images/f87f53fe-3742-4c06-8f10-173b9fa436a1.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-28",
+    "name": "Earrings",
+    "category": "Jewellery",
+    "subcategory": "Earring",
+    "price": 18,
+    "originalPrice": 22,
+    "discountPct": 18,
+    "stockStatus": "INSTOCK",
+    "image": "images/8efcb74e-96d4-4e9c-9a0e-1c4e0edfdb0b.jpg",
+    "images": [
+      "images/8efcb74e-96d4-4e9c-9a0e-1c4e0edfdb0b.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-21",
+    "name": "Saree with blouse material",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 76,
+    "originalPrice": 90,
+    "discountPct": 16,
+    "stockStatus": "INSTOCK",
+    "image": "images/7924eaaa-b32b-43bc-aa78-1e3dc81e9141.jpg",
+    "images": [
+      "images/7924eaaa-b32b-43bc-aa78-1e3dc81e9141.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-22",
+    "name": "Designer Kerala saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 60,
+    "originalPrice": 69,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/2f2517ba-9ed9-45c9-9dec-38bc51668a15.jpg",
+    "images": [
+      "images/2f2517ba-9ed9-45c9-9dec-38bc51668a15.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-23",
+    "name": "Tissue saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 65,
+    "originalPrice": 70,
+    "discountPct": 7,
+    "stockStatus": "INSTOCK",
+    "image": "images/c0c95e56-1226-4f27-a8dc-f91a08506f09.jpg",
+    "images": [
+      "images/c0c95e56-1226-4f27-a8dc-f91a08506f09.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-24",
+    "name": "Saree with unstitched  house",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 74,
+    "originalPrice": 80,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/d0d50de4-ecce-48ef-a2a4-d41988b98860.jpg",
+    "images": [
+      "images/d0d50de4-ecce-48ef-a2a4-d41988b98860.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-25",
+    "name": "Saree with unstitched blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 69,
+    "originalPrice": 80,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/493b7819-92bf-4b24-93eb-67f3e4520217.jpg",
+    "images": [
+      "images/493b7819-92bf-4b24-93eb-67f3e4520217.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-26",
+    "name": "Readymade 3 piece Churidar",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 68,
+    "originalPrice": 71,
+    "discountPct": 4,
+    "stockStatus": "INSTOCK",
+    "image": "images/bdd10649-fb6d-442a-b7cc-e001b3b03b9a.jpg",
+    "images": [
+      "images/bdd10649-fb6d-442a-b7cc-e001b3b03b9a.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-27",
+    "name": "Ready made blouse - free size",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 40,
+    "originalPrice": 50,
+    "discountPct": 20,
+    "stockStatus": "INSTOCK",
+    "image": "images/628f1d8e-a466-43bb-8e5c-4876365a6096.jpg",
+    "images": [
+      "images/628f1d8e-a466-43bb-8e5c-4876365a6096.jpg"
+    ],
+    "size": "",
+    "description": "Margin -34 to 42\nAlterable",
+    "featured": false
+  },
+  {
+    "code": "JW-29",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 28,
+    "originalPrice": 35,
+    "discountPct": 20,
+    "stockStatus": "INSTOCK",
+    "image": "images/da52d908-0880-4f1d-9f67-284a718958ce.jpg",
+    "images": [
+      "images/da52d908-0880-4f1d-9f67-284a718958ce.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-30",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 26,
+    "originalPrice": 30,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/4d5b216e-8aef-41dc-a65e-b54c4a1709ef.jpg",
+    "images": [
+      "images/4d5b216e-8aef-41dc-a65e-b54c4a1709ef.jpg",
+      "images/af387eb5-0ddd-42c9-ab3d-106eba12725c.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-31",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 29.65,
+    "originalPrice": 36,
+    "discountPct": 18,
+    "stockStatus": "INSTOCK",
+    "image": "images/429ab56c-c1ab-48e7-b73f-013faa1af682.jpg",
+    "images": [
+      "images/429ab56c-c1ab-48e7-b73f-013faa1af682.jpg",
+      "images/dac18abe-3775-46dd-9807-e1a9071f97e2.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-28",
+    "name": "Premium  silk davani set",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 99,
+    "originalPrice": 115,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/4520a6aa-2043-4f3f-8a5f-ffed176ef87e.jpg",
+    "images": [
+      "images/4520a6aa-2043-4f3f-8a5f-ffed176ef87e.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Fully stitched blouse and skirt.",
+    "featured": false
+  }
+];
