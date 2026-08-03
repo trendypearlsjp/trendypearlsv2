@@ -655,16 +655,13 @@ function renderFreshArrivalsMarquee() {
     track.innerHTML = loopItems.map(item => {
         const discountedPrice = item.discountPct > 0 ? Math.round(item.originalPrice * (1 - item.discountPct / 100)) : item.price;
         return `
-        <div onclick="openModal('${item.code}')" class="w-36 md:w-44 bg-white rounded-2xl border border-slate-200/80 p-2 shadow-sm hover:shadow-md transition-all duration-300 flex-shrink-0 cursor-pointer group">
-            <div class="relative aspect-square rounded-xl overflow-hidden mb-2 bg-slate-50">
-                <span class="absolute top-2 left-2 z-20 bg-[#9E6B7B]/90 text-white font-bold text-[8px] px-2 py-0.5 rounded-full uppercase tracking-wider shadow-xs">FRESH</span>
-                ${item.discountPct > 0 ? `<span class="absolute top-2 right-2 z-20 bg-rose-600 text-white font-bold text-[8px] px-1.5 py-0.5 rounded-md shadow-xs">-${item.discountPct}%</span>` : ''}
-                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: url('${item.image}')"></div>
-            </div>
-            <h5 class="font-semibold text-slate-800 text-[11px] truncate mb-0.5" title="${item.name}">${item.name}</h5>
-            <div class="flex items-baseline gap-1">
-                <span class="font-bold text-slate-900 text-xs">${CONFIG.currency}${discountedPrice.toLocaleString()}</span>
-                ${item.discountPct > 0 ? `<span class="text-slate-400 text-[10px] line-through">${CONFIG.currency}${item.originalPrice.toLocaleString()}</span>` : ''}
+        <div onclick="openModal('${item.code}')" class="w-52 h-72 md:w-72 md:h-[400px] rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl border border-white/60 transition-all duration-500 flex-shrink-0 cursor-pointer relative group">
+            <span class="absolute top-3 left-3 z-20 bg-[#9E6B7B]/90 text-white font-bold text-[9px] px-2.5 py-0.5 rounded-full uppercase tracking-wider shadow-sm backdrop-blur-xs">FRESH</span>
+            ${item.discountPct > 0 ? `<span class="absolute top-3 right-3 z-20 bg-rose-600 text-white font-bold text-[9px] px-2 py-0.5 rounded-md shadow-sm">-${item.discountPct}%</span>` : ''}
+            <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('${item.image}')"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4 text-white">
+                <h5 class="font-bold text-sm truncate mb-0.5">${item.name}</h5>
+                <span class="text-amber-300 font-extrabold text-sm">${CONFIG.currency}${discountedPrice.toLocaleString()}</span>
             </div>
         </div>
         `;
