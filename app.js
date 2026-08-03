@@ -555,6 +555,7 @@ function applyFiltersAndSort() {
 
     visibleItemCount = 24;
     renderGrid();
+    renderFreshArrivalsMarquee();
     } catch (err) {
         console.error("Error in applyFiltersAndSort:", err);
     }
@@ -637,6 +638,37 @@ function renderGrid() {
 function loadMoreProducts() {
     visibleItemCount += 24;
     renderGrid();
+}
+
+function renderFreshArrivalsMarquee() {
+    const track = document.getElementById("fresh-marquee-track");
+    if (!track) return;
+    if (!Array.isArray(catalog) || catalog.length === 0) return;
+
+    // Extract newest 50 products
+    const newest50 = catalog.slice().reverse().slice(0, 50);
+    if (newest50.length === 0) return;
+
+    // Duplicate array x2 to achieve a 100% smooth, seamless infinite loop
+    const loopItems = [...newest50, ...newest50];
+
+    track.innerHTML = loopItems.map(item => {
+        const discountedPrice = item.discountPct > 0 ? Math.round(item.originalPrice * (1 - item.discountPct / 100)) : item.price;
+        return `
+        <div onclick="openModal('${item.code}')" class="w-36 md:w-44 bg-white rounded-2xl border border-slate-200/80 p-2 shadow-sm hover:shadow-md transition-all duration-300 flex-shrink-0 cursor-pointer group">
+            <div class="relative aspect-square rounded-xl overflow-hidden mb-2 bg-slate-50">
+                <span class="absolute top-2 left-2 z-20 bg-[#9E6B7B]/90 text-white font-bold text-[8px] px-2 py-0.5 rounded-full uppercase tracking-wider shadow-xs">FRESH</span>
+                ${item.discountPct > 0 ? `<span class="absolute top-2 right-2 z-20 bg-rose-600 text-white font-bold text-[8px] px-1.5 py-0.5 rounded-md shadow-xs">-${item.discountPct}%</span>` : ''}
+                <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: url('${item.image}')"></div>
+            </div>
+            <h5 class="font-semibold text-slate-800 text-[11px] truncate mb-0.5" title="${item.name}">${item.name}</h5>
+            <div class="flex items-baseline gap-1">
+                <span class="font-bold text-slate-900 text-xs">${CONFIG.currency}${discountedPrice.toLocaleString()}</span>
+                ${item.discountPct > 0 ? `<span class="text-slate-400 text-[10px] line-through">${CONFIG.currency}${item.originalPrice.toLocaleString()}</span>` : ''}
+            </div>
+        </div>
+        `;
+    }).join("");
 }
 
 function renderCardHTML(item) {

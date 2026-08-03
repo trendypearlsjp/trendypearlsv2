@@ -41,6 +41,22 @@
     padding: 0;
 }
 
+/* Fresh Arrivals Infinite Horizontal Marquee Animation */
+@keyframes marquee-scroll {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); }
+}
+
+.animate-marquee-track {
+    display: flex;
+    width: max-content;
+    animation: marquee-scroll 50s linear infinite;
+}
+
+.animate-marquee-track:hover {
+    animation-play-state: paused;
+}
+
 body {
     background-color: var(--bg-dark);
     color: var(--text-primary);
