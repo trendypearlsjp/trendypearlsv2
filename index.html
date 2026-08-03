@@ -28,6 +28,19 @@
         .hero-slider-clip {
             clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
         }
+        @keyframes marquee-scroll {
+            0% { transform: translate3d(0, 0, 0); }
+            100% { transform: translate3d(-50%, 0, 0); }
+        }
+        .animate-marquee-track {
+            display: flex !important;
+            width: max-content !important;
+            animation: marquee-scroll 35s linear infinite !important;
+            will-change: transform;
+        }
+        .animate-marquee-track:hover {
+            animation-play-state: paused !important;
+        }
         @keyframes subtle-zoom {
             0% { transform: scale(1); }
             100% { transform: scale(1.05); }

@@ -666,6 +666,12 @@ function renderFreshArrivalsMarquee() {
         </div>
         `;
     }).join("");
+
+    setTimeout(() => {
+        if (track && getComputedStyle(track).animationName === "none") {
+            track.style.animation = "marquee-scroll 35s linear infinite";
+        }
+    }, 50);
 }
 
 function renderCardHTML(item) {
