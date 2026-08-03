@@ -780,22 +780,5 @@ window.BOOTSTRAP_PRODUCTS = [
     "size": "",
     "description": "",
     "featured": false
-  },
-  {
-    "code": "PR-647",
-    "name": "Untitled Product",
-    "category": "General",
-    "subcategory": "",
-    "price": 0,
-    "originalPrice": 0,
-    "discountPct": 0,
-    "stockStatus": "In Stock",
-    "image": "images/placeholder.svg",
-    "images": [
-      "images/placeholder.svg"
-    ],
-    "size": "",
-    "description": "",
-    "featured": false
   }
 ];
