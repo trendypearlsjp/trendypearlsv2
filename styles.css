@@ -50,7 +50,7 @@
 .animate-marquee-track {
     display: flex;
     width: max-content;
-    animation: marquee-scroll 50s linear infinite;
+    animation: marquee-scroll 95s linear infinite;
 }
 
 .animate-marquee-track:hover {

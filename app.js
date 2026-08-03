@@ -669,7 +669,7 @@ function renderFreshArrivalsMarquee() {
 
     setTimeout(() => {
         if (track && getComputedStyle(track).animationName === "none") {
-            track.style.animation = "marquee-scroll 35s linear infinite";
+            track.style.animation = "marquee-scroll 95s linear infinite";
         }
     }, 50);
 }
