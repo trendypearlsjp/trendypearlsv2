@@ -228,9 +228,9 @@ async function initApp() {
 
     applyFiltersAndSort();
 
-    // Priority 2: Async fetch fresh JSON if available
+    // Priority 2: Async fetch fresh JSON if available (bypassing browser cache)
     try {
-        const response = await fetch("data/products.json");
+        const response = await fetch("data/products.json?v=" + Date.now());
         if (response.ok) {
             const freshData = await response.json();
             if (freshData && freshData.length > 0) {
