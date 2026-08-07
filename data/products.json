@@ -628,23 +628,6 @@
     "featured": false
   },
   {
-    "code": "LW-19",
-    "name": "Tissue saree",
-    "category": "Ladies Wear",
-    "subcategory": "",
-    "price": 65,
-    "originalPrice": 65,
-    "discountPct": 0,
-    "stockStatus": "INSTOCK",
-    "image": "images/18db0c07-988d-4d1c-af0e-cdfb1d9d3287.jpg",
-    "images": [
-      "images/18db0c07-988d-4d1c-af0e-cdfb1d9d3287.jpg"
-    ],
-    "size": "",
-    "description": "",
-    "featured": false
-  },
-  {
     "code": "LW-20",
     "name": "Saree with unstitched  house",
     "category": "Ladies Wear",
@@ -846,6 +829,74 @@
     "image": "images/2916adc5-cf5b-4ef3-a202-ac331ed10aec.jpg",
     "images": [
       "images/2916adc5-cf5b-4ef3-a202-ac331ed10aec.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-30",
+    "name": "Kids frocks",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 18,
+    "originalPrice": 23.69,
+    "discountPct": 24,
+    "stockStatus": "INSTOCK",
+    "image": "images/5A8C6FC2-D70C-41AE-87F1-96716CEED2B9.png",
+    "images": [
+      "images/5A8C6FC2-D70C-41AE-87F1-96716CEED2B9.png"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-31",
+    "name": "chanderi  silk saree with  stitched blouse ( free size )",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 75,
+    "originalPrice": 90,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/6b2561c8-6263-45cb-821b-c1f81f59241b.jpg",
+    "images": [
+      "images/6b2561c8-6263-45cb-821b-c1f81f59241b.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-32",
+    "name": "FROCK",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 22,
+    "originalPrice": 25,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/8A5CF031-FEB1-4236-AD91-70D34DC65552.png",
+    "images": [
+      "images/8A5CF031-FEB1-4236-AD91-70D34DC65552.png"
+    ],
+    "size": "AVAILBALE SIZES .S/M/L",
+    "description": "Suitable for age group of 0-1 yr old",
+    "featured": false
+  },
+  {
+    "code": "LW-33",
+    "name": "Partywear saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 78,
+    "originalPrice": 90,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/44e37f34-a892-465c-a00e-a19925035acc.jpg",
+    "images": [
+      "images/44e37f34-a892-465c-a00e-a19925035acc.jpg"
     ],
     "size": "",
     "description": "",
