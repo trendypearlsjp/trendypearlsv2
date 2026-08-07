@@ -615,9 +615,9 @@ window.BOOTSTRAP_PRODUCTS = [
     "name": "Kerala saree",
     "category": "Ladies Wear",
     "subcategory": "",
-    "price": 60,
+    "price": 55,
     "originalPrice": 60,
-    "discountPct": 0,
+    "discountPct": 8,
     "stockStatus": "INSTOCK",
     "image": "images/0d679b5f-20e1-4ea6-af23-4592780e6b26.jpg",
     "images": [
@@ -853,16 +853,16 @@ window.BOOTSTRAP_PRODUCTS = [
   },
   {
     "code": "LW-31",
-    "name": "chanderi  silk saree with  stitched blouse ( free size )",
+    "name": "litchy silk saree",
     "category": "Ladies Wear",
     "subcategory": "",
-    "price": 75,
-    "originalPrice": 90,
-    "discountPct": 17,
+    "price": 53,
+    "originalPrice": 70,
+    "discountPct": 24,
     "stockStatus": "INSTOCK",
-    "image": "images/6b2561c8-6263-45cb-821b-c1f81f59241b.jpg",
+    "image": "images/adf28d79-0446-4144-b06a-fa915d368878.jpg",
     "images": [
-      "images/6b2561c8-6263-45cb-821b-c1f81f59241b.jpg"
+      "images/adf28d79-0446-4144-b06a-fa915d368878.jpg"
     ],
     "size": "",
     "description": "",
@@ -897,6 +897,176 @@ window.BOOTSTRAP_PRODUCTS = [
     "image": "images/44e37f34-a892-465c-a00e-a19925035acc.jpg",
     "images": [
       "images/44e37f34-a892-465c-a00e-a19925035acc.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "KW-03",
+    "name": "Baby frocks",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 19,
+    "originalPrice": 25,
+    "discountPct": 24,
+    "stockStatus": "INSTOCK",
+    "image": "images/A66ACE60-BDFF-4977-A1A5-D447993B2321.png",
+    "images": [
+      "images/A66ACE60-BDFF-4977-A1A5-D447993B2321.png"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "KW-04",
+    "name": "ONAM outfits for toddler group",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 21.96,
+    "originalPrice": 25,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/a15ed8bb-cd13-4da1-8b8c-c1b11fe90f16.jpg",
+    "images": [
+      "images/a15ed8bb-cd13-4da1-8b8c-c1b11fe90f16.jpg"
+    ],
+    "size": "",
+    "description": "Available in Small, Medium, and Large sizes. Suitable for ages 0–12 months.\nSizes: S, M, L — Recommended for babies up to 12 months of age.",
+    "featured": false
+  },
+  {
+    "code": "LW-34",
+    "name": "Necklace",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 39,
+    "originalPrice": 46,
+    "discountPct": 15,
+    "stockStatus": "INSTOCK",
+    "image": "images/DSCF1224_Original.JPG",
+    "images": [
+      "images/DSCF1224_Original.JPG"
+    ],
+    "size": "",
+    "description": "Multicoloured Statement Necklace",
+    "featured": false
+  },
+  {
+    "code": "KW-05",
+    "name": "Kids frocks",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 22,
+    "originalPrice": 25,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/E67B61A0-E989-44EA-81DF-5D659645CADE_1_.png",
+    "images": [
+      "images/E67B61A0-E989-44EA-81DF-5D659645CADE_1_.png"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "KW-06",
+    "name": "Kids frocks",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 16,
+    "originalPrice": 25,
+    "discountPct": 36,
+    "stockStatus": "INSTOCK",
+    "image": "images/ead697a2-7165-4b75-b6b2-857994b4cb9f.jpg",
+    "images": [
+      "images/ead697a2-7165-4b75-b6b2-857994b4cb9f.jpg"
+    ],
+    "size": "",
+    "description": "Recommended for babies up to 12 months of age.",
+    "featured": false
+  },
+  {
+    "code": "KW-07",
+    "name": "Onam Kids frocks",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 22,
+    "originalPrice": 25,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/ec2c93c7-60f2-4ef0-8a21-3cd88e5d1fa4.jpg",
+    "images": [
+      "images/ec2c93c7-60f2-4ef0-8a21-3cd88e5d1fa4.jpg"
+    ],
+    "size": "",
+    "description": "Recommended for babies up to 12 months of age.",
+    "featured": false
+  },
+  {
+    "code": "KW-08",
+    "name": "Kids frocks",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 30,
+    "originalPrice": 30,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/fc45e14f-c5c5-4019-9985-dcd19f9c981d.jpg",
+    "images": [
+      "images/fc45e14f-c5c5-4019-9985-dcd19f9c981d.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "KW-09",
+    "name": "kids pattu pavada",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 38,
+    "originalPrice": 45,
+    "discountPct": 16,
+    "stockStatus": "INSTOCK",
+    "image": "images/c88e7aaa-974a-4a2c-99ca-da73b75487da.jpg",
+    "images": [
+      "images/c88e7aaa-974a-4a2c-99ca-da73b75487da.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-21",
+    "name": "stoned earrings",
+    "category": "Jewellery",
+    "subcategory": "Earring",
+    "price": 12.99,
+    "originalPrice": 18,
+    "discountPct": 28,
+    "stockStatus": "INSTOCK",
+    "image": "images/f20a73b3-e5e9-4e60-a3be-7734accd7388.jpg",
+    "images": [
+      "images/f20a73b3-e5e9-4e60-a3be-7734accd7388.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-35",
+    "name": "Jewellery",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 15,
+    "originalPrice": 24,
+    "discountPct": 38,
+    "stockStatus": "INSTOCK",
+    "image": "images/be5aecd5-ee30-4c54-919e-87aa0dd0992d.jpg",
+    "images": [
+      "images/be5aecd5-ee30-4c54-919e-87aa0dd0992d.jpg"
     ],
     "size": "",
     "description": "",
