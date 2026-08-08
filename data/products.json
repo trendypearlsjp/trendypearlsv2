@@ -736,9 +736,9 @@
     "name": "Necklace",
     "category": "Jewellery",
     "subcategory": "Necklace",
-    "price": 29.65,
-    "originalPrice": 29.65,
-    "discountPct": 0,
+    "price": 34,
+    "originalPrice": 38,
+    "discountPct": 11,
     "stockStatus": "INSTOCK",
     "image": "images/67d8f155-16b3-4bd5-bd05-885bdf6a7953.jpg",
     "images": [
@@ -1070,6 +1070,198 @@
     ],
     "size": "",
     "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-36",
+    "name": "Premium Bangle",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 18,
+    "originalPrice": 18,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/455d2183-c9f1-4bbf-9f4f-f3d7ce5d688b.jpg",
+    "images": [
+      "images/455d2183-c9f1-4bbf-9f4f-f3d7ce5d688b.jpg"
+    ],
+    "size": "",
+    "description": "Limited stock",
+    "featured": false
+  },
+  {
+    "code": "JW-22",
+    "name": "Petal Jimukka",
+    "category": "Jewellery",
+    "subcategory": "Earring",
+    "price": 24,
+    "originalPrice": 24,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/989e9fab-ee88-4645-a544-a61880a527b7.jpg",
+    "images": [
+      "images/989e9fab-ee88-4645-a544-a61880a527b7.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-23",
+    "name": "Kasimala with stones",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 34,
+    "originalPrice": 36,
+    "discountPct": 6,
+    "stockStatus": "INSTOCK",
+    "image": "images/62ef44bd-3127-4ecb-9d35-df699663797a.jpg",
+    "images": [
+      "images/62ef44bd-3127-4ecb-9d35-df699663797a.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "KW-10",
+    "name": "Kids frocks",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 16,
+    "originalPrice": 24,
+    "discountPct": 33,
+    "stockStatus": "INSTOCK",
+    "image": "images/51f84db3-d4bf-4aec-88e2-2a5b5ffc86be.jpg",
+    "images": [
+      "images/51f84db3-d4bf-4aec-88e2-2a5b5ffc86be.jpg",
+      "images/b68d0f08-456c-4856-97b0-16ff12a60bfd.jpg",
+      "images/44e75bbc-1de7-4e05-a227-b1931edd7c3e.jpg"
+    ],
+    "size": "",
+    "description": "Available Sizes: 0–3 Months | 3–6 Months | 6–9 Months | 9–12 Months\nMaterial- Soft Cotton",
+    "featured": false
+  },
+  {
+    "code": "LW-37",
+    "name": "Kids frocks",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 16,
+    "originalPrice": 20,
+    "discountPct": 20,
+    "stockStatus": "INSTOCK",
+    "image": "images/e07e48ed-c2ba-4a79-8392-aeb18a6bc388.jpg",
+    "images": [
+      "images/e07e48ed-c2ba-4a79-8392-aeb18a6bc388.jpg",
+      "images/8bcde40e-95bf-48e4-8a1b-70f126aef16b.jpg"
+    ],
+    "size": "",
+    "description": "Available Sizes: 0–3 Months | 3–6 Months | 6–9 Months | 9–12 Months\nMaterial-Soft Georgette.\nSoft lining-included",
+    "featured": false
+  },
+  {
+    "code": "LW-38",
+    "name": "Kids frocks",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 23,
+    "originalPrice": 30,
+    "discountPct": 23,
+    "stockStatus": "INSTOCK",
+    "image": "images/5031150e-3915-4443-801e-a24f17b8a3c6.jpg",
+    "images": [
+      "images/5031150e-3915-4443-801e-a24f17b8a3c6.jpg",
+      "images/cff7208c-1004-41c9-a035-c6656621bfec.jpg"
+    ],
+    "size": "",
+    "description": "Sizes available up to  3 year\nFabric- Satin and Net",
+    "featured": false
+  },
+  {
+    "code": "KW-11",
+    "name": "Kids frocks",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 24,
+    "originalPrice": 32,
+    "discountPct": 25,
+    "stockStatus": "INSTOCK",
+    "image": "images/a8acd117-01a4-4c8e-b2d7-6371aaa6d04f.jpg",
+    "images": [
+      "images/a8acd117-01a4-4c8e-b2d7-6371aaa6d04f.jpg"
+    ],
+    "size": "",
+    "description": "sizes available up to 2 years",
+    "featured": false
+  },
+  {
+    "code": "JW-24",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 14,
+    "originalPrice": 19,
+    "discountPct": 26,
+    "stockStatus": "INSTOCK",
+    "image": "images/953e407b-d27a-4e5b-b6e1-f713f5754642.jpg",
+    "images": [
+      "images/953e407b-d27a-4e5b-b6e1-f713f5754642.jpg",
+      "images/a00fcf05-b192-4188-93a8-827517720bc5.jpg"
+    ],
+    "size": "",
+    "description": "Casual wear",
+    "featured": false
+  },
+  {
+    "code": "JW-25",
+    "name": "Premium AD stone necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 44,
+    "originalPrice": 49,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/32921a7c-6ea9-40e1-a74c-58afe2134b46.jpg",
+    "images": [
+      "images/32921a7c-6ea9-40e1-a74c-58afe2134b46.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": true
+  },
+  {
+    "code": "JW-26",
+    "name": "Jewellery",
+    "category": "Jewellery",
+    "subcategory": "Earring",
+    "price": 13,
+    "originalPrice": 16,
+    "discountPct": 19,
+    "stockStatus": "INSTOCK",
+    "image": "images/d5db144a-3d37-47be-b9b0-398b05112869.jpg",
+    "images": [
+      "images/d5db144a-3d37-47be-b9b0-398b05112869.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-39",
+    "name": "Premium double layer",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 39,
+    "originalPrice": 46,
+    "discountPct": 15,
+    "stockStatus": "INSTOCK",
+    "image": "images/2842e9ba-4425-4141-a85f-5ef2fdcafb5a.jpg",
+    "images": [
+      "images/2842e9ba-4425-4141-a85f-5ef2fdcafb5a.jpg"
+    ],
+    "size": "",
+    "description": "double layer premium necklace",
     "featured": false
   }
 ]
