@@ -424,7 +424,7 @@
     "code": "JW-14",
     "name": "Necklace",
     "category": "Jewellery",
-    "subcategory": "Necklace",
+    "subcategory": "Bangles",
     "price": 23,
     "originalPrice": 23,
     "discountPct": 0,
@@ -434,7 +434,7 @@
       "images/4f776a2a-37e2-4d7d-ba32-68fd0a6e22b8.jpg"
     ],
     "size": "",
-    "description": "",
+    "description": "Pair -$23",
     "featured": false
   },
   {
@@ -907,9 +907,9 @@
     "name": "Baby frocks",
     "category": "Kids Wear",
     "subcategory": "",
-    "price": 19,
-    "originalPrice": 25,
-    "discountPct": 24,
+    "price": 14,
+    "originalPrice": 20,
+    "discountPct": 30,
     "stockStatus": "INSTOCK",
     "image": "images/A66ACE60-BDFF-4977-A1A5-D447993B2321.png",
     "images": [
@@ -1262,6 +1262,23 @@
     ],
     "size": "",
     "description": "double layer premium necklace",
+    "featured": false
+  },
+  {
+    "code": "LW-40",
+    "name": "Ready made churidar",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 75,
+    "originalPrice": 85,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/96ca04a7-3dca-467e-9673-8bc9c09cd520.jpg",
+    "images": [
+      "images/96ca04a7-3dca-467e-9673-8bc9c09cd520.jpg"
+    ],
+    "size": "size-L",
+    "description": "",
     "featured": false
   }
 ]
