@@ -212,7 +212,7 @@ window.BOOTSTRAP_PRODUCTS = [
   },
   {
     "code": "LW-06",
-    "name": "Premium Cotton Embroidered Blouse",
+    "name": "Premium  Hakoba  Embroidered Blouse",
     "category": "Ladies Wear",
     "subcategory": "",
     "price": 35,
@@ -226,7 +226,7 @@ window.BOOTSTRAP_PRODUCTS = [
       "images/10ab4c9a-7855-40f5-bb4b-23a50b41b728.jpg"
     ],
     "size": "",
-    "description": "",
+    "description": "Free size\nChest  margin 34-40 inch \nAlterable",
     "featured": false
   },
   {
