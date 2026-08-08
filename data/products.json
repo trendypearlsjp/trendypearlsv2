@@ -1073,23 +1073,6 @@
     "featured": false
   },
   {
-    "code": "LW-36",
-    "name": "Premium Bangle",
-    "category": "Ladies Wear",
-    "subcategory": "",
-    "price": 18,
-    "originalPrice": 18,
-    "discountPct": 0,
-    "stockStatus": "INSTOCK",
-    "image": "images/455d2183-c9f1-4bbf-9f4f-f3d7ce5d688b.jpg",
-    "images": [
-      "images/455d2183-c9f1-4bbf-9f4f-f3d7ce5d688b.jpg"
-    ],
-    "size": "",
-    "description": "Limited stock",
-    "featured": false
-  },
-  {
     "code": "JW-22",
     "name": "Petal Jimukka",
     "category": "Jewellery",
@@ -1466,6 +1449,576 @@
     ],
     "size": "",
     "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-52",
+    "name": "linen based saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 69,
+    "originalPrice": 75,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/f74b6f56-6e30-4e27-ba40-0a4dc6f9b60d.jpg",
+    "images": [
+      "images/f74b6f56-6e30-4e27-ba40-0a4dc6f9b60d.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-53",
+    "name": "saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 75,
+    "originalPrice": 80,
+    "discountPct": 6,
+    "stockStatus": "INSTOCK",
+    "image": "images/9ecbfa41-903e-4684-968b-1c5b91aae95c.jpg",
+    "images": [
+      "images/9ecbfa41-903e-4684-968b-1c5b91aae95c.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-54",
+    "name": "Premium semi silk",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 76,
+    "originalPrice": 85,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/89d9133d-adf4-4bc7-a9db-0fc8aa5517ee.jpg",
+    "images": [
+      "images/89d9133d-adf4-4bc7-a9db-0fc8aa5517ee.jpg"
+    ],
+    "size": "LARGE",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-55",
+    "name": "PARTYWEAR",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 94,
+    "originalPrice": 100,
+    "discountPct": 6,
+    "stockStatus": "INSTOCK",
+    "image": "images/4c266a33-1972-4650-b3e7-313ba683168f.jpg",
+    "images": [
+      "images/4c266a33-1972-4650-b3e7-313ba683168f.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-56",
+    "name": "SEMITUSSER  SILK SAREE",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 69,
+    "originalPrice": 77,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/60291a21-73c9-410a-93ac-23d5f8729998.jpg",
+    "images": [
+      "images/60291a21-73c9-410a-93ac-23d5f8729998.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-57",
+    "name": "PARTYWEAR SATIN SILK  SAREE",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 99,
+    "originalPrice": 110,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/c191dd1d-dbfb-4ff0-b762-12e511577010.jpg",
+    "images": [
+      "images/c191dd1d-dbfb-4ff0-b762-12e511577010.jpg"
+    ],
+    "size": "",
+    "description": "SATIN SILK   SEQUENCE SAREE",
+    "featured": false
+  },
+  {
+    "code": "LW-58",
+    "name": "Satin silk sequence saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 99,
+    "originalPrice": 110,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/ec788d2b-6b6c-4be7-bd78-9caa1d2ab367.jpg",
+    "images": [
+      "images/ec788d2b-6b6c-4be7-bd78-9caa1d2ab367.jpg"
+    ],
+    "size": "",
+    "description": "part wear Satin silk sequence saree",
+    "featured": false
+  },
+  {
+    "code": "LW-59",
+    "name": "Kids pattupavada",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 50,
+    "originalPrice": 58,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/bb662809-52a8-4a12-9e07-8d048b352c32.jpg",
+    "images": [
+      "images/bb662809-52a8-4a12-9e07-8d048b352c32.jpg"
+    ],
+    "size": "6 YRS",
+    "description": "Kids silk lehenga",
+    "featured": false
+  },
+  {
+    "code": "LW-60",
+    "name": "Premium readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 48,
+    "originalPrice": 55,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/2ec0f1d4-933e-4861-ba67-ad0b6c2a25ba.jpg",
+    "images": [
+      "images/2ec0f1d4-933e-4861-ba67-ad0b6c2a25ba.jpg",
+      "images/17a2bc44-8920-4b25-ba8c-5e211eaabb4b.jpg",
+      "images/bb43e807-2f3d-43bf-a511-033a965a1dd7.jpg",
+      "images/8955c039-89be-4abe-8d8f-d925bd1550cc.jpg"
+    ],
+    "size": "",
+    "description": "pure cotton printed work.\nAvailable shades - off-white, green, red and navy-blue\nAlterable- size margin 34-40",
+    "featured": true
+  },
+  {
+    "code": "KW-12",
+    "name": "Kids Lehenga",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 54,
+    "originalPrice": 60,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/28ca42df-1516-4953-8280-da91035e7a66.jpg",
+    "images": [
+      "images/28ca42df-1516-4953-8280-da91035e7a66.jpg"
+    ],
+    "size": "6 yr old",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "KW-13",
+    "name": "kids lehenga",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 60,
+    "originalPrice": 65,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/9172a631-d694-4bbf-8e69-7d0eaf1a5062.jpg",
+    "images": [
+      "images/9172a631-d694-4bbf-8e69-7d0eaf1a5062.jpg"
+    ],
+    "size": "9 yrs old",
+    "description": "colour - red",
+    "featured": false
+  },
+  {
+    "code": "KW-14",
+    "name": "Kids Lehenga",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 59,
+    "originalPrice": 68,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/2fc67c86-c27e-4046-a1d9-14feb84e4abc.jpg",
+    "images": [
+      "images/2fc67c86-c27e-4046-a1d9-14feb84e4abc.jpg"
+    ],
+    "size": "Age 10yrs",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-61",
+    "name": "party wear saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 89,
+    "originalPrice": 99,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/c1730041-3c0d-42ca-b0ae-1773c953d691.jpg",
+    "images": [
+      "images/c1730041-3c0d-42ca-b0ae-1773c953d691.jpg"
+    ],
+    "size": "",
+    "description": "colour- Pari Grey",
+    "featured": false
+  },
+  {
+    "code": "LW-62",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/470d93c8-3d0e-46ac-b5e5-8262f1f8e237.jpg",
+    "images": [
+      "images/470d93c8-3d0e-46ac-b5e5-8262f1f8e237.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Alterable- chest margin 34-40 \nViscose sequence embroidery blouse",
+    "featured": false
+  },
+  {
+    "code": "LW-63",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/4150b78e-1197-4f71-b6d7-4c665e69b386.jpg",
+    "images": [
+      "images/4150b78e-1197-4f71-b6d7-4c665e69b386.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-64",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/fb81a1fc-af60-4fbc-907f-a286a7c33273.jpg",
+    "images": [
+      "images/fb81a1fc-af60-4fbc-907f-a286a7c33273.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-65",
+    "name": "Readymadeblouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/2e19fe60-606c-4653-ac35-2e47405feab5.jpg",
+    "images": [
+      "images/2e19fe60-606c-4653-ac35-2e47405feab5.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-66",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 52,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/afe93890-96e4-4a55-b8cc-b9e8f004c0fb.jpg",
+    "images": [
+      "images/afe93890-96e4-4a55-b8cc-b9e8f004c0fb.jpg"
+    ],
+    "size": "Free size",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-67",
+    "name": "readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 52,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/8ce65bcf-affd-4fd5-8fd4-5147882e7712.jpg",
+    "images": [
+      "images/8ce65bcf-affd-4fd5-8fd4-5147882e7712.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-68",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 52,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/f4ea5f8f-206d-4b9f-b44b-e59b11c9fc86.jpg",
+    "images": [
+      "images/f4ea5f8f-206d-4b9f-b44b-e59b11c9fc86.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-69",
+    "name": "Readymade Blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 52,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/74a37c06-c1ec-4c59-a0ba-056a68be512f.jpg",
+    "images": [
+      "images/74a37c06-c1ec-4c59-a0ba-056a68be512f.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-70",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 55,
+    "discountPct": 18,
+    "stockStatus": "INSTOCK",
+    "image": "images/780a515d-4ed1-4e4f-95ea-ab974f2b9287.jpg",
+    "images": [
+      "images/780a515d-4ed1-4e4f-95ea-ab974f2b9287.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-71",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 55,
+    "discountPct": 18,
+    "stockStatus": "INSTOCK",
+    "image": "images/e67cac17-6a46-4492-b87e-a93067dbdcfa.jpg",
+    "images": [
+      "images/e67cac17-6a46-4492-b87e-a93067dbdcfa.jpg",
+      "images/ce57593d-776f-4525-9e9a-8d852bce2df7.jpg",
+      "images/b6f5ef18-6ad8-402a-be8d-2f3f263577fb.jpg",
+      "images/f414d285-e4e4-4a0b-b892-87a9bfa423d1.jpg",
+      "images/d0dc82bb-258c-45dd-aab5-d725a9eb3c97.jpg",
+      "images/88129d67-7884-4ed4-a94f-1805cbc74c18.jpg",
+      "images/2e7f501e-13dd-410a-89bd-80c6ceaa07b2.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40\nSleeve available , needs to be attached",
+    "featured": false
+  },
+  {
+    "code": "LW-72",
+    "name": "Premium  partywear  readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 56,
+    "originalPrice": 65,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/fcb23416-b8c6-4f32-864d-102539548426.jpg",
+    "images": [
+      "images/fcb23416-b8c6-4f32-864d-102539548426.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-73",
+    "name": "Premium  worked readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 56,
+    "originalPrice": 69,
+    "discountPct": 19,
+    "stockStatus": "INSTOCK",
+    "image": "images/2b0d0c08-bbb5-4843-a026-7ab66ac4bbea.jpg",
+    "images": [
+      "images/2b0d0c08-bbb5-4843-a026-7ab66ac4bbea.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-74",
+    "name": "Partywear heavy work readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 56,
+    "originalPrice": 69,
+    "discountPct": 19,
+    "stockStatus": "SOLD OUT",
+    "image": "images/0122d0f2-1240-4939-9984-f1b3d6db3ae4.jpg",
+    "images": [
+      "images/0122d0f2-1240-4939-9984-f1b3d6db3ae4.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-75",
+    "name": "Premium  readymade partywear blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 56,
+    "originalPrice": 69,
+    "discountPct": 19,
+    "stockStatus": "SOLD OUT",
+    "image": "images/95c79c68-6a79-4aab-921e-facedb177d50.jpg",
+    "images": [
+      "images/95c79c68-6a79-4aab-921e-facedb177d50.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-76",
+    "name": "Tussar silk",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 99,
+    "originalPrice": 115,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/7f00bd84-0930-4bdd-9c6d-7738f011ba75.jpg",
+    "images": [
+      "images/7f00bd84-0930-4bdd-9c6d-7738f011ba75.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-77",
+    "name": "Fendy Satin Silk sarees",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 100,
+    "originalPrice": 120,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/214314d6-19d9-4831-9e57-8fca960820d1.jpg",
+    "images": [
+      "images/214314d6-19d9-4831-9e57-8fca960820d1.jpg"
+    ],
+    "size": "",
+    "description": "exclusive collection.",
+    "featured": true
+  },
+  {
+    "code": "LW-78",
+    "name": "Chiffon silk party wear sarees",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 79,
+    "originalPrice": 95,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/8c1fce62-0328-44cc-9643-86d00bb5891b.jpg",
+    "images": [
+      "images/8c1fce62-0328-44cc-9643-86d00bb5891b.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-79",
+    "name": "Space silk designer sarees",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 62,
+    "originalPrice": 70,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/26fc8ba6-aea9-4d18-8e50-6857ef12a25f.jpg",
+    "images": [
+      "images/26fc8ba6-aea9-4d18-8e50-6857ef12a25f.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-80",
+    "name": "Tissue silk ready to wear saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 75,
+    "originalPrice": 89,
+    "discountPct": 16,
+    "stockStatus": "INSTOCK",
+    "image": "images/9fa4bc2a-269f-4da6-9065-e9d83b63f4cd.jpg",
+    "images": [
+      "images/9fa4bc2a-269f-4da6-9065-e9d83b63f4cd.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-81",
+    "name": "Silk Cotton kids ethnic wear",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 49,
+    "originalPrice": 55,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/41df6b6b-0af9-4dac-8417-816a8605224c.jpg",
+    "images": [
+      "images/41df6b6b-0af9-4dac-8417-816a8605224c.jpg"
+    ],
+    "size": "",
+    "description": "size -6 yr old",
     "featured": false
   }
 ]
