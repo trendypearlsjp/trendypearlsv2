@@ -2020,5 +2020,175 @@
     "size": "",
     "description": "size -6 yr old",
     "featured": false
+  },
+  {
+    "code": "KW-15",
+    "name": "Premium  kids lehenga set",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 58,
+    "originalPrice": 69,
+    "discountPct": 16,
+    "stockStatus": "INSTOCK",
+    "image": "images/7896c9fb-858b-4a24-b283-363135102ca6.jpg",
+    "images": [
+      "images/7896c9fb-858b-4a24-b283-363135102ca6.jpg"
+    ],
+    "size": "",
+    "description": "age -6 yrs",
+    "featured": false
+  },
+  {
+    "code": "KW-16",
+    "name": "premium kids lehenga set",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 59,
+    "originalPrice": 68,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/placeholder.svg",
+    "images": [
+      "images/placeholder.svg"
+    ],
+    "size": "",
+    "description": "Age -6 yrs and 8 yrs",
+    "featured": false
+  },
+  {
+    "code": "LW-82",
+    "name": "linen cotton",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 63,
+    "originalPrice": 70,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/4487a279-99dc-4959-811f-57cd488b7abc.jpg",
+    "images": [
+      "images/4487a279-99dc-4959-811f-57cd488b7abc.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-83",
+    "name": "sarees",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 54,
+    "originalPrice": 65,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/f697d427-c6b5-401e-bedc-f2b044a25d48.jpg",
+    "images": [
+      "images/f697d427-c6b5-401e-bedc-f2b044a25d48.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-84",
+    "name": "saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 63,
+    "originalPrice": 69,
+    "discountPct": 9,
+    "stockStatus": "INSTOCK",
+    "image": "images/ddc4c3dd-e1da-4a44-b003-c856bf973420.jpg",
+    "images": [
+      "images/ddc4c3dd-e1da-4a44-b003-c856bf973420.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-85",
+    "name": "Soft dola kanjeevaram",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 64,
+    "originalPrice": 69,
+    "discountPct": 7,
+    "stockStatus": "INSTOCK",
+    "image": "images/ade2d2de-030b-4f8a-afeb-845911044361.jpg",
+    "images": [
+      "images/ade2d2de-030b-4f8a-afeb-845911044361.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-86",
+    "name": "Fendy double shaded saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 83,
+    "originalPrice": 99,
+    "discountPct": 16,
+    "stockStatus": "INSTOCK",
+    "image": "images/228360f5-e427-4219-a2db-77f125dc8791.jpg",
+    "images": [
+      "images/228360f5-e427-4219-a2db-77f125dc8791.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-87",
+    "name": "soft dola silk",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 70,
+    "originalPrice": 88,
+    "discountPct": 20,
+    "stockStatus": "INSTOCK",
+    "image": "images/8e8f4aa7-50c7-41cd-b30e-11ac468906b1.jpg",
+    "images": [
+      "images/8e8f4aa7-50c7-41cd-b30e-11ac468906b1.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-88",
+    "name": "set mundu",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 49,
+    "originalPrice": 55,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/dd5084c5-8160-4bcc-8047-0c11e2307a41.jpg",
+    "images": [
+      "images/dd5084c5-8160-4bcc-8047-0c11e2307a41.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-89",
+    "name": "stretchable blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 35,
+    "originalPrice": 40,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/0fa0d4aa-5d26-441e-80e1-78f485955936.jpg",
+    "images": [
+      "images/0fa0d4aa-5d26-441e-80e1-78f485955936.jpg"
+    ],
+    "size": "size XXL",
+    "description": "",
+    "featured": false
   }
 ]
