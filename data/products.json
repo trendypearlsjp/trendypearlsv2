@@ -1010,8 +1010,8 @@
     "category": "Kids Wear",
     "subcategory": "",
     "price": 30,
-    "originalPrice": 30,
-    "discountPct": 0,
+    "originalPrice": 38,
+    "discountPct": 21,
     "stockStatus": "INSTOCK",
     "image": "images/fc45e14f-c5c5-4019-9985-dcd19f9c981d.jpg",
     "images": [
@@ -1026,9 +1026,9 @@
     "name": "kids pattu pavada",
     "category": "Kids Wear",
     "subcategory": "",
-    "price": 38,
+    "price": 40,
     "originalPrice": 45,
-    "discountPct": 16,
+    "discountPct": 11,
     "stockStatus": "INSTOCK",
     "image": "images/c88e7aaa-974a-4a2c-99ca-da73b75487da.jpg",
     "images": [
@@ -1278,6 +1278,193 @@
       "images/96ca04a7-3dca-467e-9673-8bc9c09cd520.jpg"
     ],
     "size": "size-L",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-41",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 45,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/c71315d5-087c-4e27-8627-641b744bc3a5.jpg",
+    "images": [
+      "images/c71315d5-087c-4e27-8627-641b744bc3a5.jpg"
+    ],
+    "size": "free size",
+    "description": "Free size\nChest  margin 34-40 inch \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-42",
+    "name": "Readymade Blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 40,
+    "originalPrice": 45,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/bef0ca17-dab0-455f-a404-d2144e3dc2a0.jpg",
+    "images": [
+      "images/bef0ca17-dab0-455f-a404-d2144e3dc2a0.jpg"
+    ],
+    "size": "Free size",
+    "description": "Free size\nChest  margin 34-40 inch \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-43",
+    "name": "Free Size",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 40,
+    "originalPrice": 45,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/e2a182ea-ccca-4e02-a77e-8512a4471618.jpg",
+    "images": [
+      "images/e2a182ea-ccca-4e02-a77e-8512a4471618.jpg"
+    ],
+    "size": "Free Size",
+    "description": "Free size\nChest  margin 34-40 inch \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-44",
+    "name": "Ready made blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 48,
+    "discountPct": 6,
+    "stockStatus": "INSTOCK",
+    "image": "images/f9ec3b8b-ef32-4114-a076-22acf36d6858.jpg",
+    "images": [
+      "images/f9ec3b8b-ef32-4114-a076-22acf36d6858.jpg"
+    ],
+    "size": "",
+    "description": "Free size\nChest  margin 34-40 inch \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-45",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 48,
+    "discountPct": 6,
+    "stockStatus": "INSTOCK",
+    "image": "images/33eaed97-ffa5-43b6-9e79-fe90c44b842c.jpg",
+    "images": [
+      "images/33eaed97-ffa5-43b6-9e79-fe90c44b842c.jpg"
+    ],
+    "size": "Free size",
+    "description": "Free size\nChest  margin 34-40 inch \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-46",
+    "name": "Ready made blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 48,
+    "discountPct": 6,
+    "stockStatus": "INSTOCK",
+    "image": "images/2705b52e-096c-4e79-b5f3-8754c6015f28.jpg",
+    "images": [
+      "images/2705b52e-096c-4e79-b5f3-8754c6015f28.jpg"
+    ],
+    "size": "Freesize",
+    "description": "Free size\nChest  margin 34-40 inch \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-47",
+    "name": "Free size",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 48,
+    "discountPct": 6,
+    "stockStatus": "INSTOCK",
+    "image": "images/28151555-6c9c-4a86-b3bb-5fed1c7fcbdc.jpg",
+    "images": [
+      "images/28151555-6c9c-4a86-b3bb-5fed1c7fcbdc.jpg"
+    ],
+    "size": "Free size",
+    "description": "Free size\nChest  margin 34-40 inch \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-48",
+    "name": "soft organza saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 89,
+    "originalPrice": 95,
+    "discountPct": 6,
+    "stockStatus": "INSTOCK",
+    "image": "images/ff4a2947-89fa-412c-91d7-6ebe043c24f9.jpg",
+    "images": [
+      "images/ff4a2947-89fa-412c-91d7-6ebe043c24f9.jpg"
+    ],
+    "size": "",
+    "description": "unstitched blouse",
+    "featured": false
+  },
+  {
+    "code": "LW-49",
+    "name": "semi tusser silk",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 76,
+    "originalPrice": 85,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/cf1b0bea-3bba-4185-936d-e21a7b9cb63e.jpg",
+    "images": [
+      "images/cf1b0bea-3bba-4185-936d-e21a7b9cb63e.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-50",
+    "name": "semi tusser saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 76,
+    "originalPrice": 85,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/057421ca-10bb-4a81-9f23-570e65d9dd5d.jpg",
+    "images": [
+      "images/057421ca-10bb-4a81-9f23-570e65d9dd5d.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-51",
+    "name": "Semi tusser silk sarees",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 83,
+    "originalPrice": 90,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/e5a4ba5d-7dfd-4106-830e-6f1527c6a7fc.jpg",
+    "images": [
+      "images/e5a4ba5d-7dfd-4106-830e-6f1527c6a7fc.jpg"
+    ],
+    "size": "",
     "description": "",
     "featured": false
   }
