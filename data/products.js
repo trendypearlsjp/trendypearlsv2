@@ -1,0 +1,3894 @@
+window.BOOTSTRAP_PRODUCTS = [
+  {
+    "code": "JW-01",
+    "name": "Premium Adjustable Choker Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 29,
+    "originalPrice": 36,
+    "discountPct": 19,
+    "stockStatus": "INSTOCK",
+    "image": "images/67a1e7d8-1fd4-4420-971b-f4acbc6fc58f.jpg",
+    "images": [
+      "images/67a1e7d8-1fd4-4420-971b-f4acbc6fc58f.jpg"
+    ],
+    "size": "",
+    "description": "A beautifully crafted choker necklace featuring elegant green stones and a comfortable adjustable thread closure. The perfect statement piece for sarees, lehengas, weddings, festive occasions, and traditional celebrations. 💚✨\n\n🌿 Available in different stone shades",
+    "featured": false
+  },
+  {
+    "code": "LW-02",
+    "name": "Soft Organza Floral Saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 74,
+    "originalPrice": 86,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/ab9d7274-8489-4076-b611-25fd125fad6e.jpg",
+    "images": [
+      "images/ab9d7274-8489-4076-b611-25fd125fad6e.jpg"
+    ],
+    "size": "",
+    "description": "Grace meets elegance in this dreamy Soft Organza Saree, adorned with delicate floral prints and a beautifully finished scalloped border. Perfect for festive celebrations, parties, and special occasions. 🌸\n\n🌿 Soft & lightweight fabric\n🌸 Elegant floral design\n✨ Beautiful scalloped border\n💖 Limited pieces available",
+    "featured": false
+  },
+  {
+    "code": "LW-03",
+    "name": "Mul Chanderi 3-Piece Suit Set",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 68,
+    "originalPrice": 80,
+    "discountPct": 15,
+    "stockStatus": "INSTOCK",
+    "image": "images/875ccf12-ab69-4093-ae53-63765a3a2896.jpg",
+    "images": [
+      "images/875ccf12-ab69-4093-ae53-63765a3a2896.jpg"
+    ],
+    "size": "44",
+    "description": "Graceful, lightweight, and effortlessly elegant. This beautiful Mul Chanderi 3-piece set features delicate embroidery with a matching bottom and soft dupatta—perfect for festive celebrations, family gatherings, and everyday elegance. 💕\n\n🌸 Premium Mul Chanderi fabric\n✨ Elegant embroidery\n🧣 Matching dupatta & bottom included\n💖 Limited pieces available",
+    "featured": false
+  },
+  {
+    "code": "KW-01",
+    "name": "Kids Pattu Pavada Set",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 56,
+    "discountPct": 20,
+    "stockStatus": "INSTOCK",
+    "image": "images/63d7a112-b27b-4944-8795-30941a5a1955.jpg",
+    "images": [
+      "images/63d7a112-b27b-4944-8795-30941a5a1955.jpg"
+    ],
+    "size": "3 yrs /5yrs /6yrs",
+    "description": "Celebrate every special moment in timeless tradition! ❤️ This elegant Kids Pattu Pavada features a beautifully printed lotus skirt with a rich maroon puff-sleeve blouse, making it a perfect choice for Onam, festivals, temple visits, and family celebrations.",
+    "featured": false
+  },
+  {
+    "code": "JW-02",
+    "name": "Ruby Antique Choker",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 29,
+    "originalPrice": 39,
+    "discountPct": 26,
+    "stockStatus": "INSTOCK",
+    "image": "images/a1076eed-fc2e-41cc-b5f0-ef19263e1051.jpg",
+    "images": [
+      "images/a1076eed-fc2e-41cc-b5f0-ef19263e1051.jpg"
+    ],
+    "size": "",
+    "description": "A graceful antique-finish choker adorned with rich ruby stones, crafted to add timeless elegance to your festive and bridal look.\n\n❤️ Perfect for weddings, festive wear & Kerala sarees.",
+    "featured": false
+  },
+  {
+    "code": "LW-04",
+    "name": "Semi Tusser Saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 80,
+    "originalPrice": 100,
+    "discountPct": 20,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/e6914ddc-d37f-4dc0-bf7d-3b930bbccf2e.jpg",
+    "images": [
+      "images/e6914ddc-d37f-4dc0-bf7d-3b930bbccf2e.jpg"
+    ],
+    "size": "",
+    "description": "Rich wine-red semi tusser saree featuring an exquisite floral embroidered lace border. Elegant, lightweight, and perfect for festive celebrations, weddings, and special occasions.",
+    "featured": false
+  },
+  {
+    "code": "JW-03",
+    "name": "Nagapadam Necklace Set",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 30,
+    "originalPrice": 45,
+    "discountPct": 33,
+    "stockStatus": "INSTOCK",
+    "image": "images/a59617a0-1ae8-4e5b-b364-2274db188b3f.jpg",
+    "images": [
+      "images/a59617a0-1ae8-4e5b-b364-2274db188b3f.jpg"
+    ],
+    "size": "",
+    "description": "A timeless Nagapadam necklace with matching jhumkas, beautifully crafted in royal blue and emerald green for a graceful traditional look.\nPerfect for: Kerala sarees, set mundu, weddings & festive occasions.\nLimited pieces available.",
+    "featured": false
+  },
+  {
+    "code": "JW-04",
+    "name": "Jimukka",
+    "category": "Jewellery",
+    "subcategory": "Earring",
+    "price": 6,
+    "originalPrice": 10,
+    "discountPct": 40,
+    "stockStatus": "INSTOCK",
+    "image": "images/e23c987b-36da-4a76-b090-823e2d5d6d7c.jpg",
+    "images": [
+      "images/e23c987b-36da-4a76-b090-823e2d5d6d7c.jpg",
+      "images/6d320665-0057-4a58-b01e-2ded9a2c6dd1.jpg",
+      "images/385b2f68-1591-4763-a432-1299e0d8f609.jpg"
+    ],
+    "size": "",
+    "description": "Budjet friendly Jimukka \n Available in different shades",
+    "featured": false
+  },
+  {
+    "code": "LW-05",
+    "name": "Soft Tissue Saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 58,
+    "originalPrice": 60,
+    "discountPct": 3,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/5dcf9d33-94b4-4fcc-a36d-48c593a9d9f9.jpg",
+    "images": [
+      "images/5dcf9d33-94b4-4fcc-a36d-48c593a9d9f9.jpg",
+      "images/8764d90f-7020-4bd3-8031-5d35f330d75c.jpg",
+      "images/25c00901-eb8b-4011-9a29-9be4d224135e.jpg"
+    ],
+    "size": "",
+    "description": "Light as a breeze, elegant in every drape. A soft tissue saree with beautiful lotus floral prints and a matching blouse piece—perfect for festive and special occasions.\n\nLimited pieces available.",
+    "featured": false
+  },
+  {
+    "code": "JW-05",
+    "name": "Emerald Antique Pendant Set",
+    "category": "Jewellery",
+    "subcategory": "Pendants",
+    "price": 30,
+    "originalPrice": 45,
+    "discountPct": 33,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/690cf14c-289b-48eb-bcbf-ddbc5b143df3.jpg",
+    "images": [
+      "images/690cf14c-289b-48eb-bcbf-ddbc5b143df3.jpg",
+      "images/700adc94-fc82-4a87-b0da-cac54f4c5c6e.jpg"
+    ],
+    "size": "",
+    "description": "A graceful antique-finish pendant set featuring a stunning emerald-green stone with matching earrings. Perfect for adding timeless elegance to your ethnic look.",
+    "featured": false
+  },
+  {
+    "code": "JW-06",
+    "name": "Antique Pendant Set",
+    "category": "Jewellery",
+    "subcategory": "Pendants",
+    "price": 30,
+    "originalPrice": 45,
+    "discountPct": 33,
+    "stockStatus": "INSTOCK",
+    "image": "images/36ecbdd8-bf43-454d-95b5-1ef07e8782f2.jpg",
+    "images": [
+      "images/36ecbdd8-bf43-454d-95b5-1ef07e8782f2.jpg",
+      "images/072b44aa-d196-461e-8f36-f658eeb7f9e7.jpg"
+    ],
+    "size": "",
+    "description": "A stunning antique-finish pendant set accented with rich purple stones and matching earrings. Designed to bring a touch of vintage elegance to every festive look.",
+    "featured": false
+  },
+  {
+    "code": "JW-07",
+    "name": "AD Pendant (Without Chain)",
+    "category": "Jewellery",
+    "subcategory": "Pendants",
+    "price": 28,
+    "originalPrice": 28,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/06d90bdb-d79a-4dad-935e-1e5928889944.jpg",
+    "images": [
+      "images/06d90bdb-d79a-4dad-935e-1e5928889944.jpg",
+      "images/406879f9-9d7d-49cd-a00c-0092446d9745.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-06",
+    "name": "Premium  Hakoba  Embroidered Blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 38,
+    "originalPrice": 44,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/1cd8f0bb-4162-4424-ab71-0447fe5bbc8e.jpg",
+    "images": [
+      "images/1cd8f0bb-4162-4424-ab71-0447fe5bbc8e.jpg",
+      "images/316cece8-ed12-4b8e-b930-e02eb1f4f643.jpg",
+      "images/10ab4c9a-7855-40f5-bb4b-23a50b41b728.jpg"
+    ],
+    "size": "",
+    "description": "Free size\nChest  margin 34-40 inch \nAlterable\nBlack sold out",
+    "featured": false
+  },
+  {
+    "code": "GW-01",
+    "name": "Premium Men’s Kurta",
+    "category": "Mens Wear",
+    "subcategory": "",
+    "price": 62,
+    "originalPrice": 62,
+    "discountPct": 0,
+    "stockStatus": "SOLD OUT",
+    "image": "images/9767ca6f-f214-48ec-94b7-b5895ef0c285.jpg",
+    "images": [
+      "images/9767ca6f-f214-48ec-94b7-b5895ef0c285.jpg"
+    ],
+    "size": "",
+    "description": "Make a statement with this elegant premium embroidered kurta, crafted for weddings, festivals, and special occasions.\n\n✨ Rich detailing\n✨ Comfortable fit\n✨ Perfect for festive celebrations",
+    "featured": false
+  },
+  {
+    "code": "LW-07",
+    "name": "Premium Soft Tissue Saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 68,
+    "originalPrice": 68,
+    "discountPct": 0,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/3c07c2fc-3597-449d-a572-1f6f136e5b9d.jpg",
+    "images": [
+      "images/3c07c2fc-3597-449d-a572-1f6f136e5b9d.jpg"
+    ],
+    "size": "",
+    "description": "Grace meets tradition in this elegant soft tissue saree, beautifully finished with a stunning floral Kalamkari-inspired border. A timeless choice for festive celebrations and special occasions.\n\n✨ Soft & lightweight\n✨ Elegant floral border\n✨ Matching blouse piece included\n✨ Limited pieces available 🌸",
+    "featured": false
+  },
+  {
+    "code": "LW-08",
+    "name": "Maroon Soft Premium Warm Silk Saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 89,
+    "originalPrice": 115,
+    "discountPct": 23,
+    "stockStatus": "INSTOCK",
+    "image": "images/542e9d71-6c39-4b17-af9f-a06a05fa946e.jpg",
+    "images": [
+      "images/542e9d71-6c39-4b17-af9f-a06a05fa946e.jpg",
+      "images/23a7c2fe-96ff-4818-b74a-e5c7417baca6.jpg",
+      "images/1e798955-e174-4045-8af1-3dda1f00cfee.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-09",
+    "name": "Royal Green Brocade Blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 42,
+    "originalPrice": 56,
+    "discountPct": 25,
+    "stockStatus": "INSTOCK",
+    "image": "images/1c6eb980-39da-4172-b041-8c6e03ffd5c7.jpg",
+    "images": [
+      "images/1c6eb980-39da-4172-b041-8c6e03ffd5c7.jpg"
+    ],
+    "size": "",
+    "description": "A rich emerald-green blouse featuring elegant gold floral weaving and a stylish tie-back detail—perfect for pairing with silk, tissue, or festive sarees.",
+    "featured": false
+  },
+  {
+    "code": "JW-08",
+    "name": "Traditional Stone Choker",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 44,
+    "originalPrice": 44,
+    "discountPct": 0,
+    "stockStatus": "SOLD OUT",
+    "image": "images/aa8e3572-1a6c-43dc-8b15-7329f37dabdd.jpg",
+    "images": [
+      "images/aa8e3572-1a6c-43dc-8b15-7329f37dabdd.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-09",
+    "name": "Ruby Radiance Necklace Set",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 41,
+    "originalPrice": 41,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/70583151-04aa-4080-8f72-1f24bd934e8b.jpg",
+    "images": [
+      "images/70583151-04aa-4080-8f72-1f24bd934e8b.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-10",
+    "name": "AD Stone Choker Set",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 34,
+    "originalPrice": 34,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/48691bd3-22d6-496d-b04c-2be03ed8d1da.jpg",
+    "images": [
+      "images/48691bd3-22d6-496d-b04c-2be03ed8d1da.jpg",
+      "images/02412783-b2f9-4e99-a589-bed982e832f6.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-10",
+    "name": "AD necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 26,
+    "originalPrice": 26,
+    "discountPct": 0,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/a21f7185-c33a-4d1b-9f49-62ffb934661d.jpg",
+    "images": [
+      "images/a21f7185-c33a-4d1b-9f49-62ffb934661d.jpg",
+      "images/1564f3e1-98ab-4cd9-af33-4fa0430db2f6.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-11",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 29.96,
+    "originalPrice": 29.96,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/ff6bc646-8aef-4ee5-8140-979ca027c604.jpg",
+    "images": [
+      "images/ff6bc646-8aef-4ee5-8140-979ca027c604.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-12",
+    "name": "Emerald Glow Necklace Set",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 37.59,
+    "originalPrice": 37.59,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/35f84e9d-0684-461f-8569-40c3071da669.jpg",
+    "images": [
+      "images/35f84e9d-0684-461f-8569-40c3071da669.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-13",
+    "name": "ruby-centred pendant",
+    "category": "Jewellery",
+    "subcategory": "Pendants",
+    "price": 34,
+    "originalPrice": 34,
+    "discountPct": 0,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/8c016b51-9123-4238-83fd-82557b1a2fdb.jpg",
+    "images": [
+      "images/8c016b51-9123-4238-83fd-82557b1a2fdb.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-14",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Bangles",
+    "price": 23,
+    "originalPrice": 23,
+    "discountPct": 0,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/4f776a2a-37e2-4d7d-ba32-68fd0a6e22b8.jpg",
+    "images": [
+      "images/4f776a2a-37e2-4d7d-ba32-68fd0a6e22b8.jpg"
+    ],
+    "size": "",
+    "description": "Pair -$23",
+    "featured": false
+  },
+  {
+    "code": "JW-15",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 34,
+    "originalPrice": 34,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/9d11da56-2aaa-43f5-8454-004e0bd1ec71.jpg",
+    "images": [
+      "images/9d11da56-2aaa-43f5-8454-004e0bd1ec71.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-12",
+    "name": "Palakka necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 26,
+    "originalPrice": 26,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/2b2b5453-5522-4ba0-b5da-d5b5d198e451.jpg",
+    "images": [
+      "images/2b2b5453-5522-4ba0-b5da-d5b5d198e451.jpg",
+      "images/6e989513-46c8-4212-87f8-8b7e9915aa5d.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "KW-02",
+    "name": "Kids wear",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 14,
+    "originalPrice": 14,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/03145264-b0c4-4965-8906-e957b12dbfc4.jpg",
+    "images": [
+      "images/03145264-b0c4-4965-8906-e957b12dbfc4.jpg",
+      "images/db746ae9-4ab3-452d-9a71-6629c58904bb.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-13",
+    "name": "Soft cotton cord set",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 49.96,
+    "originalPrice": 49.96,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/131d7cf6-af15-4826-a46e-33cb967aa3f9.jpg",
+    "images": [
+      "images/131d7cf6-af15-4826-a46e-33cb967aa3f9.jpg"
+    ],
+    "size": "38",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-14",
+    "name": "Crushed organza",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 74,
+    "originalPrice": 85,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/c4457846-0852-4bbf-bda0-af763d7be377.jpg",
+    "images": [
+      "images/c4457846-0852-4bbf-bda0-af763d7be377.jpg",
+      "images/26e8d00c-047f-4b8d-b126-6d0f9508ec2e.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-16",
+    "name": "Kids bangle",
+    "category": "Jewellery",
+    "subcategory": "Bangles",
+    "price": 24,
+    "originalPrice": 30,
+    "discountPct": 20,
+    "stockStatus": "INSTOCK",
+    "image": "images/84d90345-211a-4380-8820-c0e5bb78e0a6.jpg",
+    "images": [
+      "images/84d90345-211a-4380-8820-c0e5bb78e0a6.jpg"
+    ],
+    "size": "",
+    "description": "4 sets - $24",
+    "featured": false
+  },
+  {
+    "code": "LW-15",
+    "name": "Semi linen saree with blouse material",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 69,
+    "originalPrice": 69,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/ee36b63c-bca8-4b68-9e04-12d4c0bbbea5.jpg",
+    "images": [
+      "images/ee36b63c-bca8-4b68-9e04-12d4c0bbbea5.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-16",
+    "name": "Premium soft organza saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 86,
+    "originalPrice": 86,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/1d9090d6-1473-4866-ad03-3fafa41909e3.jpg",
+    "images": [
+      "images/1d9090d6-1473-4866-ad03-3fafa41909e3.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-17",
+    "name": "Earrings",
+    "category": "Jewellery",
+    "subcategory": "Earring",
+    "price": 18,
+    "originalPrice": 18,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/51ec9771-0991-4c7b-b196-a61c691dd3a1.jpg",
+    "images": [
+      "images/51ec9771-0991-4c7b-b196-a61c691dd3a1.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-17",
+    "name": "SAREE WITH BLOUSE MATERIAL",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 76,
+    "originalPrice": 76,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/e1f92a4b-28c4-4441-8e58-7fbf8519aab4.jpg",
+    "images": [
+      "images/e1f92a4b-28c4-4441-8e58-7fbf8519aab4.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-18",
+    "name": "Kerala saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 55,
+    "originalPrice": 60,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/0d679b5f-20e1-4ea6-af23-4592780e6b26.jpg",
+    "images": [
+      "images/0d679b5f-20e1-4ea6-af23-4592780e6b26.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-20",
+    "name": "Saree with unstitched  house",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 74,
+    "originalPrice": 74,
+    "discountPct": 0,
+    "stockStatus": "SOLD OUT",
+    "image": "images/6956590e-bfbc-4fff-8397-7f35f2e53183.jpg",
+    "images": [
+      "images/6956590e-bfbc-4fff-8397-7f35f2e53183.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-21",
+    "name": "Saree  with unstitched  house",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 69,
+    "originalPrice": 69,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/e567a3a9-2582-49d3-a4a6-3fc8e5f06330.jpg",
+    "images": [
+      "images/e567a3a9-2582-49d3-a4a6-3fc8e5f06330.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-22",
+    "name": "Readymade 3 piece Churidar",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 68,
+    "originalPrice": 68,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/2c2e75b4-e458-4156-ac43-fdb2653debba.jpg",
+    "images": [
+      "images/2c2e75b4-e458-4156-ac43-fdb2653debba.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-23",
+    "name": "Ready made blouse - free size",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 40,
+    "originalPrice": 40,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/5c008d60-5f79-4e29-b2b4-8265a90f6087.jpg",
+    "images": [
+      "images/5c008d60-5f79-4e29-b2b4-8265a90f6087.jpg"
+    ],
+    "size": "",
+    "description": "Margin -34 to 42\nAlterable",
+    "featured": false
+  },
+  {
+    "code": "JW-18",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 28,
+    "originalPrice": 32,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/d1f27456-8744-4fcc-98f2-e5a8c4d3cdd9.jpg",
+    "images": [
+      "images/d1f27456-8744-4fcc-98f2-e5a8c4d3cdd9.jpg",
+      "images/f9e7ad8e-1d10-47b5-b41f-e4a92b4288d7.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-24",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 26,
+    "originalPrice": 29,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/036ee668-3ec3-4f7c-9636-93d97e51734f.jpg",
+    "images": [
+      "images/036ee668-3ec3-4f7c-9636-93d97e51734f.jpg",
+      "images/0bf2d876-c09a-45aa-9d36-ab47201d98a0.jpg"
+    ],
+    "size": "",
+    "description": "LIMITED STOCK",
+    "featured": false
+  },
+  {
+    "code": "LW-25",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 34,
+    "originalPrice": 38,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/67d8f155-16b3-4bd5-bd05-885bdf6a7953.jpg",
+    "images": [
+      "images/67d8f155-16b3-4bd5-bd05-885bdf6a7953.jpg",
+      "images/5e50b530-e4b2-4c95-98f0-71282845fb62.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-20",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 41,
+    "originalPrice": 41,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/7c78d744-0d42-4361-9c66-1e02464be5e8.jpg",
+    "images": [
+      "images/7c78d744-0d42-4361-9c66-1e02464be5e8.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-26",
+    "name": "Bandhani print saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 54,
+    "originalPrice": 54,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/118f5da2-2e4e-44d9-b82f-49aa8ebfaaff.jpg",
+    "images": [
+      "images/118f5da2-2e4e-44d9-b82f-49aa8ebfaaff.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-27",
+    "name": "Saree with unstitched blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 64,
+    "originalPrice": 64,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/0a92f30f-f280-498d-a0c8-35924794ff3a.jpg",
+    "images": [
+      "images/0a92f30f-f280-498d-a0c8-35924794ff3a.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-28",
+    "name": "Soft cotton Saree with stiched blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 75,
+    "originalPrice": 75,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/d033924f-94ca-41d0-8288-068f80400151.jpg",
+    "images": [
+      "images/d033924f-94ca-41d0-8288-068f80400151.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-29",
+    "name": "Bandhani print saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 54,
+    "originalPrice": 54,
+    "discountPct": 0,
+    "stockStatus": "SOLD OUT",
+    "image": "images/2916adc5-cf5b-4ef3-a202-ac331ed10aec.jpg",
+    "images": [
+      "images/2916adc5-cf5b-4ef3-a202-ac331ed10aec.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-30",
+    "name": "Kids frocks",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 18,
+    "originalPrice": 23.69,
+    "discountPct": 24,
+    "stockStatus": "INSTOCK",
+    "image": "images/5A8C6FC2-D70C-41AE-87F1-96716CEED2B9.png",
+    "images": [
+      "images/5A8C6FC2-D70C-41AE-87F1-96716CEED2B9.png"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-31",
+    "name": "litchy silk saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 53,
+    "originalPrice": 70,
+    "discountPct": 24,
+    "stockStatus": "INSTOCK",
+    "image": "images/adf28d79-0446-4144-b06a-fa915d368878.jpg",
+    "images": [
+      "images/adf28d79-0446-4144-b06a-fa915d368878.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-32",
+    "name": "FROCK",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 22,
+    "originalPrice": 25,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/8A5CF031-FEB1-4236-AD91-70D34DC65552.png",
+    "images": [
+      "images/8A5CF031-FEB1-4236-AD91-70D34DC65552.png"
+    ],
+    "size": "AVAILBALE SIZES .S/M/L",
+    "description": "Suitable for age group of 0-1 yr old",
+    "featured": false
+  },
+  {
+    "code": "LW-33",
+    "name": "Partywear saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 78,
+    "originalPrice": 90,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/44e37f34-a892-465c-a00e-a19925035acc.jpg",
+    "images": [
+      "images/44e37f34-a892-465c-a00e-a19925035acc.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "KW-03",
+    "name": "Baby frocks",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 14,
+    "originalPrice": 20,
+    "discountPct": 30,
+    "stockStatus": "INSTOCK",
+    "image": "images/A66ACE60-BDFF-4977-A1A5-D447993B2321.png",
+    "images": [
+      "images/A66ACE60-BDFF-4977-A1A5-D447993B2321.png"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "KW-04",
+    "name": "ONAM outfits for toddler group",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 21.96,
+    "originalPrice": 25,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/a15ed8bb-cd13-4da1-8b8c-c1b11fe90f16.jpg",
+    "images": [
+      "images/a15ed8bb-cd13-4da1-8b8c-c1b11fe90f16.jpg"
+    ],
+    "size": "",
+    "description": "Available in Small, Medium, and Large sizes. Suitable for ages 0–12 months.\nSizes: S, M, L — Recommended for babies up to 12 months of age.",
+    "featured": false
+  },
+  {
+    "code": "LW-34",
+    "name": "Necklace",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 39,
+    "originalPrice": 46,
+    "discountPct": 15,
+    "stockStatus": "INSTOCK",
+    "image": "images/DSCF1224_Original.JPG",
+    "images": [
+      "images/DSCF1224_Original.JPG"
+    ],
+    "size": "",
+    "description": "Multicoloured Statement Necklace",
+    "featured": false
+  },
+  {
+    "code": "KW-05",
+    "name": "Kids frocks",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 22,
+    "originalPrice": 25,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/E67B61A0-E989-44EA-81DF-5D659645CADE_1_.png",
+    "images": [
+      "images/E67B61A0-E989-44EA-81DF-5D659645CADE_1_.png"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "KW-06",
+    "name": "Kids frocks",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 16,
+    "originalPrice": 25,
+    "discountPct": 36,
+    "stockStatus": "INSTOCK",
+    "image": "images/ead697a2-7165-4b75-b6b2-857994b4cb9f.jpg",
+    "images": [
+      "images/ead697a2-7165-4b75-b6b2-857994b4cb9f.jpg"
+    ],
+    "size": "",
+    "description": "Recommended for babies up to 12 months of age.",
+    "featured": false
+  },
+  {
+    "code": "KW-07",
+    "name": "Onam Kids frocks",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 22,
+    "originalPrice": 25,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/ec2c93c7-60f2-4ef0-8a21-3cd88e5d1fa4.jpg",
+    "images": [
+      "images/ec2c93c7-60f2-4ef0-8a21-3cd88e5d1fa4.jpg"
+    ],
+    "size": "",
+    "description": "Recommended for babies up to 12 months of age.",
+    "featured": false
+  },
+  {
+    "code": "KW-08",
+    "name": "Kids frocks",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 30,
+    "originalPrice": 38,
+    "discountPct": 21,
+    "stockStatus": "INSTOCK",
+    "image": "images/fc45e14f-c5c5-4019-9985-dcd19f9c981d.jpg",
+    "images": [
+      "images/fc45e14f-c5c5-4019-9985-dcd19f9c981d.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "KW-09",
+    "name": "kids pattu pavada",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 40,
+    "originalPrice": 45,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/c88e7aaa-974a-4a2c-99ca-da73b75487da.jpg",
+    "images": [
+      "images/c88e7aaa-974a-4a2c-99ca-da73b75487da.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-21",
+    "name": "stoned earrings",
+    "category": "Jewellery",
+    "subcategory": "Earring",
+    "price": 12.99,
+    "originalPrice": 18,
+    "discountPct": 28,
+    "stockStatus": "INSTOCK",
+    "image": "images/f20a73b3-e5e9-4e60-a3be-7734accd7388.jpg",
+    "images": [
+      "images/f20a73b3-e5e9-4e60-a3be-7734accd7388.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-35",
+    "name": "Jewellery",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 15,
+    "originalPrice": 24,
+    "discountPct": 38,
+    "stockStatus": "INSTOCK",
+    "image": "images/be5aecd5-ee30-4c54-919e-87aa0dd0992d.jpg",
+    "images": [
+      "images/be5aecd5-ee30-4c54-919e-87aa0dd0992d.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-22",
+    "name": "Petal Jimukka",
+    "category": "Jewellery",
+    "subcategory": "Earring",
+    "price": 24,
+    "originalPrice": 24,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/989e9fab-ee88-4645-a544-a61880a527b7.jpg",
+    "images": [
+      "images/989e9fab-ee88-4645-a544-a61880a527b7.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-23",
+    "name": "Kasimala with stones",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 34,
+    "originalPrice": 36,
+    "discountPct": 6,
+    "stockStatus": "INSTOCK",
+    "image": "images/62ef44bd-3127-4ecb-9d35-df699663797a.jpg",
+    "images": [
+      "images/62ef44bd-3127-4ecb-9d35-df699663797a.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "KW-10",
+    "name": "Kids frocks",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 16,
+    "originalPrice": 24,
+    "discountPct": 33,
+    "stockStatus": "INSTOCK",
+    "image": "images/51f84db3-d4bf-4aec-88e2-2a5b5ffc86be.jpg",
+    "images": [
+      "images/51f84db3-d4bf-4aec-88e2-2a5b5ffc86be.jpg",
+      "images/b68d0f08-456c-4856-97b0-16ff12a60bfd.jpg",
+      "images/44e75bbc-1de7-4e05-a227-b1931edd7c3e.jpg"
+    ],
+    "size": "",
+    "description": "Available Sizes: 0–3 Months | 3–6 Months | 6–9 Months | 9–12 Months\nMaterial- Soft Cotton",
+    "featured": false
+  },
+  {
+    "code": "LW-37",
+    "name": "Kids frocks",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 16,
+    "originalPrice": 20,
+    "discountPct": 20,
+    "stockStatus": "INSTOCK",
+    "image": "images/e07e48ed-c2ba-4a79-8392-aeb18a6bc388.jpg",
+    "images": [
+      "images/e07e48ed-c2ba-4a79-8392-aeb18a6bc388.jpg",
+      "images/8bcde40e-95bf-48e4-8a1b-70f126aef16b.jpg"
+    ],
+    "size": "",
+    "description": "Available Sizes: 0–3 Months | 3–6 Months | 6–9 Months | 9–12 Months\nMaterial-Soft Georgette.\nSoft lining-included",
+    "featured": false
+  },
+  {
+    "code": "LW-38",
+    "name": "Kids frocks",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 23,
+    "originalPrice": 30,
+    "discountPct": 23,
+    "stockStatus": "INSTOCK",
+    "image": "images/5031150e-3915-4443-801e-a24f17b8a3c6.jpg",
+    "images": [
+      "images/5031150e-3915-4443-801e-a24f17b8a3c6.jpg",
+      "images/cff7208c-1004-41c9-a035-c6656621bfec.jpg"
+    ],
+    "size": "",
+    "description": "Sizes available up to  3 year\nFabric- Satin and Net",
+    "featured": false
+  },
+  {
+    "code": "KW-11",
+    "name": "Kids frocks",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 24,
+    "originalPrice": 32,
+    "discountPct": 25,
+    "stockStatus": "INSTOCK",
+    "image": "images/a8acd117-01a4-4c8e-b2d7-6371aaa6d04f.jpg",
+    "images": [
+      "images/a8acd117-01a4-4c8e-b2d7-6371aaa6d04f.jpg"
+    ],
+    "size": "",
+    "description": "sizes available up to 2 years",
+    "featured": false
+  },
+  {
+    "code": "JW-24",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 14,
+    "originalPrice": 19,
+    "discountPct": 26,
+    "stockStatus": "INSTOCK",
+    "image": "images/953e407b-d27a-4e5b-b6e1-f713f5754642.jpg",
+    "images": [
+      "images/953e407b-d27a-4e5b-b6e1-f713f5754642.jpg",
+      "images/a00fcf05-b192-4188-93a8-827517720bc5.jpg"
+    ],
+    "size": "",
+    "description": "Casual wear",
+    "featured": false
+  },
+  {
+    "code": "JW-25",
+    "name": "Premium AD stone necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 44,
+    "originalPrice": 49,
+    "discountPct": 10,
+    "stockStatus": "SOLD OUT",
+    "image": "images/32921a7c-6ea9-40e1-a74c-58afe2134b46.jpg",
+    "images": [
+      "images/32921a7c-6ea9-40e1-a74c-58afe2134b46.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": true
+  },
+  {
+    "code": "JW-26",
+    "name": "Jewellery",
+    "category": "Jewellery",
+    "subcategory": "Earring",
+    "price": 13,
+    "originalPrice": 16,
+    "discountPct": 19,
+    "stockStatus": "INSTOCK",
+    "image": "images/d5db144a-3d37-47be-b9b0-398b05112869.jpg",
+    "images": [
+      "images/d5db144a-3d37-47be-b9b0-398b05112869.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-39",
+    "name": "Premium double layer",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 39,
+    "originalPrice": 46,
+    "discountPct": 15,
+    "stockStatus": "INSTOCK",
+    "image": "images/2842e9ba-4425-4141-a85f-5ef2fdcafb5a.jpg",
+    "images": [
+      "images/2842e9ba-4425-4141-a85f-5ef2fdcafb5a.jpg"
+    ],
+    "size": "",
+    "description": "double layer premium necklace",
+    "featured": false
+  },
+  {
+    "code": "LW-40",
+    "name": "Ready made churidar",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 75,
+    "originalPrice": 85,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/96ca04a7-3dca-467e-9673-8bc9c09cd520.jpg",
+    "images": [
+      "images/96ca04a7-3dca-467e-9673-8bc9c09cd520.jpg"
+    ],
+    "size": "size-L",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-41",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 45,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/c71315d5-087c-4e27-8627-641b744bc3a5.jpg",
+    "images": [
+      "images/c71315d5-087c-4e27-8627-641b744bc3a5.jpg"
+    ],
+    "size": "free size",
+    "description": "Free size\nChest  margin 34-40 inch \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-42",
+    "name": "Readymade Blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 40,
+    "originalPrice": 45,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/bef0ca17-dab0-455f-a404-d2144e3dc2a0.jpg",
+    "images": [
+      "images/bef0ca17-dab0-455f-a404-d2144e3dc2a0.jpg"
+    ],
+    "size": "Free size",
+    "description": "Free size\nChest  margin 34-40 inch \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-43",
+    "name": "Free Size",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 40,
+    "originalPrice": 45,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/e2a182ea-ccca-4e02-a77e-8512a4471618.jpg",
+    "images": [
+      "images/e2a182ea-ccca-4e02-a77e-8512a4471618.jpg"
+    ],
+    "size": "Free Size",
+    "description": "Free size\nChest  margin 34-40 inch \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-44",
+    "name": "Ready made blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 48,
+    "discountPct": 6,
+    "stockStatus": "INSTOCK",
+    "image": "images/f9ec3b8b-ef32-4114-a076-22acf36d6858.jpg",
+    "images": [
+      "images/f9ec3b8b-ef32-4114-a076-22acf36d6858.jpg"
+    ],
+    "size": "",
+    "description": "Free size\nChest  margin 34-40 inch \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-45",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 48,
+    "discountPct": 6,
+    "stockStatus": "SOLD OUT",
+    "image": "images/33eaed97-ffa5-43b6-9e79-fe90c44b842c.jpg",
+    "images": [
+      "images/33eaed97-ffa5-43b6-9e79-fe90c44b842c.jpg"
+    ],
+    "size": "Free size",
+    "description": "Free size\nChest  margin 34-40 inch \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-46",
+    "name": "Ready made blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 48,
+    "discountPct": 6,
+    "stockStatus": "INSTOCK",
+    "image": "images/2705b52e-096c-4e79-b5f3-8754c6015f28.jpg",
+    "images": [
+      "images/2705b52e-096c-4e79-b5f3-8754c6015f28.jpg"
+    ],
+    "size": "Freesize",
+    "description": "Free size\nChest  margin 34-40 inch \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-47",
+    "name": "Free size",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 48,
+    "discountPct": 6,
+    "stockStatus": "INSTOCK",
+    "image": "images/28151555-6c9c-4a86-b3bb-5fed1c7fcbdc.jpg",
+    "images": [
+      "images/28151555-6c9c-4a86-b3bb-5fed1c7fcbdc.jpg"
+    ],
+    "size": "Free size",
+    "description": "Free size\nChest  margin 34-40 inch \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-48",
+    "name": "soft organza saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 89,
+    "originalPrice": 95,
+    "discountPct": 6,
+    "stockStatus": "INSTOCK",
+    "image": "images/ff4a2947-89fa-412c-91d7-6ebe043c24f9.jpg",
+    "images": [
+      "images/ff4a2947-89fa-412c-91d7-6ebe043c24f9.jpg"
+    ],
+    "size": "",
+    "description": "unstitched blouse",
+    "featured": false
+  },
+  {
+    "code": "LW-49",
+    "name": "semi tusser silk",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 76,
+    "originalPrice": 85,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/cf1b0bea-3bba-4185-936d-e21a7b9cb63e.jpg",
+    "images": [
+      "images/cf1b0bea-3bba-4185-936d-e21a7b9cb63e.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-50",
+    "name": "semi tusser saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 76,
+    "originalPrice": 85,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/057421ca-10bb-4a81-9f23-570e65d9dd5d.jpg",
+    "images": [
+      "images/057421ca-10bb-4a81-9f23-570e65d9dd5d.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-51",
+    "name": "Semi tusser silk sarees",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 83,
+    "originalPrice": 90,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/e5a4ba5d-7dfd-4106-830e-6f1527c6a7fc.jpg",
+    "images": [
+      "images/e5a4ba5d-7dfd-4106-830e-6f1527c6a7fc.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-52",
+    "name": "linen based saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 69,
+    "originalPrice": 75,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/f74b6f56-6e30-4e27-ba40-0a4dc6f9b60d.jpg",
+    "images": [
+      "images/f74b6f56-6e30-4e27-ba40-0a4dc6f9b60d.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-53",
+    "name": "saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 75,
+    "originalPrice": 80,
+    "discountPct": 6,
+    "stockStatus": "INSTOCK",
+    "image": "images/9ecbfa41-903e-4684-968b-1c5b91aae95c.jpg",
+    "images": [
+      "images/9ecbfa41-903e-4684-968b-1c5b91aae95c.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-54",
+    "name": "Premium semi silk",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 76,
+    "originalPrice": 85,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/89d9133d-adf4-4bc7-a9db-0fc8aa5517ee.jpg",
+    "images": [
+      "images/89d9133d-adf4-4bc7-a9db-0fc8aa5517ee.jpg"
+    ],
+    "size": "LARGE",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-55",
+    "name": "PARTYWEAR",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 94,
+    "originalPrice": 100,
+    "discountPct": 6,
+    "stockStatus": "INSTOCK",
+    "image": "images/4c266a33-1972-4650-b3e7-313ba683168f.jpg",
+    "images": [
+      "images/4c266a33-1972-4650-b3e7-313ba683168f.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-56",
+    "name": "SEMITUSSER  SILK SAREE",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 69,
+    "originalPrice": 77,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/60291a21-73c9-410a-93ac-23d5f8729998.jpg",
+    "images": [
+      "images/60291a21-73c9-410a-93ac-23d5f8729998.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-57",
+    "name": "PARTYWEAR SATIN SILK  SAREE",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 99,
+    "originalPrice": 110,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/c191dd1d-dbfb-4ff0-b762-12e511577010.jpg",
+    "images": [
+      "images/c191dd1d-dbfb-4ff0-b762-12e511577010.jpg"
+    ],
+    "size": "",
+    "description": "SATIN SILK   SEQUENCE SAREE",
+    "featured": false
+  },
+  {
+    "code": "LW-58",
+    "name": "Satin silk sequence saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 99,
+    "originalPrice": 110,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/ec788d2b-6b6c-4be7-bd78-9caa1d2ab367.jpg",
+    "images": [
+      "images/ec788d2b-6b6c-4be7-bd78-9caa1d2ab367.jpg"
+    ],
+    "size": "",
+    "description": "part wear Satin silk sequence saree",
+    "featured": false
+  },
+  {
+    "code": "LW-59",
+    "name": "Kids pattupavada",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 50,
+    "originalPrice": 58,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/bb662809-52a8-4a12-9e07-8d048b352c32.jpg",
+    "images": [
+      "images/bb662809-52a8-4a12-9e07-8d048b352c32.jpg"
+    ],
+    "size": "6 YRS",
+    "description": "Kids silk lehenga",
+    "featured": false
+  },
+  {
+    "code": "LW-60",
+    "name": "Premium readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 48,
+    "originalPrice": 55,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/2ec0f1d4-933e-4861-ba67-ad0b6c2a25ba.jpg",
+    "images": [
+      "images/2ec0f1d4-933e-4861-ba67-ad0b6c2a25ba.jpg",
+      "images/17a2bc44-8920-4b25-ba8c-5e211eaabb4b.jpg",
+      "images/bb43e807-2f3d-43bf-a511-033a965a1dd7.jpg",
+      "images/8955c039-89be-4abe-8d8f-d925bd1550cc.jpg"
+    ],
+    "size": "",
+    "description": "pure cotton printed work.\nAvailable shades - off-white, green, red and navy-blue\nAlterable- size margin 34-40",
+    "featured": true
+  },
+  {
+    "code": "KW-12",
+    "name": "Kids Lehenga",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 54,
+    "originalPrice": 60,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/28ca42df-1516-4953-8280-da91035e7a66.jpg",
+    "images": [
+      "images/28ca42df-1516-4953-8280-da91035e7a66.jpg"
+    ],
+    "size": "6 yr old",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "KW-13",
+    "name": "kids lehenga",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 60,
+    "originalPrice": 65,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/9172a631-d694-4bbf-8e69-7d0eaf1a5062.jpg",
+    "images": [
+      "images/9172a631-d694-4bbf-8e69-7d0eaf1a5062.jpg"
+    ],
+    "size": "9 yrs old",
+    "description": "colour - red",
+    "featured": false
+  },
+  {
+    "code": "KW-14",
+    "name": "Kids Lehenga",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 59,
+    "originalPrice": 68,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/2fc67c86-c27e-4046-a1d9-14feb84e4abc.jpg",
+    "images": [
+      "images/2fc67c86-c27e-4046-a1d9-14feb84e4abc.jpg"
+    ],
+    "size": "Age 10yrs",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-61",
+    "name": "party wear saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 89,
+    "originalPrice": 99,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/c1730041-3c0d-42ca-b0ae-1773c953d691.jpg",
+    "images": [
+      "images/c1730041-3c0d-42ca-b0ae-1773c953d691.jpg"
+    ],
+    "size": "",
+    "description": "colour- Pari Grey",
+    "featured": false
+  },
+  {
+    "code": "LW-62",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/470d93c8-3d0e-46ac-b5e5-8262f1f8e237.jpg",
+    "images": [
+      "images/470d93c8-3d0e-46ac-b5e5-8262f1f8e237.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Alterable- chest margin 34-40 \nViscose sequence embroidery blouse",
+    "featured": false
+  },
+  {
+    "code": "LW-63",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/4150b78e-1197-4f71-b6d7-4c665e69b386.jpg",
+    "images": [
+      "images/4150b78e-1197-4f71-b6d7-4c665e69b386.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-64",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/fb81a1fc-af60-4fbc-907f-a286a7c33273.jpg",
+    "images": [
+      "images/fb81a1fc-af60-4fbc-907f-a286a7c33273.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-65",
+    "name": "Readymadeblouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/2e19fe60-606c-4653-ac35-2e47405feab5.jpg",
+    "images": [
+      "images/2e19fe60-606c-4653-ac35-2e47405feab5.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-66",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 52,
+    "discountPct": 13,
+    "stockStatus": "SOLD OUT",
+    "image": "images/afe93890-96e4-4a55-b8cc-b9e8f004c0fb.jpg",
+    "images": [
+      "images/afe93890-96e4-4a55-b8cc-b9e8f004c0fb.jpg"
+    ],
+    "size": "Free size",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-67",
+    "name": "readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 52,
+    "discountPct": 13,
+    "stockStatus": "SOLD OUT",
+    "image": "images/8ce65bcf-affd-4fd5-8fd4-5147882e7712.jpg",
+    "images": [
+      "images/8ce65bcf-affd-4fd5-8fd4-5147882e7712.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-68",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 52,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/f4ea5f8f-206d-4b9f-b44b-e59b11c9fc86.jpg",
+    "images": [
+      "images/f4ea5f8f-206d-4b9f-b44b-e59b11c9fc86.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-69",
+    "name": "Readymade Blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 52,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/74a37c06-c1ec-4c59-a0ba-056a68be512f.jpg",
+    "images": [
+      "images/74a37c06-c1ec-4c59-a0ba-056a68be512f.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-70",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 55,
+    "discountPct": 18,
+    "stockStatus": "INSTOCK",
+    "image": "images/780a515d-4ed1-4e4f-95ea-ab974f2b9287.jpg",
+    "images": [
+      "images/780a515d-4ed1-4e4f-95ea-ab974f2b9287.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-71",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 55,
+    "discountPct": 18,
+    "stockStatus": "INSTOCK",
+    "image": "images/e67cac17-6a46-4492-b87e-a93067dbdcfa.jpg",
+    "images": [
+      "images/e67cac17-6a46-4492-b87e-a93067dbdcfa.jpg",
+      "images/ce57593d-776f-4525-9e9a-8d852bce2df7.jpg",
+      "images/b6f5ef18-6ad8-402a-be8d-2f3f263577fb.jpg",
+      "images/f414d285-e4e4-4a0b-b892-87a9bfa423d1.jpg",
+      "images/d0dc82bb-258c-45dd-aab5-d725a9eb3c97.jpg",
+      "images/88129d67-7884-4ed4-a94f-1805cbc74c18.jpg",
+      "images/2e7f501e-13dd-410a-89bd-80c6ceaa07b2.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40\nSleeve available , needs to be attached",
+    "featured": false
+  },
+  {
+    "code": "LW-72",
+    "name": "Premium  partywear  readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 56,
+    "originalPrice": 65,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/fcb23416-b8c6-4f32-864d-102539548426.jpg",
+    "images": [
+      "images/fcb23416-b8c6-4f32-864d-102539548426.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-73",
+    "name": "Premium  worked readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 56,
+    "originalPrice": 69,
+    "discountPct": 19,
+    "stockStatus": "INSTOCK",
+    "image": "images/2b0d0c08-bbb5-4843-a026-7ab66ac4bbea.jpg",
+    "images": [
+      "images/2b0d0c08-bbb5-4843-a026-7ab66ac4bbea.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-74",
+    "name": "Partywear heavy work readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 56,
+    "originalPrice": 69,
+    "discountPct": 19,
+    "stockStatus": "SOLD OUT",
+    "image": "images/0122d0f2-1240-4939-9984-f1b3d6db3ae4.jpg",
+    "images": [
+      "images/0122d0f2-1240-4939-9984-f1b3d6db3ae4.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-75",
+    "name": "Premium  readymade partywear blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 56,
+    "originalPrice": 69,
+    "discountPct": 19,
+    "stockStatus": "SOLD OUT",
+    "image": "images/95c79c68-6a79-4aab-921e-facedb177d50.jpg",
+    "images": [
+      "images/95c79c68-6a79-4aab-921e-facedb177d50.jpg"
+    ],
+    "size": "",
+    "description": "Alterable .\nChest margin 34 to 40",
+    "featured": false
+  },
+  {
+    "code": "LW-76",
+    "name": "Tussar silk",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 99,
+    "originalPrice": 115,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/7f00bd84-0930-4bdd-9c6d-7738f011ba75.jpg",
+    "images": [
+      "images/7f00bd84-0930-4bdd-9c6d-7738f011ba75.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-77",
+    "name": "Fendy Satin Silk sarees",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 100,
+    "originalPrice": 120,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/214314d6-19d9-4831-9e57-8fca960820d1.jpg",
+    "images": [
+      "images/214314d6-19d9-4831-9e57-8fca960820d1.jpg"
+    ],
+    "size": "",
+    "description": "exclusive collection.",
+    "featured": true
+  },
+  {
+    "code": "LW-78",
+    "name": "Chiffon silk party wear sarees",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 79,
+    "originalPrice": 95,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/8c1fce62-0328-44cc-9643-86d00bb5891b.jpg",
+    "images": [
+      "images/8c1fce62-0328-44cc-9643-86d00bb5891b.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-79",
+    "name": "Space silk designer sarees",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 62,
+    "originalPrice": 70,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/26fc8ba6-aea9-4d18-8e50-6857ef12a25f.jpg",
+    "images": [
+      "images/26fc8ba6-aea9-4d18-8e50-6857ef12a25f.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-80",
+    "name": "Tissue silk ready to wear saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 75,
+    "originalPrice": 89,
+    "discountPct": 16,
+    "stockStatus": "INSTOCK",
+    "image": "images/9fa4bc2a-269f-4da6-9065-e9d83b63f4cd.jpg",
+    "images": [
+      "images/9fa4bc2a-269f-4da6-9065-e9d83b63f4cd.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-81",
+    "name": "Silk Cotton kids ethnic wear",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 49,
+    "originalPrice": 55,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/41df6b6b-0af9-4dac-8417-816a8605224c.jpg",
+    "images": [
+      "images/41df6b6b-0af9-4dac-8417-816a8605224c.jpg"
+    ],
+    "size": "",
+    "description": "size -6 yr old",
+    "featured": false
+  },
+  {
+    "code": "KW-15",
+    "name": "Premium  kids lehenga set",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 58,
+    "originalPrice": 69,
+    "discountPct": 16,
+    "stockStatus": "INSTOCK",
+    "image": "images/7896c9fb-858b-4a24-b283-363135102ca6.jpg",
+    "images": [
+      "images/7896c9fb-858b-4a24-b283-363135102ca6.jpg"
+    ],
+    "size": "",
+    "description": "age -6 yrs",
+    "featured": false
+  },
+  {
+    "code": "LW-82",
+    "name": "linen cotton",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 63,
+    "originalPrice": 70,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/4487a279-99dc-4959-811f-57cd488b7abc.jpg",
+    "images": [
+      "images/4487a279-99dc-4959-811f-57cd488b7abc.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-83",
+    "name": "sarees",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 54,
+    "originalPrice": 65,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/f697d427-c6b5-401e-bedc-f2b044a25d48.jpg",
+    "images": [
+      "images/f697d427-c6b5-401e-bedc-f2b044a25d48.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-84",
+    "name": "saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 63,
+    "originalPrice": 69,
+    "discountPct": 9,
+    "stockStatus": "INSTOCK",
+    "image": "images/ddc4c3dd-e1da-4a44-b003-c856bf973420.jpg",
+    "images": [
+      "images/ddc4c3dd-e1da-4a44-b003-c856bf973420.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-85",
+    "name": "Soft dola kanjeevaram",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 64,
+    "originalPrice": 69,
+    "discountPct": 7,
+    "stockStatus": "INSTOCK",
+    "image": "images/ade2d2de-030b-4f8a-afeb-845911044361.jpg",
+    "images": [
+      "images/ade2d2de-030b-4f8a-afeb-845911044361.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-86",
+    "name": "Fendy double shaded saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 83,
+    "originalPrice": 99,
+    "discountPct": 16,
+    "stockStatus": "INSTOCK",
+    "image": "images/228360f5-e427-4219-a2db-77f125dc8791.jpg",
+    "images": [
+      "images/228360f5-e427-4219-a2db-77f125dc8791.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-87",
+    "name": "soft dola silk",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 70,
+    "originalPrice": 88,
+    "discountPct": 20,
+    "stockStatus": "INSTOCK",
+    "image": "images/8e8f4aa7-50c7-41cd-b30e-11ac468906b1.jpg",
+    "images": [
+      "images/8e8f4aa7-50c7-41cd-b30e-11ac468906b1.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-88",
+    "name": "set mundu",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 49,
+    "originalPrice": 55,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/dd5084c5-8160-4bcc-8047-0c11e2307a41.jpg",
+    "images": [
+      "images/dd5084c5-8160-4bcc-8047-0c11e2307a41.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-89",
+    "name": "stretchable blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 35,
+    "originalPrice": 40,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/0fa0d4aa-5d26-441e-80e1-78f485955936.jpg",
+    "images": [
+      "images/0fa0d4aa-5d26-441e-80e1-78f485955936.jpg"
+    ],
+    "size": "size XXL",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-27",
+    "name": "Glass bangles",
+    "category": "Jewellery",
+    "subcategory": "Bangles",
+    "price": 12,
+    "originalPrice": 15,
+    "discountPct": 20,
+    "stockStatus": "INSTOCK",
+    "image": "images/810fd601-98bb-4d5c-90d8-0c67abca6890.jpg",
+    "images": [
+      "images/810fd601-98bb-4d5c-90d8-0c67abca6890.jpg"
+    ],
+    "size": "all sizes available",
+    "description": "Many colours available.",
+    "featured": false
+  },
+  {
+    "code": "LW-90",
+    "name": "NGAPADAM  necklace",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 29,
+    "originalPrice": 35,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/dbd9cc29-0d0c-4f88-aad6-59c527113e7c.jpg",
+    "images": [
+      "images/dbd9cc29-0d0c-4f88-aad6-59c527113e7c.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-28",
+    "name": "NECKLACE",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 34,
+    "originalPrice": 38,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/364d82b3-818b-468c-945c-346dafa6ddfc.jpg",
+    "images": [
+      "images/364d82b3-818b-468c-945c-346dafa6ddfc.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-29",
+    "name": "Casual wear",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 11,
+    "originalPrice": 14,
+    "discountPct": 21,
+    "stockStatus": "INSTOCK",
+    "image": "images/eb1ad54a-b982-4768-abc2-982bce82c64f.jpg",
+    "images": [
+      "images/eb1ad54a-b982-4768-abc2-982bce82c64f.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-30",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 29,
+    "originalPrice": 36,
+    "discountPct": 19,
+    "stockStatus": "INSTOCK",
+    "image": "images/ea9e7e3c-480b-4db3-9347-9f08d6ad77b8.jpg",
+    "images": [
+      "images/ea9e7e3c-480b-4db3-9347-9f08d6ad77b8.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-31",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "",
+    "price": 29,
+    "originalPrice": 34,
+    "discountPct": 15,
+    "stockStatus": "INSTOCK",
+    "image": "images/d8207db6-43aa-4d62-bb14-44b014d8fb28.jpg",
+    "images": [
+      "images/d8207db6-43aa-4d62-bb14-44b014d8fb28.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-32",
+    "name": "Casual wear necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 10,
+    "originalPrice": 14,
+    "discountPct": 29,
+    "stockStatus": "INSTOCK",
+    "image": "images/e9c5ae0d-e743-4b30-92da-8891d771105d.jpg",
+    "images": [
+      "images/e9c5ae0d-e743-4b30-92da-8891d771105d.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-33",
+    "name": "Premium stoned Hair accessories",
+    "category": "Jewellery",
+    "subcategory": "Hair Accessories",
+    "price": 11,
+    "originalPrice": 14,
+    "discountPct": 21,
+    "stockStatus": "INSTOCK",
+    "image": "images/870a312c-57fd-41c2-b29c-787bdedfe988.jpg",
+    "images": [
+      "images/870a312c-57fd-41c2-b29c-787bdedfe988.jpg",
+      "images/28e6008f-14af-4b87-bd84-d2c684864887.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-34",
+    "name": "Hair Accessories",
+    "category": "Jewellery",
+    "subcategory": "Hair Accessories",
+    "price": 11,
+    "originalPrice": 14,
+    "discountPct": 21,
+    "stockStatus": "INSTOCK",
+    "image": "images/b19df13b-7e89-4c49-a966-b50b8b043e20.jpg",
+    "images": [
+      "images/b19df13b-7e89-4c49-a966-b50b8b043e20.jpg",
+      "images/ceaf995c-2e71-4c2a-b90e-21f8746c989d.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-35",
+    "name": "Premium stones Hair clips",
+    "category": "Jewellery",
+    "subcategory": "Hair Accessories",
+    "price": 15,
+    "originalPrice": 17,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/a360984f-1ae5-41aa-90e5-94b4ce1e64bf.jpg",
+    "images": [
+      "images/a360984f-1ae5-41aa-90e5-94b4ce1e64bf.jpg",
+      "images/5aa29961-4575-488b-a288-71ae0dcd8331.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-36",
+    "name": "Premium  Hair clips",
+    "category": "Jewellery",
+    "subcategory": "Hair Accessories",
+    "price": 16,
+    "originalPrice": 18,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/f5edfd8d-531c-4885-9c7b-99535199ac0e.jpg",
+    "images": [
+      "images/f5edfd8d-531c-4885-9c7b-99535199ac0e.jpg",
+      "images/1b9a5197-35ec-43ba-86c2-aa625407f20d.jpg",
+      "images/90bf69b8-6e92-4738-b42e-2d9ec78e7aa3.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": true
+  },
+  {
+    "code": "JW-37",
+    "name": "Casual wear",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 12,
+    "originalPrice": 14,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/7cd0fe9b-311e-43b6-9f91-f685b9c87e25.jpg",
+    "images": [
+      "images/7cd0fe9b-311e-43b6-9f91-f685b9c87e25.jpg",
+      "images/a62691e2-be47-478e-9840-0a39c4a22138.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-93",
+    "name": "Casual wear",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 12,
+    "originalPrice": 14,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/93cde57d-004a-409d-aea0-5123b8670356.jpg",
+    "images": [
+      "images/93cde57d-004a-409d-aea0-5123b8670356.jpg",
+      "images/58de1d7d-3871-4b54-b343-6d4b60213314.jpg",
+      "images/31842f88-e5fc-4779-b9ae-4522874a6528.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-94",
+    "name": "Casual wear Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 12,
+    "originalPrice": 12,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/57478663-6164-4bb6-825d-a6e89308ffa5.jpg",
+    "images": [
+      "images/57478663-6164-4bb6-825d-a6e89308ffa5.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-95",
+    "name": "Casual wear Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 14,
+    "originalPrice": 14,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/94b395f3-49d1-48bf-b0e9-674bb5df019c.jpg",
+    "images": [
+      "images/94b395f3-49d1-48bf-b0e9-674bb5df019c.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-38",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 28,
+    "originalPrice": 30,
+    "discountPct": 7,
+    "stockStatus": "INSTOCK",
+    "image": "images/28b8a82d-8f29-4d5c-8731-fb071cb92fe9.jpg",
+    "images": [
+      "images/28b8a82d-8f29-4d5c-8731-fb071cb92fe9.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-39",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 29,
+    "originalPrice": 29,
+    "discountPct": 0,
+    "stockStatus": "INSTOCK",
+    "image": "images/a8c761a2-8086-4465-a5a8-c0814a47a5ea.jpg",
+    "images": [
+      "images/a8c761a2-8086-4465-a5a8-c0814a47a5ea.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-40",
+    "name": "Nettipattam Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 30.99,
+    "originalPrice": 34,
+    "discountPct": 9,
+    "stockStatus": "INSTOCK",
+    "image": "images/60be2070-80ff-4e33-a3e0-9aa2319b050a.jpg",
+    "images": [
+      "images/60be2070-80ff-4e33-a3e0-9aa2319b050a.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-41",
+    "name": "short haram",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 34,
+    "originalPrice": 36,
+    "discountPct": 6,
+    "stockStatus": "INSTOCK",
+    "image": "images/857b67f3-2efb-49ff-b629-56df59c3a834.jpg",
+    "images": [
+      "images/857b67f3-2efb-49ff-b629-56df59c3a834.jpg",
+      "images/ba551b07-6830-44cb-9b01-40fbe23dd2ea.jpg"
+    ],
+    "size": "",
+    "description": "Available in 3 different shades. Green stone ,pink stone and mixed stones",
+    "featured": false
+  },
+  {
+    "code": "JW-42",
+    "name": "Premium  stone necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 41,
+    "originalPrice": 45,
+    "discountPct": 9,
+    "stockStatus": "INSTOCK",
+    "image": "images/01260d3f-4d9e-4679-a436-8790846af887.jpg",
+    "images": [
+      "images/01260d3f-4d9e-4679-a436-8790846af887.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-43",
+    "name": "royal ruby stone necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 51,
+    "originalPrice": 55,
+    "discountPct": 7,
+    "stockStatus": "INSTOCK",
+    "image": "images/8b9a93bf-3479-427c-8ee2-93953487487e.jpg",
+    "images": [
+      "images/8b9a93bf-3479-427c-8ee2-93953487487e.jpg"
+    ],
+    "size": "",
+    "description": "Available in emerald green and baby pink stone also",
+    "featured": false
+  },
+  {
+    "code": "JW-44",
+    "name": "Premium stone necklace",
+    "category": "Jewellery",
+    "subcategory": "Rings",
+    "price": 39,
+    "originalPrice": 46,
+    "discountPct": 15,
+    "stockStatus": "INSTOCK",
+    "image": "images/cc9d4db9-29cb-4a2d-9715-61ed131fee72.jpg",
+    "images": [
+      "images/cc9d4db9-29cb-4a2d-9715-61ed131fee72.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-45",
+    "name": "invisible chain",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 15,
+    "originalPrice": 18,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/8b7ce3bc-5a9f-425c-a83e-4f926d39292e.jpg",
+    "images": [
+      "images/8b7ce3bc-5a9f-425c-a83e-4f926d39292e.jpg"
+    ],
+    "size": "",
+    "description": "Many different options available",
+    "featured": false
+  },
+  {
+    "code": "LW-96",
+    "name": "Premium   stone necklace",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 33,
+    "originalPrice": 36,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/b9f6dae3-09f0-47d7-930a-153372c1875a.jpg",
+    "images": [
+      "images/b9f6dae3-09f0-47d7-930a-153372c1875a.jpg"
+    ],
+    "size": "",
+    "description": "Available shades\n Dark Pink, Light pink, Purple",
+    "featured": false
+  },
+  {
+    "code": "LW-97",
+    "name": "Jhumka",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 13,
+    "originalPrice": 15,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/aeb293af-0f0c-4a78-92bc-81236e6eed95.jpg",
+    "images": [
+      "images/aeb293af-0f0c-4a78-92bc-81236e6eed95.jpg"
+    ],
+    "size": "",
+    "description": "Mehandi polish Jhumka\nAvailable for group orders",
+    "featured": false
+  },
+  {
+    "code": "LW-98",
+    "name": "Casual earrings",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 12,
+    "originalPrice": 15,
+    "discountPct": 20,
+    "stockStatus": "INSTOCK",
+    "image": "images/494a97f8-97dc-4e9c-9176-2d90fe769800.jpg",
+    "images": [
+      "images/494a97f8-97dc-4e9c-9176-2d90fe769800.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-46",
+    "name": "Bangles",
+    "category": "Jewellery",
+    "subcategory": "Bangles",
+    "price": 24,
+    "originalPrice": 28,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/5d07f686-f92c-4c46-ae54-97f3e3fa2cc6.jpg",
+    "images": [
+      "images/5d07f686-f92c-4c46-ae54-97f3e3fa2cc6.jpg"
+    ],
+    "size": "different sizes available",
+    "description": "Price based on Pair",
+    "featured": false
+  },
+  {
+    "code": "LW-99",
+    "name": "Set Mundu",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/b0e4324b-1206-417f-b75a-3c4e316bc5d0.jpg",
+    "images": [
+      "images/b0e4324b-1206-417f-b75a-3c4e316bc5d0.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-47",
+    "name": "Coin -flower necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 36,
+    "originalPrice": 40,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/a623cc3e-9b6f-487a-83e7-b96acd9b9aec.jpg",
+    "images": [
+      "images/a623cc3e-9b6f-487a-83e7-b96acd9b9aec.jpg",
+      "images/8917c6e6-9db4-4b8b-bb94-0dd2414635c2.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-48",
+    "name": "Invisible necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 15,
+    "originalPrice": 18,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/6d5511e5-4b98-4e33-bffe-c262dd8aa128.jpg",
+    "images": [
+      "images/6d5511e5-4b98-4e33-bffe-c262dd8aa128.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-49",
+    "name": "Premium stoned necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 36,
+    "originalPrice": 40,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/2ae83113-d980-4c45-98b8-6b7bb98bfe66.jpg",
+    "images": [
+      "images/2ae83113-d980-4c45-98b8-6b7bb98bfe66.jpg",
+      "images/93340214-8eb6-4396-a750-3f38f61db574.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-50",
+    "name": "Exclusive collection",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 51,
+    "originalPrice": 62,
+    "discountPct": 18,
+    "stockStatus": "INSTOCK",
+    "image": "images/bcfcee94-558c-4ec6-b152-e1d21d29489a.jpg",
+    "images": [
+      "images/bcfcee94-558c-4ec6-b152-e1d21d29489a.jpg",
+      "images/9c611bca-9331-4d45-9068-d054ce9c213b.jpg"
+    ],
+    "size": "",
+    "description": "Available in green and , dark pink and purple  shades",
+    "featured": false
+  },
+  {
+    "code": "JW-51",
+    "name": "Party were chockers",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 57,
+    "originalPrice": 66,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/8588028f-4298-4b06-ab48-49d71d427860.jpg",
+    "images": [
+      "images/8588028f-4298-4b06-ab48-49d71d427860.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-52",
+    "name": "Royal Kundan stone necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 44,
+    "originalPrice": 52,
+    "discountPct": 15,
+    "stockStatus": "INSTOCK",
+    "image": "images/a5e95db7-ab68-4d09-a2ce-cf6dd5d596d9.jpg",
+    "images": [
+      "images/a5e95db7-ab68-4d09-a2ce-cf6dd5d596d9.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-53",
+    "name": "Premium   necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 46,
+    "originalPrice": 58,
+    "discountPct": 21,
+    "stockStatus": "INSTOCK",
+    "image": "images/6c6b0a8e-8966-4780-8ce8-fb9b41e9961f.jpg",
+    "images": [
+      "images/6c6b0a8e-8966-4780-8ce8-fb9b41e9961f.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-54",
+    "name": "premiun necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 49,
+    "originalPrice": 59,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/9c906c3b-a1b6-425e-b5a5-71af5fd2d507.jpg",
+    "images": [
+      "images/9c906c3b-a1b6-425e-b5a5-71af5fd2d507.jpg",
+      "images/981fc8aa-10ea-451c-b062-5be15f6b1993.jpg"
+    ],
+    "size": "",
+    "description": "limited stock",
+    "featured": false
+  },
+  {
+    "code": "JW-55",
+    "name": "Casual wear Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 18,
+    "originalPrice": 26,
+    "discountPct": 31,
+    "stockStatus": "INSTOCK",
+    "image": "images/ee9c36f6-18ce-4ce7-b427-48e2420effbd.jpg",
+    "images": [
+      "images/ee9c36f6-18ce-4ce7-b427-48e2420effbd.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-56",
+    "name": "Casual wear Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 19,
+    "originalPrice": 28,
+    "discountPct": 32,
+    "stockStatus": "INSTOCK",
+    "image": "images/2eb7cdbd-c905-4d99-8f80-8309d2aebdd3.jpg",
+    "images": [
+      "images/2eb7cdbd-c905-4d99-8f80-8309d2aebdd3.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-57",
+    "name": "exclusive collection",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 49,
+    "originalPrice": 59,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/f9e3c7af-b3e8-477d-997e-5072f31820e2.jpg",
+    "images": [
+      "images/f9e3c7af-b3e8-477d-997e-5072f31820e2.jpg"
+    ],
+    "size": "",
+    "description": "Available in white , green, purple ,light pink shades",
+    "featured": false
+  },
+  {
+    "code": "JW-58",
+    "name": "premium party wear necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 62,
+    "originalPrice": 76,
+    "discountPct": 18,
+    "stockStatus": "INSTOCK",
+    "image": "images/c47723e3-ae1e-4a71-9206-04e725cd47a8.jpg",
+    "images": [
+      "images/c47723e3-ae1e-4a71-9206-04e725cd47a8.jpg"
+    ],
+    "size": "",
+    "description": "Available in Purple shade also.",
+    "featured": true
+  },
+  {
+    "code": "JW-59",
+    "name": "Premium  chocker set",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 56,
+    "originalPrice": 69,
+    "discountPct": 19,
+    "stockStatus": "INSTOCK",
+    "image": "images/6cbbd6c0-67ac-4efc-9db8-0b927c318705.jpg",
+    "images": [
+      "images/6cbbd6c0-67ac-4efc-9db8-0b927c318705.jpg",
+      "images/6d587afe-0790-43d7-abf6-3f3a88640d7f.jpg"
+    ],
+    "size": "",
+    "description": "Limited  stock",
+    "featured": false
+  },
+  {
+    "code": "JW-60",
+    "name": "Premium  Kundhan stone necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 59,
+    "originalPrice": 68,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/ec868bc5-5eef-48b8-a438-33f686fc467e.jpg",
+    "images": [
+      "images/ec868bc5-5eef-48b8-a438-33f686fc467e.jpg",
+      "images/9b7954c7-b9f8-4a39-88bc-0adf6223df81.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-61",
+    "name": "Multistone necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 44,
+    "originalPrice": 49,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/145b68e6-d2f7-43bf-9feb-6d5e4258915e.jpg",
+    "images": [
+      "images/145b68e6-d2f7-43bf-9feb-6d5e4258915e.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-62",
+    "name": "Chutty",
+    "category": "Jewellery",
+    "subcategory": "Chutti Matti",
+    "price": 14,
+    "originalPrice": 18,
+    "discountPct": 22,
+    "stockStatus": "INSTOCK",
+    "image": "images/d4513de3-344c-4d05-9135-0f23c712e86d.jpg",
+    "images": [
+      "images/d4513de3-344c-4d05-9135-0f23c712e86d.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-100",
+    "name": "CHUTTY",
+    "category": "Jewellery",
+    "subcategory": "Chutti Matti",
+    "price": 14,
+    "originalPrice": 17,
+    "discountPct": 18,
+    "stockStatus": "INSTOCK",
+    "image": "images/3c780110-cc63-478b-bf09-1055c74b60d0.jpg",
+    "images": [
+      "images/3c780110-cc63-478b-bf09-1055c74b60d0.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-63",
+    "name": "MATTI",
+    "category": "Jewellery",
+    "subcategory": "Chutti Matti",
+    "price": 24,
+    "originalPrice": 26,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/5aa04a05-2f98-4ea1-b76d-42f50dd4e2c5.jpg",
+    "images": [
+      "images/5aa04a05-2f98-4ea1-b76d-42f50dd4e2c5.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-64",
+    "name": "Invisible  Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 15,
+    "originalPrice": 18,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/e20cbf4c-bfd5-412a-bd62-e5c16f80502a.jpg",
+    "images": [
+      "images/e20cbf4c-bfd5-412a-bd62-e5c16f80502a.jpg"
+    ],
+    "size": "",
+    "description": "Available in different models",
+    "featured": false
+  },
+  {
+    "code": "LW-101",
+    "name": "Invisible necklace",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 15,
+    "originalPrice": 18,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/66327bb8-0dd4-4fd0-8b74-f97a31045ad5.jpg",
+    "images": [
+      "images/66327bb8-0dd4-4fd0-8b74-f97a31045ad5.jpg"
+    ],
+    "size": "",
+    "description": "Available in different models and colours",
+    "featured": false
+  },
+  {
+    "code": "LW-102",
+    "name": "party wear saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 91,
+    "originalPrice": 98,
+    "discountPct": 7,
+    "stockStatus": "SOLD OUT",
+    "image": "images/f1012a48-8736-480d-8d96-feee79a40577.jpg",
+    "images": [
+      "images/f1012a48-8736-480d-8d96-feee79a40577.jpg"
+    ],
+    "size": "",
+    "description": "blouse material available",
+    "featured": false
+  },
+  {
+    "code": "GW-02",
+    "name": "shirt and dhoti combo",
+    "category": "Mens Wear",
+    "subcategory": "",
+    "price": 65,
+    "originalPrice": 68,
+    "discountPct": 4,
+    "stockStatus": "INSTOCK",
+    "image": "images/75529942-30a4-4e57-942e-56fe0e234eb2.jpg",
+    "images": [
+      "images/75529942-30a4-4e57-942e-56fe0e234eb2.jpg"
+    ],
+    "size": "40",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-103",
+    "name": "Digital print tissue saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 60,
+    "originalPrice": 68,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/e40fa62b-138d-4bbc-a5f9-ff4fdf7427d2.jpg",
+    "images": [
+      "images/e40fa62b-138d-4bbc-a5f9-ff4fdf7427d2.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-104",
+    "name": "Soft silk -partywear readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 55,
+    "originalPrice": 65,
+    "discountPct": 15,
+    "stockStatus": "INSTOCK",
+    "image": "images/2c5c2975-5514-4c1b-856c-5e56b525302d.jpg",
+    "images": [
+      "images/2c5c2975-5514-4c1b-856c-5e56b525302d.jpg",
+      "images/968374f3-c7ec-479f-9e3a-c1a4f1574b94.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in black ,Purple, green. Red  and white shade",
+    "featured": false
+  },
+  {
+    "code": "LW-105",
+    "name": "Soft silk -partywear readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 55,
+    "originalPrice": 65,
+    "discountPct": 15,
+    "stockStatus": "INSTOCK",
+    "image": "images/4050b669-9ab8-4e44-9a92-9935a2632984.jpg",
+    "images": [
+      "images/4050b669-9ab8-4e44-9a92-9935a2632984.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in black ,Purple, green. Red  and white shade",
+    "featured": false
+  },
+  {
+    "code": "LW-106",
+    "name": "Soft silk -partywear readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 55,
+    "originalPrice": 65,
+    "discountPct": 15,
+    "stockStatus": "INSTOCK",
+    "image": "images/54b3c364-93f3-44ad-bb84-78c4fd4790a7.jpg",
+    "images": [
+      "images/54b3c364-93f3-44ad-bb84-78c4fd4790a7.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Soft silk -partywear readymade blouse \nMargin-34 to 40 \nAlterable \nAvailable in black ,Purple, green. Red  and white shade",
+    "featured": false
+  },
+  {
+    "code": "LW-107",
+    "name": "Ready made blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 44,
+    "originalPrice": 50,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/4d4c8414-3a38-494f-abf0-adab8319ef12.jpg",
+    "images": [
+      "images/4d4c8414-3a38-494f-abf0-adab8319ef12.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in different shades.",
+    "featured": false
+  },
+  {
+    "code": "LW-108",
+    "name": "Madubala Ready made blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 44,
+    "originalPrice": 50,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/5590a2f6-f704-41cb-9566-98d8e1e5e211.jpg",
+    "images": [
+      "images/5590a2f6-f704-41cb-9566-98d8e1e5e211.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in different shades",
+    "featured": false
+  },
+  {
+    "code": "LW-109",
+    "name": "Readymade blouse-Madubala style",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 44,
+    "originalPrice": 50,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/9bbf3f3c-9142-4491-9475-32c93ca0f51f.jpg",
+    "images": [
+      "images/9bbf3f3c-9142-4491-9475-32c93ca0f51f.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in different shades",
+    "featured": false
+  },
+  {
+    "code": "LW-110",
+    "name": "readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 44,
+    "originalPrice": 50,
+    "discountPct": 12,
+    "stockStatus": "SOLD OUT",
+    "image": "images/c8aebc09-0c2e-4ad7-8e66-91cbddb65e1a.jpg",
+    "images": [
+      "images/c8aebc09-0c2e-4ad7-8e66-91cbddb65e1a.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in different shades",
+    "featured": false
+  },
+  {
+    "code": "LW-111",
+    "name": "Readymade blouse-Madubala style",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 44,
+    "originalPrice": 50,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/22cc470a-1c79-403f-b127-fbedb86fa122.jpg",
+    "images": [
+      "images/22cc470a-1c79-403f-b127-fbedb86fa122.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in different shades",
+    "featured": false
+  },
+  {
+    "code": "LW-112",
+    "name": "readymade blouse -Madubala style",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 44,
+    "originalPrice": 50,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/3147a072-e36a-496a-a437-3cbf8170311f.jpg",
+    "images": [
+      "images/3147a072-e36a-496a-a437-3cbf8170311f.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in different shades",
+    "featured": false
+  },
+  {
+    "code": "LW-113",
+    "name": "readymade blouse -Madubala style",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 44,
+    "originalPrice": 50,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/0e8c7e94-2a29-476c-9872-8edb994ae6d4.jpg",
+    "images": [
+      "images/0e8c7e94-2a29-476c-9872-8edb994ae6d4.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in black ,Purple, green. Red  and white shade",
+    "featured": false
+  },
+  {
+    "code": "LW-114",
+    "name": "readymade blouse -Madubala style",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 44,
+    "originalPrice": 50,
+    "discountPct": 12,
+    "stockStatus": "SOLD OUT",
+    "image": "images/dd1b6724-da9e-401c-82f3-f8fee9a40ab3.jpg",
+    "images": [
+      "images/dd1b6724-da9e-401c-82f3-f8fee9a40ab3.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in black ,Purple, green. Red  and white shade",
+    "featured": false
+  },
+  {
+    "code": "LW-115",
+    "name": "readymade blouse -Madubala style",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 44,
+    "originalPrice": 50,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/b402b236-41e3-4047-b298-698957ad7976.jpg",
+    "images": [
+      "images/b402b236-41e3-4047-b298-698957ad7976.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in black ,Purple, green. Red  and white shade",
+    "featured": false
+  },
+  {
+    "code": "LW-116",
+    "name": "Readymade blouse Madubala style",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 44,
+    "originalPrice": 50,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/e2b19918-2cac-4a28-ae5c-25fd840e5ad8.jpg",
+    "images": [
+      "images/e2b19918-2cac-4a28-ae5c-25fd840e5ad8.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in black ,Purple, green. Red  and white shade",
+    "featured": false
+  },
+  {
+    "code": "LW-117",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/cba8ed4b-e267-4074-bbaa-d48bc29f4082.jpg",
+    "images": [
+      "images/cba8ed4b-e267-4074-bbaa-d48bc29f4082.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in black ,Purple, green. Red  and white shade",
+    "featured": false
+  },
+  {
+    "code": "LW-118",
+    "name": "Readymade Blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/8a373f1d-d712-423e-ab96-94d4fd678edf.jpg",
+    "images": [
+      "images/8a373f1d-d712-423e-ab96-94d4fd678edf.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in black ,Purple, green. Red  and white shade",
+    "featured": false
+  },
+  {
+    "code": "LW-119",
+    "name": "readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/d1322675-3a4a-43b8-9b3d-44a119ed2179.jpg",
+    "images": [
+      "images/d1322675-3a4a-43b8-9b3d-44a119ed2179.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in black ,Purple, green. Red  and white shade",
+    "featured": false
+  },
+  {
+    "code": "LW-120",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/72abd62a-2c28-4740-9645-ec06f9107fb7.jpg",
+    "images": [
+      "images/72abd62a-2c28-4740-9645-ec06f9107fb7.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in  different shades",
+    "featured": false
+  },
+  {
+    "code": "LW-121",
+    "name": "readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "SOLD OUT",
+    "image": "images/8504ef6a-662b-4668-b529-f3de20a3be07.jpg",
+    "images": [
+      "images/8504ef6a-662b-4668-b529-f3de20a3be07.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-122",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 50,
+    "originalPrice": 55,
+    "discountPct": 9,
+    "stockStatus": "SOLD OUT",
+    "image": "images/6eaaeefb-0bef-4c70-a7df-537bddb2e152.jpg",
+    "images": [
+      "images/6eaaeefb-0bef-4c70-a7df-537bddb2e152.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-123",
+    "name": "Readymade -cotton blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 44,
+    "originalPrice": 48,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/962098b9-9823-45be-8f62-a0260f88d4ae.jpg",
+    "images": [
+      "images/962098b9-9823-45be-8f62-a0260f88d4ae.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-124",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/c82df7c1-7d10-46b5-9aff-803586b5e093.jpg",
+    "images": [
+      "images/c82df7c1-7d10-46b5-9aff-803586b5e093.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in Black , Green. Red  and white shades",
+    "featured": false
+  },
+  {
+    "code": "LW-125",
+    "name": "Readymade Blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/95c12870-ec34-41d0-87e8-758f12865b7f.jpg",
+    "images": [
+      "images/95c12870-ec34-41d0-87e8-758f12865b7f.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in Black , Green. Red  and white shades",
+    "featured": false
+  },
+  {
+    "code": "LW-126",
+    "name": "Readymade Blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/b90404e5-c1bf-409e-bb14-b42b7331e7c5.jpg",
+    "images": [
+      "images/b90404e5-c1bf-409e-bb14-b42b7331e7c5.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in Black , Green. Red  and white shades",
+    "featured": false
+  },
+  {
+    "code": "LW-127",
+    "name": "TOP and Bottom",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 48,
+    "originalPrice": 55,
+    "discountPct": 13,
+    "stockStatus": "SOLD OUT",
+    "image": "images/b491a2dc-fe42-4239-9bda-b1805a1e593e.jpg",
+    "images": [
+      "images/b491a2dc-fe42-4239-9bda-b1805a1e593e.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-128",
+    "name": "Readymade Blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/3af35063-4f28-459e-9ca2-57d823530c9f.jpg",
+    "images": [
+      "images/3af35063-4f28-459e-9ca2-57d823530c9f.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in many other shades",
+    "featured": false
+  },
+  {
+    "code": "LW-129",
+    "name": "Readymade Blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/40b4bc43-8b65-4906-9539-30032df4992b.jpg",
+    "images": [
+      "images/40b4bc43-8b65-4906-9539-30032df4992b.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in many other shades",
+    "featured": false
+  },
+  {
+    "code": "LW-130",
+    "name": "Readymade Blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/63895a33-99b7-4ef5-a37d-43601ae7a1d5.jpg",
+    "images": [
+      "images/63895a33-99b7-4ef5-a37d-43601ae7a1d5.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in many other shades",
+    "featured": false
+  },
+  {
+    "code": "LW-131",
+    "name": "Ready made blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/9a2700aa-8d4d-41ea-8db6-ee49d6bf331f.jpg",
+    "images": [
+      "images/9a2700aa-8d4d-41ea-8db6-ee49d6bf331f.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in many other shades",
+    "featured": false
+  },
+  {
+    "code": "LW-132",
+    "name": "Digital print tissue saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 60,
+    "originalPrice": 65,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/2afb3037-3dd9-4337-bdab-6a732e934c58.jpg",
+    "images": [
+      "images/2afb3037-3dd9-4337-bdab-6a732e934c58.jpg"
+    ],
+    "size": "",
+    "description": "Limited stock available",
+    "featured": false
+  },
+  {
+    "code": "LW-133",
+    "name": "Ready made blouse - Organza",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/596c054d-abca-46b4-bd29-047ce7a67eff.jpg",
+    "images": [
+      "images/596c054d-abca-46b4-bd29-047ce7a67eff.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-134",
+    "name": "Linen mixed saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 70,
+    "originalPrice": 78,
+    "discountPct": 10,
+    "stockStatus": "SOLD OUT",
+    "image": "images/55846e4f-5de1-4f2a-9668-b28b6589b7dc.jpg",
+    "images": [
+      "images/55846e4f-5de1-4f2a-9668-b28b6589b7dc.jpg"
+    ],
+    "size": "",
+    "description": "Linen mixed saree",
+    "featured": false
+  },
+  {
+    "code": "LW-135",
+    "name": "Japan silk saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 72,
+    "originalPrice": 84,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/dbca5eca-962e-40d5-a7ba-f4a3910f509f.jpg",
+    "images": [
+      "images/dbca5eca-962e-40d5-a7ba-f4a3910f509f.jpg"
+    ],
+    "size": "",
+    "description": "Limited piece \n Beautiful Flowy saree with an effortlessly elegant drape",
+    "featured": false
+  },
+  {
+    "code": "LW-136",
+    "name": "readymade  blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 44,
+    "originalPrice": 50,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/fa853c3b-30b1-4c71-93aa-2b6e20207403.jpg",
+    "images": [
+      "images/fa853c3b-30b1-4c71-93aa-2b6e20207403.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-137",
+    "name": "Readymade blouse -organza",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "SOLD OUT",
+    "image": "images/4bfb225f-d9ec-45e5-9121-01ad3affa8ed.jpg",
+    "images": [
+      "images/4bfb225f-d9ec-45e5-9121-01ad3affa8ed.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-138",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/1c755aa5-d158-45f0-9fe6-94ed3118e767.jpg",
+    "images": [
+      "images/1c755aa5-d158-45f0-9fe6-94ed3118e767.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-139",
+    "name": "Ready made blouse -Halter neck",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 50,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/2c83676c-6885-45e1-be2c-8e3e4f20ef89.jpg",
+    "images": [
+      "images/2c83676c-6885-45e1-be2c-8e3e4f20ef89.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable",
+    "featured": false
+  },
+  {
+    "code": "LW-140",
+    "name": "Mul cotton saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 49,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/b1e8b875-5123-4837-a0ff-3c2024f34809.jpg",
+    "images": [
+      "images/b1e8b875-5123-4837-a0ff-3c2024f34809.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-141",
+    "name": "Mul cotton saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 49,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/a87158cb-3e8e-4b39-9842-bffe88802f50.jpg",
+    "images": [
+      "images/a87158cb-3e8e-4b39-9842-bffe88802f50.jpg"
+    ],
+    "size": "",
+    "description": "Limited stock",
+    "featured": false
+  },
+  {
+    "code": "LW-142",
+    "name": "Mulcotton saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 49,
+    "originalPrice": 49,
+    "discountPct": 0,
+    "stockStatus": "SOLD OUT",
+    "image": "images/b505eb12-c802-4710-b9a5-2a559e4959fd.jpg",
+    "images": [
+      "images/b505eb12-c802-4710-b9a5-2a559e4959fd.jpg"
+    ],
+    "size": "",
+    "description": "Limited stock",
+    "featured": false
+  },
+  {
+    "code": "LW-143",
+    "name": "Mulcotton saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 49,
+    "discountPct": 8,
+    "stockStatus": "SOLD OUT",
+    "image": "images/82d10201-c965-4b60-a3cc-0011df679a02.jpg",
+    "images": [
+      "images/82d10201-c965-4b60-a3cc-0011df679a02.jpg",
+      "images/82331977-6e86-4681-b8df-8c22d6aee7ca.jpg"
+    ],
+    "size": "",
+    "description": "Limited stock",
+    "featured": false
+  },
+  {
+    "code": "LW-144",
+    "name": "Mulcotton saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 49,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/2a71ec85-fd13-488e-bcd6-bff4c9514d30.jpg",
+    "images": [
+      "images/2a71ec85-fd13-488e-bcd6-bff4c9514d30.jpg"
+    ],
+    "size": "",
+    "description": "Limited stock",
+    "featured": false
+  },
+  {
+    "code": "LW-145",
+    "name": "Flowy thread work saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 86,
+    "originalPrice": 90,
+    "discountPct": 4,
+    "stockStatus": "INSTOCK",
+    "image": "images/a2cb5963-20f8-4898-b09e-fa20b8ff9d8b.jpg",
+    "images": [
+      "images/a2cb5963-20f8-4898-b09e-fa20b8ff9d8b.jpg"
+    ],
+    "size": "",
+    "description": "Limited pieces",
+    "featured": false
+  },
+  {
+    "code": "LW-146",
+    "name": "Space silk saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 68,
+    "originalPrice": 75,
+    "discountPct": 9,
+    "stockStatus": "INSTOCK",
+    "image": "images/5a125623-c86c-4a07-9d13-82e05302b897.jpg",
+    "images": [
+      "images/5a125623-c86c-4a07-9d13-82e05302b897.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Limited pieces available",
+    "featured": false
+  },
+  {
+    "code": "LW-147",
+    "name": "saree with tread work",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 79,
+    "originalPrice": 85,
+    "discountPct": 7,
+    "stockStatus": "INSTOCK",
+    "image": "images/aa76e4ff-f562-4b5b-9e45-9fabbd8f4e71.jpg",
+    "images": [
+      "images/aa76e4ff-f562-4b5b-9e45-9fabbd8f4e71.jpg"
+    ],
+    "size": "",
+    "description": "Limited pieces available \n Mild colour variation should be expected",
+    "featured": false
+  },
+  {
+    "code": "LW-148",
+    "name": "space wilk saree with work",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 79,
+    "originalPrice": 85,
+    "discountPct": 7,
+    "stockStatus": "INSTOCK",
+    "image": "images/23b01cd3-052e-4e0b-b5cb-99aec953f71c.jpg",
+    "images": [
+      "images/23b01cd3-052e-4e0b-b5cb-99aec953f71c.jpg"
+    ],
+    "size": "",
+    "description": "Limited  stock",
+    "featured": false
+  },
+  {
+    "code": "LW-149",
+    "name": "Party  wear saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 84,
+    "originalPrice": 95,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/3b3387ba-36cb-41e3-b550-f231eaa9c2db.jpg",
+    "images": [
+      "images/3b3387ba-36cb-41e3-b550-f231eaa9c2db.jpg"
+    ],
+    "size": "",
+    "description": "Limited stock",
+    "featured": false
+  },
+  {
+    "code": "LW-150",
+    "name": "Heavy party wear saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 100,
+    "originalPrice": 112,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/39128393-7ce4-4ce2-95ab-99f06abc7b32.jpg",
+    "images": [
+      "images/39128393-7ce4-4ce2-95ab-99f06abc7b32.jpg"
+    ],
+    "size": "",
+    "description": "Available with blouse material",
+    "featured": false
+  },
+  {
+    "code": "LW-151",
+    "name": "SEMI PARTYWEAR LINEN BLENDED SAREE",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 71,
+    "originalPrice": 78,
+    "discountPct": 9,
+    "stockStatus": "SOLD OUT",
+    "image": "images/2303a83a-7bde-475c-b6f6-b3f12d2d0c15.jpg",
+    "images": [
+      "images/2303a83a-7bde-475c-b6f6-b3f12d2d0c15.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-152",
+    "name": "Soft silk -partywear readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 55,
+    "originalPrice": 60,
+    "discountPct": 8,
+    "stockStatus": "SOLD OUT",
+    "image": "images/7627b358-a1a4-47cc-ab6d-6f84374053e3.jpg",
+    "images": [
+      "images/7627b358-a1a4-47cc-ab6d-6f84374053e3.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Margin-34 to 40 \nAlterable \nAvailable in black ,Purple, green. Red  and white shade",
+    "featured": false
+  }
+];

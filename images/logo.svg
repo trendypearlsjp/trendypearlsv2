@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 650" width="600" height="650" fill="none">
+  <defs>
+    <linearGradient id="purpleGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9333EA" />
+      <stop offset="100%" stop-color="#6B21A8" />
+    </linearGradient>
+    <linearGradient id="purpleGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C4B5FD" />
+      <stop offset="100%" stop-color="#A78BFA" />
+    </linearGradient>
+    <linearGradient id="purpleGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E9D5FF" />
+      <stop offset="100%" stop-color="#DDD6FE" />
+    </linearGradient>
+    <linearGradient id="goldTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#FF6B00" />
+    </linearGradient>
+  </defs>
+
+  <!-- Swirling Shell / Petal Body -->
+  <!-- Outer Deep Purple Leaf -->
+  <path d="M 400 20 C 350 40 250 100 200 200 C 140 280 130 380 180 460 C 230 540 330 570 350 570 C 270 540 200 460 210 350 C 220 250 310 130 400 20 Z" fill="url(#purpleGrad1)" />
+
+  <!-- Inner Lavender Swirl -->
+  <path d="M 400 20 C 320 60 280 150 250 250 C 220 350 250 450 330 530 C 260 480 230 380 260 270 C 280 190 350 80 400 20 Z" fill="url(#purpleGrad2)" />
+
+  <!-- Main Bottom Pearl -->
+  <circle cx="330" cy="440" r="75" fill="url(#purpleGrad3)" />
+  <circle cx="330" cy="440" r="12" fill="#FFFFFF" />
+
+  <!-- Middle Floating Pearl -->
+  <circle cx="420" cy="300" r="45" fill="url(#purpleGrad2)" />
+  <circle cx="420" cy="300" r="8" fill="#FFFFFF" />
+
+  <!-- Top Small Floating Pearl -->
+  <circle cx="430" cy="180" r="26" fill="url(#purpleGrad1)" />
+  <circle cx="430" cy="180" r="5" fill="#FFFFFF" />
+
+  <!-- Trendy Pearls Brand Text -->
+  <text x="300" y="630" font-family="'Cinzel', Georgia, 'Dancing Script', serif" font-style="italic" font-size="64" font-weight="bold" fill="#C4B5FD" text-anchor="middle" letter-spacing="1">Trendy Pearls</text>
+</svg>

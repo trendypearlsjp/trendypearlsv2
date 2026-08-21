@@ -1,0 +1,26 @@
+# Trendy Pearls Australia (trendypearls.au)
+
+> Trendy Pearls offers premier ethnic Indian clothing and handcrafted traditional jewellery across Australia.
+
+## Overview
+Trendy Pearls is an Australian online boutique specializing in authentic Indian ethnic fashion and traditional jewellery. We curating high-quality Sarees, Suit Sets, Men's Traditional Wear, Kids Wear, and fine Kundan/Choker Jewellery sets with nationwide delivery across Australia.
+
+## Core Offerings
+- **Ladies Wear**: Premium Soft Organza Sarees, Mul Chanderi 3-Piece Suit Sets, Designer Kurti sets, Georgette & Silk Sarees.
+- **Jewellery**: Handmade Kundan Choker Sets, Adjustable Necklaces, Bridal & Festive Jewellery, Earrings & Accessories.
+- **Mens Wear**: Elegant Kurta Pyjama Sets, Indo-Western Wear, Festive Men's Ethnic Apparel.
+- **Kids Wear**: Traditional Kids Ethnic Wear, Festival & Partywear Outfits for Boys and Girls.
+
+## Business Details
+- **Website**: https://trendypearls.au
+- **Location & Shipping**: Australia-wide delivery with fast local dispatch.
+- **Order Method**: Direct instant order placement & customer service via direct WhatsApp integration (+91 9876543210).
+- **Payment & Receipts**: Automated digital invoice and instant receipt generator.
+
+## Key Links
+- [Homepage](https://trendypearls.au/)
+- [Ladies Wear Collection](https://trendypearls.au/ladies-wear.html)
+- [Jewellery Collection](https://trendypearls.au/jewellery.html)
+- [Mens Wear Collection](https://trendypearls.au/mens-wear.html)
+- [Kids Wear Collection](https://trendypearls.au/kids-wear.html)
+- [Full LLM Knowledge Base](https://trendypearls.au/llms-full.txt)

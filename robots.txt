@@ -1,0 +1,32 @@
+# Robots.txt for https://trendypearls.au
+# Allows full indexing for Search Engines and AI Answer Engines (AEO/GEO)
+
+User-agent: *
+Allow: /
+Disallow: /admin.html
+Disallow: /admin
+Disallow: /admin_server.js
+Disallow: /receipt.html
+Disallow: /data/
+
+# Allow AI & LLM Search Crawlers for Generative Engine Optimization (GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Sitemap & LLM Specification Links
+Sitemap: https://trendypearls.au/sitemap.xml
