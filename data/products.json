@@ -123,9 +123,9 @@
     "name": "Jimukka",
     "category": "Jewellery",
     "subcategory": "Earring",
-    "price": 6,
-    "originalPrice": 10,
-    "discountPct": 40,
+    "price": 9.99,
+    "originalPrice": 13,
+    "discountPct": 23,
     "stockStatus": "INSTOCK",
     "image": "images/e23c987b-36da-4a76-b090-823e2d5d6d7c.jpg",
     "images": [
@@ -721,7 +721,7 @@
     "price": 26,
     "originalPrice": 29,
     "discountPct": 10,
-    "stockStatus": "INSTOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/036ee668-3ec3-4f7c-9636-93d97e51734f.jpg",
     "images": [
       "images/036ee668-3ec3-4f7c-9636-93d97e51734f.jpg",
