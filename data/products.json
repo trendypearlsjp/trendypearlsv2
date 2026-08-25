@@ -4216,5 +4216,56 @@
     "size": "",
     "description": "Limited  stock",
     "featured": false
+  },
+  {
+    "code": "GW-13",
+    "name": "combo",
+    "category": "Mens Wear",
+    "subcategory": "",
+    "price": 66,
+    "originalPrice": 70,
+    "discountPct": 6,
+    "stockStatus": "INSTOCK",
+    "image": "images/0c84e23e-d5e2-407f-955f-051a7f17e7a8.jpg",
+    "images": [
+      "images/0c84e23e-d5e2-407f-955f-051a7f17e7a8.jpg"
+    ],
+    "size": "40",
+    "description": "Limited  stock",
+    "featured": false
+  },
+  {
+    "code": "GW-14",
+    "name": "combo",
+    "category": "Mens Wear",
+    "subcategory": "",
+    "price": 65,
+    "originalPrice": 70,
+    "discountPct": 7,
+    "stockStatus": "INSTOCK",
+    "image": "images/767fa8c0-a970-4817-88db-336fc7c72b0c.jpg",
+    "images": [
+      "images/767fa8c0-a970-4817-88db-336fc7c72b0c.jpg"
+    ],
+    "size": "40",
+    "description": "Limited  stock",
+    "featured": false
+  },
+  {
+    "code": "GW-15",
+    "name": "combo",
+    "category": "Mens Wear",
+    "subcategory": "",
+    "price": 65,
+    "originalPrice": 70,
+    "discountPct": 7,
+    "stockStatus": "INSTOCK",
+    "image": "images/248c5a7c-3b7e-48ff-8eb6-f55e443857f4.jpg",
+    "images": [
+      "images/248c5a7c-3b7e-48ff-8eb6-f55e443857f4.jpg"
+    ],
+    "size": "40",
+    "description": "Limited  stock",
+    "featured": false
   }
 ]
