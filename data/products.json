@@ -4148,5 +4148,73 @@
     "size": "",
     "description": "Available in brown,violet and green shades",
     "featured": false
+  },
+  {
+    "code": "KW-16",
+    "name": "pattupavada",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 49,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/1c3d33b9-d00f-465c-bf66-b8ea3bde3a91.jpg",
+    "images": [
+      "images/1c3d33b9-d00f-465c-bf66-b8ea3bde3a91.jpg"
+    ],
+    "size": "available in different sizes",
+    "description": "Different sizes  available. Limited  stock",
+    "featured": false
+  },
+  {
+    "code": "KW-17",
+    "name": "Pattupavada",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 45,
+    "originalPrice": 49,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/b1b908a9-58cd-4aea-85c6-a4b53e1218fa.jpg",
+    "images": [
+      "images/b1b908a9-58cd-4aea-85c6-a4b53e1218fa.jpg"
+    ],
+    "size": "6 yrs",
+    "description": "Limited  stock",
+    "featured": false
+  },
+  {
+    "code": "LW-158",
+    "name": "saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 55,
+    "originalPrice": 65,
+    "discountPct": 15,
+    "stockStatus": "SOLD OUT",
+    "image": "images/1c394569-ead3-4a6f-b4e6-32da72d74396.jpg",
+    "images": [
+      "images/1c394569-ead3-4a6f-b4e6-32da72d74396.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-159",
+    "name": "mulcotton saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 49,
+    "originalPrice": 55,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/ec5ac18c-0c4e-4511-8a34-6f6d1e17a7fd.jpg",
+    "images": [
+      "images/ec5ac18c-0c4e-4511-8a34-6f6d1e17a7fd.jpg"
+    ],
+    "size": "",
+    "description": "Limited  stock",
+    "featured": false
   }
 ]
