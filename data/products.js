@@ -3890,5 +3890,56 @@ window.BOOTSTRAP_PRODUCTS = [
     "size": "BLOUSE -FREE SIZE",
     "description": "Margin-34 to 40 \nAlterable \nAvailable in black ,Purple, green. Red  and white shade",
     "featured": false
+  },
+  {
+    "code": "LW-153",
+    "name": "saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 62,
+    "originalPrice": 75,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/2c904b61-ff56-49a6-8e90-f1e1a99ca6ff.jpg",
+    "images": [
+      "images/2c904b61-ff56-49a6-8e90-f1e1a99ca6ff.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-154",
+    "name": "off-white saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 68,
+    "originalPrice": 79,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/44aabda1-308b-428a-ae9b-e8096c8aadf1.jpg",
+    "images": [
+      "images/44aabda1-308b-428a-ae9b-e8096c8aadf1.jpg"
+    ],
+    "size": "",
+    "description": "different shades available",
+    "featured": false
+  },
+  {
+    "code": "LW-155",
+    "name": "off-white saree with golden border",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 68,
+    "originalPrice": 74,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/2e7bfdbd-bcaa-42f6-8f7c-2fb8984fc4cc.jpg",
+    "images": [
+      "images/2e7bfdbd-bcaa-42f6-8f7c-2fb8984fc4cc.jpg"
+    ],
+    "size": "",
+    "description": "different shades available",
+    "featured": false
   }
 ];
