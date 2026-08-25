@@ -3941,5 +3941,212 @@
     "size": "",
     "description": "different shades available",
     "featured": false
+  },
+  {
+    "code": "GW-03",
+    "name": "Mundu/Dhothi",
+    "category": "Mens Wear",
+    "subcategory": "",
+    "price": 38,
+    "originalPrice": 46,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/3d348698-2adf-42dc-85c6-aef020860866.jpg",
+    "images": [
+      "images/3d348698-2adf-42dc-85c6-aef020860866.jpg",
+      "images/3ae2f597-597e-468a-9335-882ab72a4fc6.jpg",
+      "images/7666aab4-33e1-42e2-aae4-f8389389469e.jpg"
+    ],
+    "size": "",
+    "description": "Available in white and off-white shades",
+    "featured": false
+  },
+  {
+    "code": "GW-04",
+    "name": "Shirt",
+    "category": "Mens Wear",
+    "subcategory": "",
+    "price": 48,
+    "originalPrice": 50,
+    "discountPct": 4,
+    "stockStatus": "INSTOCK",
+    "image": "images/73fbad63-cbd8-43ad-8fb9-6e7ee9d184f9.jpg",
+    "images": [
+      "images/73fbad63-cbd8-43ad-8fb9-6e7ee9d184f9.jpg"
+    ],
+    "size": "44",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "GW-05",
+    "name": "Shirt and Dhothi  combo",
+    "category": "Mens Wear",
+    "subcategory": "",
+    "price": 65,
+    "originalPrice": 70,
+    "discountPct": 7,
+    "stockStatus": "INSTOCK",
+    "image": "images/56ecb82e-326c-4ba8-bc5b-b9412d3a0e8c.jpg",
+    "images": [
+      "images/56ecb82e-326c-4ba8-bc5b-b9412d3a0e8c.jpg"
+    ],
+    "size": "42",
+    "description": "Limited stock",
+    "featured": false
+  },
+  {
+    "code": "GW-06",
+    "name": "Shirt",
+    "category": "Mens Wear",
+    "subcategory": "",
+    "price": 43,
+    "originalPrice": 52,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/1db824cf-c622-4bb2-90e2-34e22226b725.jpg",
+    "images": [
+      "images/1db824cf-c622-4bb2-90e2-34e22226b725.jpg"
+    ],
+    "size": "42",
+    "description": "Different  shades available. Limited  stock",
+    "featured": false
+  },
+  {
+    "code": "GW-07",
+    "name": "Shirt",
+    "category": "Mens Wear",
+    "subcategory": "",
+    "price": 43,
+    "originalPrice": 54,
+    "discountPct": 20,
+    "stockStatus": "INSTOCK",
+    "image": "images/999e743a-0700-4a90-9331-b13f53a12162.jpg",
+    "images": [
+      "images/999e743a-0700-4a90-9331-b13f53a12162.jpg"
+    ],
+    "size": "42",
+    "description": "Different  shades available. Limited  stock",
+    "featured": false
+  },
+  {
+    "code": "LW-156",
+    "name": "couple combo",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 99,
+    "originalPrice": 115,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/b6f29c53-9976-4ad7-a689-14b8f73a18f9.jpg",
+    "images": [
+      "images/b6f29c53-9976-4ad7-a689-14b8f73a18f9.jpg"
+    ],
+    "size": "shirt 42",
+    "description": "Different  shades available. Limited  stock",
+    "featured": false
+  },
+  {
+    "code": "GW-08",
+    "name": "shirt",
+    "category": "Mens Wear",
+    "subcategory": "",
+    "price": 46,
+    "originalPrice": 53,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/b51d55fe-0cf3-4c14-b7db-5ba57a59337c.jpg",
+    "images": [
+      "images/b51d55fe-0cf3-4c14-b7db-5ba57a59337c.jpg"
+    ],
+    "size": "42",
+    "description": "Limited  stock",
+    "featured": false
+  },
+  {
+    "code": "GW-09",
+    "name": "Shirt",
+    "category": "Mens Wear",
+    "subcategory": "",
+    "price": 44,
+    "originalPrice": 53,
+    "discountPct": 17,
+    "stockStatus": "INSTOCK",
+    "image": "images/b857f5b8-b45e-420d-af23-55a4c3ccbe03.jpg",
+    "images": [
+      "images/b857f5b8-b45e-420d-af23-55a4c3ccbe03.jpg"
+    ],
+    "size": "L and XL",
+    "description": "Limited  stock",
+    "featured": false
+  },
+  {
+    "code": "GW-10",
+    "name": "COMBO",
+    "category": "Mens Wear",
+    "subcategory": "",
+    "price": 66,
+    "originalPrice": 78,
+    "discountPct": 15,
+    "stockStatus": "INSTOCK",
+    "image": "images/90c4faa5-5c03-460b-ac8f-21a1d7bae3d2.jpg",
+    "images": [
+      "images/90c4faa5-5c03-460b-ac8f-21a1d7bae3d2.jpg"
+    ],
+    "size": "40",
+    "description": "Limited  stock",
+    "featured": false
+  },
+  {
+    "code": "GW-11",
+    "name": "COMBO",
+    "category": "Mens Wear",
+    "subcategory": "",
+    "price": 65,
+    "originalPrice": 70,
+    "discountPct": 7,
+    "stockStatus": "INSTOCK",
+    "image": "images/93ea743a-9078-4985-abf9-e8e93079dfe5.jpg",
+    "images": [
+      "images/93ea743a-9078-4985-abf9-e8e93079dfe5.jpg"
+    ],
+    "size": "42",
+    "description": "Limited  stock",
+    "featured": false
+  },
+  {
+    "code": "GW-12",
+    "name": "SHIRT",
+    "category": "Mens Wear",
+    "subcategory": "",
+    "price": 42,
+    "originalPrice": 55,
+    "discountPct": 24,
+    "stockStatus": "INSTOCK",
+    "image": "images/eabeb1e1-4a1e-420c-a5a4-85b855fa7bae.jpg",
+    "images": [
+      "images/eabeb1e1-4a1e-420c-a5a4-85b855fa7bae.jpg"
+    ],
+    "size": "42",
+    "description": "Limited  stock",
+    "featured": false
+  },
+  {
+    "code": "LW-157",
+    "name": "Kanchi cotton",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 58,
+    "originalPrice": 68,
+    "discountPct": 15,
+    "stockStatus": "INSTOCK",
+    "image": "images/414b307c-c59d-4396-ad98-a9becb2c677d.jpg",
+    "images": [
+      "images/414b307c-c59d-4396-ad98-a9becb2c677d.jpg",
+      "images/14bc9be3-b4d3-4dca-89f9-5e68bdbcbb85.jpg"
+    ],
+    "size": "",
+    "description": "Available in brown,violet and green shades",
+    "featured": false
   }
 ]
