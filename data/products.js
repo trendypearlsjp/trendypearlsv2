@@ -4267,5 +4267,39 @@ window.BOOTSTRAP_PRODUCTS = [
     "size": "40",
     "description": "Limited  stock",
     "featured": false
+  },
+  {
+    "code": "GW-16",
+    "name": "short kurtha",
+    "category": "Mens Wear",
+    "subcategory": "",
+    "price": 49,
+    "originalPrice": 58,
+    "discountPct": 16,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/5a87bfc9-537f-4042-add7-4b086d0e7363.jpg",
+    "images": [
+      "images/5a87bfc9-537f-4042-add7-4b086d0e7363.jpg"
+    ],
+    "size": "large",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-160",
+    "name": "saree-partywear",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 100,
+    "originalPrice": 115,
+    "discountPct": 13,
+    "stockStatus": "SOLD OUT",
+    "image": "images/ccb51645-5e50-4bf2-a1ce-c308c3cacd44.jpg",
+    "images": [
+      "images/ccb51645-5e50-4bf2-a1ce-c308c3cacd44.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": true
   }
 ];
