@@ -1944,7 +1944,7 @@
     "price": 100,
     "originalPrice": 120,
     "discountPct": 17,
-    "stockStatus": "INSTOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/214314d6-19d9-4831-9e57-8fca960820d1.jpg",
     "images": [
       "images/214314d6-19d9-4831-9e57-8fca960820d1.jpg"
