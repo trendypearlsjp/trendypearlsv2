@@ -4658,5 +4658,39 @@ window.BOOTSTRAP_PRODUCTS = [
     "size": "L",
     "description": "",
     "featured": false
+  },
+  {
+    "code": "KW-20",
+    "name": "Kids frocks",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 44,
+    "originalPrice": 49,
+    "discountPct": 10,
+    "stockStatus": "INSTOCK",
+    "image": "images/670a9ac3-ae40-4eba-bcd4-34920f53adca.jpg",
+    "images": [
+      "images/670a9ac3-ae40-4eba-bcd4-34920f53adca.jpg"
+    ],
+    "size": "UPTO SIZE 30",
+    "description": "Available in maroon shades also",
+    "featured": false
+  },
+  {
+    "code": "JW-67",
+    "name": "Premium  necklace set",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 42,
+    "originalPrice": 49,
+    "discountPct": 14,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/6dc43f53-551e-4bc6-8bc2-91835fb7bf65.jpg",
+    "images": [
+      "images/6dc43f53-551e-4bc6-8bc2-91835fb7bf65.jpg"
+    ],
+    "size": "",
+    "description": "Matching ear rings available. Limited stock",
+    "featured": false
   }
 ];
