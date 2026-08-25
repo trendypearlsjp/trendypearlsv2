@@ -4505,5 +4505,158 @@
     "size": "",
     "description": "",
     "featured": false
+  },
+  {
+    "code": "LW-173",
+    "name": "Readymade salwar  set",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 71,
+    "originalPrice": 78,
+    "discountPct": 9,
+    "stockStatus": "INSTOCK",
+    "image": "images/67898e22-8611-4727-8a91-20defc8e9b69.jpg",
+    "images": [
+      "images/67898e22-8611-4727-8a91-20defc8e9b69.jpg"
+    ],
+    "size": "L",
+    "description": "semi silk",
+    "featured": false
+  },
+  {
+    "code": "LW-174",
+    "name": "Premium  Blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 49,
+    "originalPrice": 55,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/09f3f54c-e96f-44d0-a875-0bab07c4c51e.jpg",
+    "images": [
+      "images/09f3f54c-e96f-44d0-a875-0bab07c4c51e.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "Alterable, chest margin up to42",
+    "featured": false
+  },
+  {
+    "code": "LW-175",
+    "name": "3 piece readymade churidar",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 69,
+    "originalPrice": 78,
+    "discountPct": 12,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/355f0ed8-3217-49b0-8573-d99749d12142.jpg",
+    "images": [
+      "images/355f0ed8-3217-49b0-8573-d99749d12142.jpg"
+    ],
+    "size": "xl,2xl,3xl",
+    "description": "Mul chanderi fabric",
+    "featured": false
+  },
+  {
+    "code": "JW-65",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 18,
+    "originalPrice": 21.99,
+    "discountPct": 18,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/7281cc57-59cd-4cc1-8b43-4707b71dd599.jpg",
+    "images": [
+      "images/7281cc57-59cd-4cc1-8b43-4707b71dd599.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-66",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 34,
+    "originalPrice": 37,
+    "discountPct": 8,
+    "stockStatus": "INSTOCK",
+    "image": "images/9c8c799b-90fb-419e-b16d-f1e01266c2e6.jpg",
+    "images": [
+      "images/9c8c799b-90fb-419e-b16d-f1e01266c2e6.jpg"
+    ],
+    "size": "",
+    "description": "Nagapadam",
+    "featured": false
+  },
+  {
+    "code": "LW-176",
+    "name": "Kaftan",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 60,
+    "originalPrice": 65,
+    "discountPct": 8,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/77c8ee93-e87e-4fe1-aeed-6b25d83c37e0.jpg",
+    "images": [
+      "images/77c8ee93-e87e-4fe1-aeed-6b25d83c37e0.jpg"
+    ],
+    "size": "38",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-177",
+    "name": "Readymade churidar",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 69,
+    "originalPrice": 78,
+    "discountPct": 12,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/100e031c-c807-4250-869a-dbf5b1e146ca.jpg",
+    "images": [
+      "images/100e031c-c807-4250-869a-dbf5b1e146ca.jpg"
+    ],
+    "size": "Large",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "KW-19",
+    "name": "Pattupavada",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 49,
+    "originalPrice": 55,
+    "discountPct": 11,
+    "stockStatus": "INSTOCK",
+    "image": "images/f21e8160-527b-4f42-87f2-db8556babe98.jpg",
+    "images": [
+      "images/f21e8160-527b-4f42-87f2-db8556babe98.jpg"
+    ],
+    "size": "all sizes available",
+    "description": "upto 9 yrs old",
+    "featured": false
+  },
+  {
+    "code": "GW-17",
+    "name": "Kurtha",
+    "category": "Mens Wear",
+    "subcategory": "",
+    "price": 65,
+    "originalPrice": 78,
+    "discountPct": 17,
+    "stockStatus": "SOLD OUT",
+    "image": "images/85cfde47-871d-4480-a18b-ee96efee03d8.jpg",
+    "images": [
+      "images/85cfde47-871d-4480-a18b-ee96efee03d8.jpg"
+    ],
+    "size": "L",
+    "description": "",
+    "featured": false
   }
 ]
