@@ -4301,5 +4301,226 @@ window.BOOTSTRAP_PRODUCTS = [
     "size": "",
     "description": "",
     "featured": true
+  },
+  {
+    "code": "LW-161",
+    "name": "partywear saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 94,
+    "originalPrice": 100,
+    "discountPct": 6,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/83844d90-bbb5-408a-9704-05b2c4ea1fda.jpg",
+    "images": [
+      "images/83844d90-bbb5-408a-9704-05b2c4ea1fda.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-162",
+    "name": "Readymade blouse",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 44,
+    "originalPrice": 50,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/6943ba73-f434-47bb-9cee-d9f4c37123df.jpg",
+    "images": [
+      "images/6943ba73-f434-47bb-9cee-d9f4c37123df.jpg"
+    ],
+    "size": "BLOUSE -FREE SIZE",
+    "description": "limited stock",
+    "featured": false
+  },
+  {
+    "code": "LW-163",
+    "name": "saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 89,
+    "originalPrice": 95,
+    "discountPct": 6,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/17b30f82-1e01-4599-8a5a-f0c621c031d1.jpg",
+    "images": [
+      "images/17b30f82-1e01-4599-8a5a-f0c621c031d1.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-164",
+    "name": "partywear saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 100,
+    "originalPrice": 115,
+    "discountPct": 13,
+    "stockStatus": "SOLD OUT",
+    "image": "images/5fb9fcb2-48ed-4738-8731-0f10ab0bf5ff.jpg",
+    "images": [
+      "images/5fb9fcb2-48ed-4738-8731-0f10ab0bf5ff.jpg"
+    ],
+    "size": "",
+    "description": "Velvet organza",
+    "featured": false
+  },
+  {
+    "code": "LW-165",
+    "name": "saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 79,
+    "originalPrice": 86,
+    "discountPct": 8,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/d1cdd26b-84ed-4b21-b40c-95248903dd5f.jpg",
+    "images": [
+      "images/d1cdd26b-84ed-4b21-b40c-95248903dd5f.jpg"
+    ],
+    "size": "",
+    "description": "semi tusser silk",
+    "featured": false
+  },
+  {
+    "code": "LW-166",
+    "name": "saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 74,
+    "originalPrice": 89,
+    "discountPct": 17,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/74c75bb4-cc72-4f70-8fa1-7892675a9e2a.jpg",
+    "images": [
+      "images/74c75bb4-cc72-4f70-8fa1-7892675a9e2a.jpg"
+    ],
+    "size": "",
+    "description": "Semi tusser silk",
+    "featured": false
+  },
+  {
+    "code": "LW-167",
+    "name": "saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 79,
+    "originalPrice": 90,
+    "discountPct": 12,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/b5229bc7-e36f-4de6-b982-d7693b07d0bd.jpg",
+    "images": [
+      "images/b5229bc7-e36f-4de6-b982-d7693b07d0bd.jpg"
+    ],
+    "size": "",
+    "description": "Semi tusser silk",
+    "featured": false
+  },
+  {
+    "code": "LW-168",
+    "name": "saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 76,
+    "originalPrice": 89,
+    "discountPct": 15,
+    "stockStatus": "INSTOCK",
+    "image": "images/f0ede5dc-b458-494d-b1ff-c29afef6c669.jpg",
+    "images": [
+      "images/f0ede5dc-b458-494d-b1ff-c29afef6c669.jpg"
+    ],
+    "size": "",
+    "description": "Semi tusser silk",
+    "featured": false
+  },
+  {
+    "code": "LW-169",
+    "name": "saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 55,
+    "originalPrice": 65,
+    "discountPct": 15,
+    "stockStatus": "SOLD OUT",
+    "image": "images/0d12ea0b-d8d1-4650-ad23-e09bfa797cd9.jpg",
+    "images": [
+      "images/0d12ea0b-d8d1-4650-ad23-e09bfa797cd9.jpg"
+    ],
+    "size": "",
+    "description": "Raga tissue saree",
+    "featured": false
+  },
+  {
+    "code": "LW-170",
+    "name": "saree",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 75,
+    "originalPrice": 89,
+    "discountPct": 16,
+    "stockStatus": "LIMITED STOCK",
+    "image": "images/e52500cd-caca-4aad-8061-02391d42dc77.jpg",
+    "images": [
+      "images/e52500cd-caca-4aad-8061-02391d42dc77.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "LW-171",
+    "name": "chikankary Rayon  ready made set",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 75,
+    "originalPrice": 79,
+    "discountPct": 5,
+    "stockStatus": "SOLD OUT",
+    "image": "images/65957e11-c6e3-44f8-836f-a61d5f5b2368.jpg",
+    "images": [
+      "images/65957e11-c6e3-44f8-836f-a61d5f5b2368.jpg"
+    ],
+    "size": "large",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "KW-18",
+    "name": "Pattupavada",
+    "category": "Kids Wear",
+    "subcategory": "",
+    "price": 48,
+    "originalPrice": 55,
+    "discountPct": 13,
+    "stockStatus": "INSTOCK",
+    "image": "images/55a2ce11-3c68-4b77-b590-4b78bf8e5135.jpg",
+    "images": [
+      "images/55a2ce11-3c68-4b77-b590-4b78bf8e5135.jpg"
+    ],
+    "size": "all sizes available",
+    "description": "different sizes available until 10 yrs",
+    "featured": false
+  },
+  {
+    "code": "LW-172",
+    "name": "Davani",
+    "category": "Ladies Wear",
+    "subcategory": "",
+    "price": 100,
+    "originalPrice": 115,
+    "discountPct": 13,
+    "stockStatus": "SOLD OUT",
+    "image": "images/14ca9b4e-1a9e-4cb6-8c3c-6eaf3d1944ca.jpg",
+    "images": [
+      "images/14ca9b4e-1a9e-4cb6-8c3c-6eaf3d1944ca.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
   }
 ];
