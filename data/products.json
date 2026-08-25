@@ -3933,7 +3933,7 @@
     "price": 68,
     "originalPrice": 74,
     "discountPct": 8,
-    "stockStatus": "INSTOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/2e7bfdbd-bcaa-42f6-8f7c-2fb8984fc4cc.jpg",
     "images": [
       "images/2e7bfdbd-bcaa-42f6-8f7c-2fb8984fc4cc.jpg"
@@ -4385,23 +4385,6 @@
     ],
     "size": "",
     "description": "semi tusser silk",
-    "featured": false
-  },
-  {
-    "code": "LW-166",
-    "name": "saree",
-    "category": "Ladies Wear",
-    "subcategory": "",
-    "price": 74,
-    "originalPrice": 89,
-    "discountPct": 17,
-    "stockStatus": "LIMITED STOCK",
-    "image": "images/74c75bb4-cc72-4f70-8fa1-7892675a9e2a.jpg",
-    "images": [
-      "images/74c75bb4-cc72-4f70-8fa1-7892675a9e2a.jpg"
-    ],
-    "size": "",
-    "description": "Semi tusser silk",
     "featured": false
   },
   {
