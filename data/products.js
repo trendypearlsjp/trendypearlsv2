@@ -287,9 +287,9 @@ window.BOOTSTRAP_PRODUCTS = [
     "name": "Royal Green Brocade Blouse",
     "category": "Ladies Wear",
     "subcategory": "",
-    "price": 42,
+    "price": 45,
     "originalPrice": 56,
-    "discountPct": 25,
+    "discountPct": 20,
     "stockStatus": "INSTOCK",
     "image": "images/1c6eb980-39da-4172-b041-8c6e03ffd5c7.jpg",
     "images": [
@@ -1493,7 +1493,7 @@ window.BOOTSTRAP_PRODUCTS = [
     "price": 76,
     "originalPrice": 85,
     "discountPct": 11,
-    "stockStatus": "INSTOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/89d9133d-adf4-4bc7-a9db-0fc8aa5517ee.jpg",
     "images": [
       "images/89d9133d-adf4-4bc7-a9db-0fc8aa5517ee.jpg"
@@ -2060,9 +2060,9 @@ window.BOOTSTRAP_PRODUCTS = [
     "name": "sarees",
     "category": "Ladies Wear",
     "subcategory": "",
-    "price": 54,
-    "originalPrice": 65,
-    "discountPct": 17,
+    "price": 68,
+    "originalPrice": 74,
+    "discountPct": 8,
     "stockStatus": "INSTOCK",
     "image": "images/f697d427-c6b5-401e-bedc-f2b044a25d48.jpg",
     "images": [
@@ -3916,7 +3916,7 @@ window.BOOTSTRAP_PRODUCTS = [
     "price": 68,
     "originalPrice": 79,
     "discountPct": 14,
-    "stockStatus": "INSTOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/44aabda1-308b-428a-ae9b-e8096c8aadf1.jpg",
     "images": [
       "images/44aabda1-308b-428a-ae9b-e8096c8aadf1.jpg"
