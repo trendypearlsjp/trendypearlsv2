@@ -1561,7 +1561,7 @@
     "price": 99,
     "originalPrice": 110,
     "discountPct": 10,
-    "stockStatus": "INSTOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/ec788d2b-6b6c-4be7-bd78-9caa1d2ab367.jpg",
     "images": [
       "images/ec788d2b-6b6c-4be7-bd78-9caa1d2ab367.jpg"
@@ -3845,9 +3845,9 @@
     "name": "Heavy party wear saree",
     "category": "Ladies Wear",
     "subcategory": "",
-    "price": 100,
-    "originalPrice": 112,
-    "discountPct": 11,
+    "price": 110,
+    "originalPrice": 125,
+    "discountPct": 12,
     "stockStatus": "INSTOCK",
     "image": "images/39128393-7ce4-4ce2-95ab-99f06abc7b32.jpg",
     "images": [
@@ -4208,7 +4208,7 @@
     "price": 49,
     "originalPrice": 55,
     "discountPct": 11,
-    "stockStatus": "INSTOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/ec5ac18c-0c4e-4511-8a34-6f6d1e17a7fd.jpg",
     "images": [
       "images/ec5ac18c-0c4e-4511-8a34-6f6d1e17a7fd.jpg"
@@ -4242,7 +4242,7 @@
     "price": 65,
     "originalPrice": 70,
     "discountPct": 7,
-    "stockStatus": "INSTOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/767fa8c0-a970-4817-88db-336fc7c72b0c.jpg",
     "images": [
       "images/767fa8c0-a970-4817-88db-336fc7c72b0c.jpg"
