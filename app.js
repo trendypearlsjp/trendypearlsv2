@@ -29,7 +29,7 @@ const CONFIG = {
     currency: "A$",
     itemsPerPage: 24,
     // Direct Google Sheets Auto-Sync Endpoint (Submits orders directly into Google Sheet)
-    googleSheetUrl: "https://script.google.com/macros/s/YOUR_GOOGLE_APPS_SCRIPT_WEBAPP_ID/exec"
+    googleSheetUrl: "https://script.google.com/macros/s/AKfycbzcztxLGvu1SkuqGNyvEAtctzAivG2LXZF-VRQVeUv0C2grPOA6rNRfenS02QCHqpp9/exec"
 };
 
 // Global Application State
