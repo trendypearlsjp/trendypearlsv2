@@ -1,6 +1,27 @@
-/**
- * WeTrail Boutique Store - Client-Side App
- */
+// Clean URL Bar: Automatically strips .html and index.html from browser address bar
+(function cleanUrlBar() {
+    try {
+        if (typeof window === "undefined" || !window.history || !window.history.replaceState) return;
+        const path = window.location.pathname;
+        let cleanPath = null;
+
+        if (path.endsWith('/index.html')) {
+            cleanPath = path.replace(/\/index\.html$/, '/');
+        } else if (path.endsWith('/ladies-wear.html')) {
+            cleanPath = path.replace(/\/ladies-wear\.html$/, '/ladieswear');
+        } else if (path.endsWith('/jewellery.html')) {
+            cleanPath = path.replace(/\/jewellery\.html$/, '/jewellery');
+        } else if (path.endsWith('/kids-wear.html')) {
+            cleanPath = path.replace(/\/kids-wear\.html$/, '/kidswear');
+        } else if (path.endsWith('/mens-wear.html')) {
+            cleanPath = path.replace(/\/mens-wear\.html$/, '/menswear');
+        }
+
+        if (cleanPath && cleanPath !== path) {
+            window.history.replaceState(null, '', cleanPath + window.location.search + window.location.hash);
+        }
+    } catch (e) {}
+})();
 
 const CONFIG = {
     // Replace with your shop owner's WhatsApp number (country code + phone number)

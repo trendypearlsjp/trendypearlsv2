@@ -167,8 +167,8 @@
         }
     </style>
 <script>window.PAGE_CATEGORY = "All";</script>
-<script src="data/products.js?v=14.0.0"></script>
-<script src="app.js?v=14.0.0" defer></script>
+<script src="data/products.js?v=15.0.0"></script>
+<script src="app.js?v=15.0.0" defer></script>
 </head>
 <body class="bg-background text-on-background font-body-md overflow-x-hidden ">
 
@@ -183,11 +183,11 @@
             <span class="material-symbols-outlined text-slate-400 text-sm mr-2">search</span>
             <input id="nav-search-input" type="text" placeholder="Search product code..." class="bg-transparent border-none outline-none text-xs text-slate-800 placeholder:text-slate-400 w-32 md:w-44">
         </div>
-        <a href="index.html" class="text-slate-700 hover:text-amber-700 transition-colors text-sm tracking-wider uppercase font-semibold">Home</a>
-        <a href="ladies-wear.html" class="text-slate-700 hover:text-amber-700 transition-colors text-sm tracking-wider uppercase font-semibold">Ladies</a>
-        <a href="mens-wear.html" class="text-slate-700 hover:text-amber-700 transition-colors text-sm tracking-wider uppercase font-semibold">Mens</a>
-        <a href="kids-wear.html" class="text-slate-700 hover:text-amber-700 transition-colors text-sm tracking-wider uppercase font-semibold">Kids</a>
-        <a href="jewellery.html" class="text-slate-700 hover:text-amber-700 transition-colors text-sm tracking-wider uppercase font-semibold">Jewellery</a>
+        <a href="./" class="text-slate-700 hover:text-amber-700 transition-colors text-sm tracking-wider uppercase font-semibold">Home</a>
+        <a href="ladieswear" class="text-slate-700 hover:text-amber-700 transition-colors text-sm tracking-wider uppercase font-semibold">Ladies</a>
+        <a href="menswear" class="text-slate-700 hover:text-amber-700 transition-colors text-sm tracking-wider uppercase font-semibold">Mens</a>
+        <a href="kidswear" class="text-slate-700 hover:text-amber-700 transition-colors text-sm tracking-wider uppercase font-semibold">Kids</a>
+        <a href="jewellery" class="text-slate-700 hover:text-amber-700 transition-colors text-sm tracking-wider uppercase font-semibold">Jewellery</a>
         <a href="https://wa.me/61461522439" target="_blank" class="bg-amber-600 hover:bg-amber-700 text-white px-5 py-2 rounded-full transition-all shadow-sm text-xs tracking-wider uppercase font-bold flex items-center gap-2">
             <span class="material-symbols-outlined text-sm">chat</span> WhatsApp
         </a>
@@ -253,7 +253,7 @@
 </div>
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
     <!-- Jewellery -->
-    <a href="jewellery.html" class="relative h-[400px] rounded-[2rem] overflow-hidden group border border-slate-200 shadow-xl hover:shadow-2xl transition-all duration-500 block">
+    <a href="jewellery" class="relative h-[400px] rounded-[2rem] overflow-hidden group border border-slate-200 shadow-xl hover:shadow-2xl transition-all duration-500 block">
         <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('images/4.jpeg')"></div>
         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent"></div>
         <div class="absolute bottom-0 left-0 right-0 p-7 text-white">
@@ -262,7 +262,7 @@
         </div>
     </a>
     <!-- Ladies Wear -->
-    <a href="ladies-wear.html" class="relative h-[400px] rounded-[2rem] overflow-hidden group border border-slate-200 shadow-xl hover:shadow-2xl transition-all duration-500 block">
+    <a href="ladieswear" class="relative h-[400px] rounded-[2rem] overflow-hidden group border border-slate-200 shadow-xl hover:shadow-2xl transition-all duration-500 block">
         <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('images/ladies_thumb.jpg')"></div>
         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent"></div>
         <div class="absolute bottom-0 left-0 right-0 p-7 text-white">
@@ -271,7 +271,7 @@
         </div>
     </a>
     <!-- Kids Wear -->
-    <a href="kids-wear.html" class="relative h-[400px] rounded-[2rem] overflow-hidden group border border-slate-200 shadow-xl hover:shadow-2xl transition-all duration-500 block">
+    <a href="kidswear" class="relative h-[400px] rounded-[2rem] overflow-hidden group border border-slate-200 shadow-xl hover:shadow-2xl transition-all duration-500 block">
         <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('images/kids_thumb.jpg')"></div>
         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent"></div>
         <div class="absolute bottom-0 left-0 right-0 p-7 text-white">
@@ -280,7 +280,7 @@
         </div>
     </a>
     <!-- Mens Wear -->
-    <a href="mens-wear.html" class="relative h-[400px] rounded-[2rem] overflow-hidden group border border-slate-200 shadow-xl hover:shadow-2xl transition-all duration-500 block">
+    <a href="menswear" class="relative h-[400px] rounded-[2rem] overflow-hidden group border border-slate-200 shadow-xl hover:shadow-2xl transition-all duration-500 block">
         <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('images/10.jpeg')"></div>
         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent"></div>
         <div class="absolute bottom-0 left-0 right-0 p-7 text-white">
@@ -539,11 +539,11 @@
 <!-- Mobile Bottom NavBar -->
 
 <nav class="md:hidden fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-slate-200 z-40 px-4 py-2 flex justify-around items-center shadow-lg">
-    <a href="index.html" class="flex flex-col items-center text-slate-600 hover:text-amber-700">
+    <a href="./" class="flex flex-col items-center text-slate-600 hover:text-amber-700">
         <span class="material-symbols-outlined text-xl">home</span>
         <span class="text-[10px] font-bold uppercase tracking-wider mt-0.5">Home</span>
     </a>
-    <a href="ladies-wear.html" class="flex flex-col items-center text-slate-600 hover:text-amber-700">
+    <a href="ladieswear" class="flex flex-col items-center text-slate-600 hover:text-amber-700">
         <span class="material-symbols-outlined text-xl">sticker</span>
         <span class="text-[10px] font-bold uppercase tracking-wider mt-0.5">Ladies</span>
     </a>
