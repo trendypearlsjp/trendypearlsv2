@@ -869,6 +869,46 @@ function resetFilters() {
 let currentModalImgList = [];
 let currentModalImgIdx = 0;
 
+function injectProductSchema(item) {
+    if (!item) return;
+    let schemaEl = document.getElementById("product-schema-jsonld");
+    if (!schemaEl) {
+        schemaEl = document.createElement("script");
+        schemaEl.id = "product-schema-jsonld";
+        schemaEl.type = "application/ld+json";
+        document.head.appendChild(schemaEl);
+    }
+    const imgs = (item.images && item.images.length > 0) 
+        ? item.images.map(img => img.startsWith("http") ? img : "https://trendypearls.au/" + img.replace(/^\//, ""))
+        : ["https://trendypearls.au/" + (item.image || "images/placeholder.svg").replace(/^\//, "")];
+    
+    const schemaData = {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": item.name + " | Indian Fashion Australia",
+        "image": imgs,
+        "description": item.description || (item.name + " - Authentic Indian ethnic fashion and jewellery available in Australia from Trendy Pearls."),
+        "sku": item.code,
+        "brand": {
+            "@type": "Brand",
+            "name": "Trendy Pearls"
+        },
+        "offers": {
+            "@type": "Offer",
+            "url": window.location.href,
+            "priceCurrency": "AUD",
+            "price": item.price,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": (item.stockStatus === "SOLD OUT") ? "https://schema.org/OutOfStock" : "https://schema.org/InStock",
+            "seller": {
+                "@type": "Organization",
+                "name": "Trendy Pearls Australia"
+            }
+        }
+    };
+    schemaEl.textContent = JSON.stringify(schemaData, null, 2);
+}
+
 // Modal handling
 function openModal(code) {
     const item = catalog.find(p => p.code === code);
@@ -876,6 +916,9 @@ function openModal(code) {
 
     selectedModalProduct = item;
     selectedSizeForModal = item.size || "Standard";
+    
+    // Inject dynamic Product & Offer Schema for Google Structured Data
+    injectProductSchema(item);
     
     currentModalImgList = (item.images && item.images.length > 0) ? item.images : [item.image || 'images/placeholder.svg'];
     currentModalImgIdx = 0;
