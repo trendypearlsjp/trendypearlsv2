@@ -97,14 +97,14 @@ const DEFAULT_CATALOG = [
     },
     {
         code: "JW-201",
-        name: "Royal Kundan Choker Jewelry Set",
+        name: "Royal Choker Jewelry Set",
         category: "Jewelry",
         price: 1899,
         originalPrice: 2999,
         discountPct: 37,
         stockStatus: "In Stock",
         image: "images/3d_kundan_jewelry.jpg",
-        description: "Handcrafted antique gold Kundan choker necklace set with matching earrings.",
+        description: "Handcrafted antique gold choker necklace set with matching earrings.",
         featured: true
     },
     {
