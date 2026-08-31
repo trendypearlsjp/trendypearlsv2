@@ -28,15 +28,8 @@ const CONFIG = {
     whatsappNumber: "61461522439",
     currency: "A$",
     itemsPerPage: 24,
-    // Silent Google Form Auto-Sync Endpoint (Captures orders even if client doesn't send WhatsApp message)
-    googleFormUrl: "https://docs.google.com/forms/u/0/d/e/YOUR_GOOGLE_FORM_ID/formResponse",
-    googleFormEntries: {
-        customerName: "entry.1000001",
-        customerPhone: "entry.1000002",
-        customerAddress: "entry.1000003",
-        orderDetails: "entry.1000004",
-        totalAmount: "entry.1000005"
-    }
+    // Direct Google Sheets Auto-Sync Endpoint (Submits orders directly into Google Sheet)
+    googleSheetUrl: "https://script.google.com/macros/s/YOUR_GOOGLE_APPS_SCRIPT_WEBAPP_ID/exec"
 };
 
 // Global Application State
@@ -1411,9 +1404,9 @@ function submitOrder(e) {
 
     localStorage.setItem("tp_last_order", JSON.stringify(orderObj));
 
-    // SILENT AUTO-SYNC: Send all details to Google Form & Backup Storage in the background
-    // (Ensures order is captured even if customer forgets to send WhatsApp message!)
-    sendOrderToGoogleForm(orderObj);
+    // SILENT AUTO-SYNC: Send all order details directly to Google Sheets & Backup Storage
+    // (Ensures order is captured in Google Sheet even if customer forgets to send WhatsApp message!)
+    sendOrderToGoogleSheet(orderObj);
 
     // Construct Receipt Link
     const baseUrl = window.location.href.split('?')[0].replace(/\/[^\/]*$/, '/');
@@ -1438,38 +1431,40 @@ function submitOrder(e) {
     window.location.href = waUrl;
 }
 
-// Background Silent Auto-Sync for Orders (Google Form & Backup Storage)
-function sendOrderToGoogleForm(orderObj) {
+// Direct Google Sheets Auto-Sync for Orders (Background Post directly to Google Sheet)
+function sendOrderToGoogleSheet(orderObj) {
     if (!orderObj) return;
 
     try {
-        const itemSummary = (orderObj.items || []).map(i => `${i.name} (Code: ${i.code || '-'}, Size: ${i.selectedSize || i.size || 'Standard'}, Qty: ${i.quantity || 1}, Price: A$${i.price})`).join("; ");
+        const itemSummary = (orderObj.items || []).map(i => `${i.name} [Code: ${i.code || '-'}, Size: ${i.selectedSize || i.size || 'Standard'}, Qty: ${i.quantity || 1}, Price: A$${i.price}]`).join("; ");
         const fullAddress = `${orderObj.customerAddress || ''}, ${orderObj.customerCity || ''} ${orderObj.customerPostcode || ''}`.trim();
         const timestamp = new Date().toLocaleString();
 
-        // 1. Permanent Browser Storage Backup (Logs ALL orders submitted on device)
+        const sheetPayload = {
+            orderId: orderObj.orderId || '',
+            date: timestamp,
+            customerName: orderObj.customerName || '',
+            customerPhone: orderObj.customerPhone || '',
+            customerAddress: fullAddress,
+            orderDetails: itemSummary,
+            totalAmount: "A$" + (orderObj.total || 0).toFixed(2)
+        };
+
+        // 1. Direct POST to Google Sheets Web App Endpoint
+        if (CONFIG.googleSheetUrl && !CONFIG.googleSheetUrl.includes("YOUR_GOOGLE_APPS_SCRIPT_WEBAPP_ID")) {
+            fetch(CONFIG.googleSheetUrl, {
+                method: "POST",
+                mode: "no-cors",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(sheetPayload)
+            }).catch(err => console.log("Google Sheets background sync notice:", err));
+        }
+
+        // 2. Permanent Browser Storage Backup (Logs ALL orders submitted on device)
         const allOrders = JSON.parse(localStorage.getItem("tp_all_orders") || "[]");
         if (!allOrders.some(o => o.orderId === orderObj.orderId)) {
             allOrders.push({ ...orderObj, timestamp, status: "Submitted" });
             localStorage.setItem("tp_all_orders", JSON.stringify(allOrders));
-        }
-
-        // 2. Google Form / Webhook Submit (Silent Background POST)
-        if (CONFIG.googleFormUrl && !CONFIG.googleFormUrl.includes("YOUR_GOOGLE_FORM_ID")) {
-            const formData = new FormData();
-            if (CONFIG.googleFormEntries) {
-                if (CONFIG.googleFormEntries.customerName) formData.append(CONFIG.googleFormEntries.customerName, orderObj.customerName || "");
-                if (CONFIG.googleFormEntries.customerPhone) formData.append(CONFIG.googleFormEntries.customerPhone, orderObj.customerPhone || "");
-                if (CONFIG.googleFormEntries.customerAddress) formData.append(CONFIG.googleFormEntries.customerAddress, fullAddress);
-                if (CONFIG.googleFormEntries.orderDetails) formData.append(CONFIG.googleFormEntries.orderDetails, `Order #: ${orderObj.orderId} | Items: ${itemSummary}`);
-                if (CONFIG.googleFormEntries.totalAmount) formData.append(CONFIG.googleFormEntries.totalAmount, "A$" + (orderObj.total || 0).toFixed(2));
-            }
-
-            fetch(CONFIG.googleFormUrl, {
-                method: "POST",
-                mode: "no-cors",
-                body: formData
-            }).catch(err => console.log("Google Form background sync notice:", err));
         }
 
         // 3. Local Admin Server Backup (if running)
@@ -1480,7 +1475,7 @@ function sendOrderToGoogleForm(orderObj) {
         }).catch(() => {});
 
     } catch (e) {
-        console.error("Error logging background order:", e);
+        console.error("Error logging background order to Google Sheets:", e);
     }
 }
 
