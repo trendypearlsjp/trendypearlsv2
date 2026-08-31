@@ -1859,7 +1859,7 @@ window.BOOTSTRAP_PRODUCTS = [
     "price": 56,
     "originalPrice": 65,
     "discountPct": 14,
-    "stockStatus": "INSTOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/fcb23416-b8c6-4f32-864d-102539548426.jpg",
     "images": [
       "images/fcb23416-b8c6-4f32-864d-102539548426.jpg"
