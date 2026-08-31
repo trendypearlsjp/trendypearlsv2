@@ -288,6 +288,43 @@ app.post('/api/publish', (req, res) => {
     });
 });
 
+const ORDERS_JSON = path.join(__dirname, 'data', 'orders.json');
+
+// API: Save incoming customer order (Silent Background Sync)
+app.post('/api/save-order', (req, res) => {
+    try {
+        const orderData = req.body;
+        if (!orderData || !orderData.orderId) {
+            return res.status(400).json({ error: 'Invalid order data' });
+        }
+        let orders = [];
+        if (fs.existsSync(ORDERS_JSON)) {
+            try {
+                orders = JSON.parse(fs.readFileSync(ORDERS_JSON, 'utf-8'));
+            } catch(e){}
+        }
+        if (!orders.some(o => o.orderId === orderData.orderId)) {
+            orders.unshift(orderData);
+            fs.writeFileSync(ORDERS_JSON, JSON.stringify(orders, null, 2), 'utf-8');
+            console.log(`[ORDER LOGGED] New order captured: ${orderData.orderId} for ${orderData.customerName} (${orderData.customerPhone})`);
+        }
+        res.json({ success: true, count: orders.length });
+    } catch(err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+// API: Get all captured orders
+app.get('/api/orders', (req, res) => {
+    try {
+        if (fs.existsSync(ORDERS_JSON)) {
+            const orders = JSON.parse(fs.readFileSync(ORDERS_JSON, 'utf-8'));
+            return res.json(orders);
+        }
+    } catch(e){}
+    res.json([]);
+});
+
 function startServer(p) {
     const server = app.listen(p, () => {
         console.log(`===================================================`);
