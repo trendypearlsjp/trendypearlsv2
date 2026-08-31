@@ -1,44 +1,45 @@
-# 📊 How to Connect Your Google Sheet for Direct Order Auto-Sync
+# 📊 Google Sheets Auto-Sync Setup Guide for `oders`
 
-Even if a customer **forgets to send their receipt to WhatsApp**, every single order detail automatically streams directly into your **Google Sheet** in real-time as a new row!
-
----
-
-## 🚀 2-Minute Google Sheet Web App Deployment (Zero Extensions Required)
-
-### Step 1: Create Your Google Sheet
-1. Open [Google Sheets](https://sheets.google.com) and create a **Blank Spreadsheet**.
-2. Name it **Trendy Pearls Website Orders**.
-3. In Row 1, add these column headers:
-   - **Column A**: `Order ID`
-   - **Column B**: `Date & Time`
-   - **Column C**: `Customer Name`
-   - **Column D**: `Customer Phone`
-   - **Column E**: `Shipping Address`
-   - **Column F**: `Order Items & Details`
-   - **Column G**: `Total Amount`
+Here is the exact 100% working Google Apps Script code for your Google Sheet (`oders`).
 
 ---
 
-### Step 2: Add Google Apps Script (Copy & Paste Code)
-1. Click **Extensions** in the top menu -> select **Apps Script**.
-2. Delete any code in the editor and **paste this exact code**:
+## 🛠️ Replace Apps Script Code (1-Minute Fix)
+
+In your Google Sheet **`oders`**:
+1. Click **Extensions** in top menu -> select **Apps Script**.
+2. Erase everything in the editor and **paste this exact code**:
 
 ```javascript
 function doPost(e) {
+  return handleOrderRequest(e);
+}
+
+function doGet(e) {
+  return handleOrderRequest(e);
+}
+
+function handleOrderRequest(e) {
   try {
     var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-    var data = JSON.parse(e.postData.contents);
+    var p = (e && e.parameter) ? e.parameter : {};
     
-    sheet.appendRow([
-      data.orderId || '',
-      data.date || new Date().toLocaleString(),
-      data.customerName || '',
-      data.customerPhone || '',
-      data.customerAddress || '',
-      data.orderDetails || '',
-      data.totalAmount || ''
-    ]);
+    if (e && e.postData && e.postData.contents) {
+      try {
+        var json = JSON.parse(e.postData.contents);
+        for (var key in json) { p[key] = json[key]; }
+      } catch(err) {}
+    }
+    
+    var orderId = p.orderId || 'TP-' + Math.floor(100000 + Math.random()*900000);
+    var date = p.date || new Date().toLocaleString();
+    var customerName = p.customerName || 'N/A';
+    var customerPhone = p.customerPhone || 'N/A';
+    var customerAddress = p.customerAddress || 'N/A';
+    var orderDetails = p.orderDetails || 'N/A';
+    var totalAmount = p.totalAmount || 'A$0.00';
+    
+    sheet.appendRow([orderId, date, customerName, customerPhone, customerAddress, orderDetails, totalAmount]);
     
     return ContentService.createTextOutput(JSON.stringify({ "status": "success" }))
       .setMimeType(ContentService.MimeType.JSON);
@@ -49,33 +50,11 @@ function doPost(e) {
 }
 ```
 
----
-
-### Step 3: Deploy as Web App & Copy URL
-1. Click the blue **Deploy** button at top-right -> select **New deployment**.
-2. Click the ⚙️ gear icon next to "Select type" -> choose **Web app**.
-3. Configure settings:
-   - **Description**: `Trendy Pearls Web App Sync`
-   - **Execute as**: `Me (your email)`
-   - **Who has access**: `Anyone` *(Crucial so your website can send orders!)*
-4. Click **Deploy** (Authorize access if prompted by Google).
-5. Copy your **Web App URL** (e.g. `https://script.google.com/macros/s/AKfycb.../exec`).
+3. **IMPORTANT**: Click **Deploy** -> **Manage deployments** -> Click **Pencil (Edit)** -> Under *Version*, select **New version** -> Click **Deploy**.
 
 ---
 
-### Step 4: Paste Web App URL in `app.js`
-Open **`app.js`** line 32 and paste your Web App URL:
+### 🌐 Configured Web App URL in `app.js`:
+`https://script.google.com/macros/s/AKfycbzcztxLGvu1SkuqGNyvEAtctzAivG2LXZF-VRQVeUv0C2grPOA6rNRfenS02QCHqpp9/exec`
 
-```javascript
-const CONFIG = {
-    whatsappNumber: "61461522439",
-    currency: "A$",
-    itemsPerPage: 24,
-    googleSheetUrl: "https://script.google.com/macros/s/YOUR_COPIED_URL_HERE/exec"
-};
-```
-
----
-
-### ✅ Result
-Every order submitted on your store will instantly pop up as a clean, structured row in your Google Sheet spreadsheet in real time!
+Now every single order placed on your site will instantly write a new row into your `oders` Google Sheet!

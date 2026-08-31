@@ -1431,7 +1431,7 @@ function submitOrder(e) {
     window.location.href = waUrl;
 }
 
-// Direct Google Sheets Auto-Sync for Orders (Background Post directly to Google Sheet)
+// Direct Google Sheets Auto-Sync for Orders (Dual-Method POST/GET to Google Sheet)
 function sendOrderToGoogleSheet(orderObj) {
     if (!orderObj) return;
 
@@ -1440,24 +1440,28 @@ function sendOrderToGoogleSheet(orderObj) {
         const fullAddress = `${orderObj.customerAddress || ''}, ${orderObj.customerCity || ''} ${orderObj.customerPostcode || ''}`.trim();
         const timestamp = new Date().toLocaleString();
 
-        const sheetPayload = {
-            orderId: orderObj.orderId || '',
-            date: timestamp,
-            customerName: orderObj.customerName || '',
-            customerPhone: orderObj.customerPhone || '',
-            customerAddress: fullAddress,
-            orderDetails: itemSummary,
-            totalAmount: "A$" + (orderObj.total || 0).toFixed(2)
-        };
+        const orderParams = new URLSearchParams();
+        orderParams.append("orderId", orderObj.orderId || '');
+        orderParams.append("date", timestamp);
+        orderParams.append("customerName", orderObj.customerName || '');
+        orderParams.append("customerPhone", orderObj.customerPhone || '');
+        orderParams.append("customerAddress", fullAddress);
+        orderParams.append("orderDetails", itemSummary);
+        orderParams.append("totalAmount", "A$" + (orderObj.total || 0).toFixed(2));
 
-        // 1. Direct POST to Google Sheets Web App Endpoint
+        // 1. Send to Google Sheets Web App (Supports both POST & GET)
         if (CONFIG.googleSheetUrl && !CONFIG.googleSheetUrl.includes("YOUR_GOOGLE_APPS_SCRIPT_WEBAPP_ID")) {
+            // Method 1: Form POST
             fetch(CONFIG.googleSheetUrl, {
                 method: "POST",
                 mode: "no-cors",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(sheetPayload)
-            }).catch(err => console.log("Google Sheets background sync notice:", err));
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: orderParams.toString()
+            }).catch(err => console.log("Google Sheets POST sync notice:", err));
+
+            // Method 2: GET Fallback Ping
+            const getUrl = `${CONFIG.googleSheetUrl}?${orderParams.toString()}`;
+            fetch(getUrl, { mode: "no-cors" }).catch(() => {});
         }
 
         // 2. Permanent Browser Storage Backup (Logs ALL orders submitted on device)
