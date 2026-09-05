@@ -4692,5 +4692,76 @@
     "size": "",
     "description": "Matching ear rings available. Limited stock",
     "featured": false
+  },
+  {
+    "code": "JW-68",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 26,
+    "originalPrice": 28,
+    "discountPct": 7,
+    "stockStatus": "INSTOCK",
+    "image": "images/d89f547f-6318-4301-abd2-ce3a5ba2b413.jpg",
+    "images": [
+      "images/d89f547f-6318-4301-abd2-ce3a5ba2b413.jpg",
+      "images/f2ce700f-48b4-43f6-a6cb-61a36e8f7630.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-69",
+    "name": "Coral stone  necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 44,
+    "originalPrice": 50,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/cf3f1c4c-56af-442c-b263-578fe3398ecb.jpg",
+    "images": [
+      "images/cf3f1c4c-56af-442c-b263-578fe3398ecb.jpg",
+      "images/53aeff17-14ff-4155-b250-241f6154f0e9.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-70",
+    "name": "Lotus Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 24,
+    "originalPrice": 36,
+    "discountPct": 33,
+    "stockStatus": "INSTOCK",
+    "image": "images/9d2ebc31-ea0f-49ab-a8ce-cffcaccf16c3.jpg",
+    "images": [
+      "images/9d2ebc31-ea0f-49ab-a8ce-cffcaccf16c3.jpg",
+      "images/39ab9b5e-7afa-4301-b51a-281b998ae299.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-71",
+    "name": "Necklace",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 26,
+    "originalPrice": 32,
+    "discountPct": 19,
+    "stockStatus": "INSTOCK",
+    "image": "images/e96f5952-ad89-4eec-8f5b-741770b1d45a.jpg",
+    "images": [
+      "images/e96f5952-ad89-4eec-8f5b-741770b1d45a.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
   }
 ]
