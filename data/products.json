@@ -2063,7 +2063,7 @@
     "price": 68,
     "originalPrice": 74,
     "discountPct": 8,
-    "stockStatus": "INSTOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/f697d427-c6b5-401e-bedc-f2b044a25d48.jpg",
     "images": [
       "images/f697d427-c6b5-401e-bedc-f2b044a25d48.jpg"
@@ -4514,7 +4514,7 @@
     "price": 71,
     "originalPrice": 78,
     "discountPct": 9,
-    "stockStatus": "INSTOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/67898e22-8611-4727-8a91-20defc8e9b69.jpg",
     "images": [
       "images/67898e22-8611-4727-8a91-20defc8e9b69.jpg"
