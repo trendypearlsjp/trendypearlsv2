@@ -747,14 +747,26 @@ function renderFreshArrivalsMarquee() {
 
     track.innerHTML = loopItems.map(item => {
         const discountedPrice = item.discountPct > 0 ? Math.round(item.originalPrice * (1 - item.discountPct / 100)) : item.price;
+        const st = (item.stockStatus || item.status || "").toUpperCase().trim();
+        const isOutOfStock = st.includes("OUT") || st.includes("SOLD") || item.soldOut === true;
+
+        const badgeOnPic = isOutOfStock
+            ? `<span class="absolute top-3 left-3 z-30 bg-red-600 text-white font-black text-[10px] px-3 py-1 rounded-full uppercase tracking-wider shadow-md border border-white/50">SOLD OUT</span>`
+            : `<span class="absolute top-3 left-3 z-20 bg-[#9E6B7B]/90 text-white font-bold text-[9px] px-2.5 py-0.5 rounded-full uppercase tracking-wider shadow-sm backdrop-blur-xs">NEW ARRIVALS</span>`;
+
+        const overlayBanner = isOutOfStock
+            ? `<div class="absolute inset-0 z-20 flex items-center justify-center pointer-events-none bg-slate-950/40"><span class="bg-red-600 text-white font-black text-xs md:text-sm px-4 py-1.5 rounded-full uppercase tracking-widest shadow-xl border border-white/50 transform -rotate-6">SOLD OUT</span></div>`
+            : '';
+
         return `
         <div onclick="openModal('${item.code}')" class="w-52 h-72 md:w-72 md:h-[400px] rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl border border-white/60 transition-all duration-500 flex-shrink-0 cursor-pointer relative group">
-            <span class="absolute top-3 left-3 z-20 bg-[#9E6B7B]/90 text-white font-bold text-[9px] px-2.5 py-0.5 rounded-full uppercase tracking-wider shadow-sm backdrop-blur-xs">NEW ARRIVALS</span>
+            ${badgeOnPic}
             ${item.discountPct > 0 ? `<span class="absolute top-3 right-3 z-20 bg-rose-600 text-white font-bold text-[9px] px-2 py-0.5 rounded-md shadow-sm">-${item.discountPct}%</span>` : ''}
-            <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('${item.image}')"></div>
+            ${overlayBanner}
+            <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105 ${isOutOfStock ? 'grayscale-[35%]' : ''}" style="background-image: url('${item.image}')"></div>
             <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4 text-white">
                 <h5 class="font-bold text-sm truncate mb-0.5">${item.name}</h5>
-                <span class="text-amber-300 font-extrabold text-sm">${CONFIG.currency}${discountedPrice.toLocaleString()}</span>
+                <span class="${isOutOfStock ? 'text-red-400 font-extrabold' : 'text-amber-300 font-extrabold'} text-sm">${CONFIG.currency}${discountedPrice.toLocaleString()} ${isOutOfStock ? '(SOLD OUT)' : ''}</span>
             </div>
         </div>
         `;
@@ -768,14 +780,22 @@ function renderFreshArrivalsMarquee() {
 }
 
 function renderCardHTML(item) {
-    const st = (item.stockStatus || "INSTOCK").toUpperCase().trim();
-    const isOutOfStock = st.includes("OUT") || st.includes("SOLD");
+    const st = (item.stockStatus || item.status || "INSTOCK").toUpperCase().trim();
+    const isOutOfStock = st.includes("OUT") || st.includes("SOLD") || item.soldOut === true;
     const isLimited = st.includes("LIMITED");
     const discountedPrice = item.discountPct > 0 ? Math.round(item.originalPrice * (1 - item.discountPct / 100)) : item.price;
     
     const isFresh = newest50Codes.has(item.code);
-    const freshBadge = isFresh 
-        ? `<span class="absolute top-2.5 left-2.5 z-20 bg-[#9E6B7B]/85 text-white font-bold text-[9px] px-2.5 py-0.5 rounded-full uppercase tracking-wider shadow-xs backdrop-blur-xs">NEW ARRIVALS</span>` 
+    
+    // Top-Left Badge directly on the picture: Highlighted Red "SOLD OUT" in place of "NEW ARRIVALS" if sold out
+    const badgeOnPic = isOutOfStock
+        ? `<span class="absolute top-2.5 left-2.5 z-30 bg-red-600 text-white font-black text-[10px] px-3 py-1 rounded-full uppercase tracking-wider shadow-md border border-white/50">SOLD OUT</span>`
+        : (isFresh 
+            ? `<span class="absolute top-2.5 left-2.5 z-20 bg-[#9E6B7B]/85 text-white font-bold text-[9px] px-2.5 py-0.5 rounded-full uppercase tracking-wider shadow-xs backdrop-blur-xs">NEW ARRIVALS</span>` 
+            : (isLimited ? `<span class="absolute top-2.5 left-2.5 z-20 bg-amber-600 text-white font-bold text-[9px] px-2.5 py-0.5 rounded-full uppercase tracking-wider shadow-xs">LIMITED STOCK</span>` : ''));
+
+    const overlayBanner = isOutOfStock
+        ? `<div class="absolute inset-0 z-20 flex items-center justify-center pointer-events-none bg-slate-950/35"><span class="bg-red-600/95 text-white font-black text-[11px] px-3 py-1 rounded-full uppercase tracking-widest shadow-lg border border-white/40 transform -rotate-6">SOLD OUT</span></div>`
         : '';
 
     const imgList = (item.images && item.images.length > 0) ? item.images : [item.image];
@@ -790,11 +810,11 @@ function renderCardHTML(item) {
     ` : '';
 
     return `
-    <div class="flex group cursor-pointer flex-col bg-white rounded-2xl border border-slate-100 p-2.5 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden" onclick="openModal('${item.code}')">
+    <div class="flex group cursor-pointer flex-col bg-white rounded-2xl border border-slate-100 p-2.5 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden ${isOutOfStock ? 'opacity-90' : ''}" onclick="openModal('${item.code}')">
         <!-- Square Image Box (1:1 Ratio) -->
         <div class="relative aspect-square rounded-xl overflow-hidden mb-2.5 bg-slate-50">
-            <!-- Top-Left FRESH Badge (Only shown for newest 50 products) -->
-            ${freshBadge}
+            <!-- Top-Left Badge (Highlighted Red SOLD OUT or NEW ARRIVALS) -->
+            ${badgeOnPic}
             
             <!-- Top-Right Discount Badge -->
             ${item.discountPct > 0 ? `<span class="absolute top-2.5 right-9 z-20 bg-white text-[#D9386E] border border-rose-100 font-extrabold text-[9px] px-2 py-0.5 rounded-full shadow-xs">-${item.discountPct}% OFF</span>` : ''}
@@ -802,14 +822,19 @@ function renderCardHTML(item) {
             <!-- Top-Right Wishlist Heart Button -->
             <button type="button" onclick="event.stopPropagation(); toggleWishlist('${item.code}', this)" class="absolute top-2.5 right-2.5 z-20 w-6 h-6 rounded-full bg-white/95 hover:bg-white text-slate-400 hover:text-rose-500 flex items-center justify-center shadow-xs border border-slate-100 transition-colors" title="Wishlist"><span class="material-symbols-outlined text-[13px]">favorite</span></button>
 
+            <!-- Sold Out Center Ribbon / Overlay -->
+            ${overlayBanner}
+
             <!-- Card Image -->
-            <div class="card-img-bg-${item.code} w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: url('${item.image}')"></div>
+            <div class="card-img-bg-${item.code} w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105 ${isOutOfStock ? 'grayscale-[35%]' : ''}" style="background-image: url('${item.image}')"></div>
             
             <!-- Multi-Image Controls -->
             ${cardNavBtns}
 
-            <!-- Bottom-Right Circular Dark Plum Plus Button -->
-            <button type="button" onclick="event.stopPropagation(); openModal('${item.code}')" class="absolute bottom-2.5 right-2.5 z-20 w-7.5 h-7.5 rounded-full bg-[#4A1525] hover:bg-[#5C1D38] text-white flex items-center justify-center shadow-md transition-transform active:scale-95" title="Quick View & Add"><span class="material-symbols-outlined text-sm font-bold">add</span></button>
+            <!-- Bottom-Right Circular Dark Plum Plus / Lock Button -->
+            <button type="button" onclick="event.stopPropagation(); openModal('${item.code}')" class="absolute bottom-2.5 right-2.5 z-20 w-7.5 h-7.5 rounded-full ${isOutOfStock ? 'bg-red-600 text-white' : 'bg-[#4A1525] hover:bg-[#5C1D38] text-white'} flex items-center justify-center shadow-md transition-transform active:scale-95" title="${isOutOfStock ? 'Sold Out' : 'Quick View & Add'}">
+                <span class="material-symbols-outlined text-sm font-bold">${isOutOfStock ? 'lock' : 'add'}</span>
+            </button>
         </div>
 
         <!-- Left-Aligned Product Details -->
@@ -820,7 +845,10 @@ function renderCardHTML(item) {
                     <span class="font-bold text-slate-900 text-sm">${CONFIG.currency}${discountedPrice.toLocaleString()}</span>
                     ${item.discountPct > 0 ? `<span class="text-slate-400 text-xs line-through font-normal ml-0.5">${CONFIG.currency}${item.originalPrice.toLocaleString()}</span>` : ''}
                 </div>
-                <span class="text-[9px] font-mono text-slate-400 bg-slate-50 border border-slate-200 px-1.5 py-0.5 rounded">${item.code}</span>
+                ${isOutOfStock 
+                    ? `<span class="text-[9px] font-extrabold text-red-600 bg-red-50 border border-red-200 px-1.5 py-0.5 rounded uppercase tracking-wider">SOLD OUT</span>`
+                    : `<span class="text-[9px] font-mono text-slate-400 bg-slate-50 border border-slate-200 px-1.5 py-0.5 rounded">${item.code}</span>`
+                }
             </div>
         </div>
     </div>
@@ -984,28 +1012,29 @@ function openModal(code) {
         modalSizeEl.style.display = "none";
     }
 
+    const st = (item.stockStatus || item.status || "INSTOCK").toUpperCase().trim();
+    const isOutOfStock = st.includes("OUT") || st.includes("SOLD") || item.soldOut === true;
+
     if (modalStockBadge) {
-        const st = (item.stockStatus || "INSTOCK").toUpperCase().trim();
         let badgeStyle = "bg-emerald-600 text-white border-emerald-400";
-        if (st.includes("OUT") || st.includes("SOLD")) {
-            badgeStyle = "bg-slate-900 text-white border-slate-700";
+        if (isOutOfStock) {
+            badgeStyle = "bg-red-600 text-white border-red-400 font-black";
         } else if (st.includes("LIMITED")) {
             badgeStyle = "bg-amber-600 text-white border-amber-400";
         }
-        modalStockBadge.innerText = st;
+        modalStockBadge.innerText = isOutOfStock ? "SOLD OUT" : st;
         modalStockBadge.className = `absolute top-4 left-4 z-30 font-bold text-[10px] px-3 py-1 rounded-full uppercase tracking-widest shadow-md border ${badgeStyle}`;
     }
 
     const modalStockDetailBadge = document.getElementById("modal-stock-detail-badge");
     if (modalStockDetailBadge) {
-        const st = (item.stockStatus || "INSTOCK").toUpperCase().trim();
         let badgeDetailStyle = "bg-emerald-100 text-emerald-800 border-emerald-300";
-        if (st.includes("OUT") || st.includes("SOLD")) {
-            badgeDetailStyle = "bg-red-100 text-red-800 border-red-300";
+        if (isOutOfStock) {
+            badgeDetailStyle = "bg-red-100 text-red-800 border-red-300 font-black";
         } else if (st.includes("LIMITED")) {
             badgeDetailStyle = "bg-amber-100 text-amber-800 border-amber-300";
         }
-        modalStockDetailBadge.innerText = st;
+        modalStockDetailBadge.innerText = isOutOfStock ? "SOLD OUT" : st;
         modalStockDetailBadge.className = `inline-block ml-2 px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider border ${badgeDetailStyle}`;
     }
     
@@ -1025,16 +1054,26 @@ function openModal(code) {
     // Action buttons (Buy Now & Add to Cart)
     const modalActionsEl = document.getElementById("modal-actions");
     if (modalActionsEl) {
-        modalActionsEl.innerHTML = `
-            <div class="grid grid-cols-2 gap-3 w-full mt-4">
-                <button onclick="addCurrentModalItemToCart()" class="py-3 bg-slate-800 hover:bg-slate-900 text-white font-bold text-xs uppercase tracking-wider rounded-xl transition-all flex items-center justify-center gap-1.5 shadow">
-                    <span class="material-symbols-outlined text-sm">add_shopping_cart</span> Add to Cart
-                </button>
-                <button onclick="buyCurrentModalItemNow()" class="py-3 bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs uppercase tracking-wider rounded-xl transition-all flex items-center justify-center gap-1.5 shadow">
-                    <span class="material-symbols-outlined text-sm">local_shipping</span> Buy Now
-                </button>
-            </div>
-        `;
+        if (isOutOfStock) {
+            modalActionsEl.innerHTML = `
+                <div class="w-full mt-4">
+                    <button disabled class="w-full py-3.5 bg-red-600 text-white font-black text-xs uppercase tracking-widest rounded-xl shadow cursor-not-allowed opacity-90 flex items-center justify-center gap-2">
+                        <span class="material-symbols-outlined text-sm">lock</span> SOLD OUT — ITEM TEMPORARILY OUT OF STOCK
+                    </button>
+                </div>
+            `;
+        } else {
+            modalActionsEl.innerHTML = `
+                <div class="grid grid-cols-2 gap-3 w-full mt-4">
+                    <button onclick="addCurrentModalItemToCart()" class="py-3 bg-slate-800 hover:bg-slate-900 text-white font-bold text-xs uppercase tracking-wider rounded-xl transition-all flex items-center justify-center gap-1.5 shadow">
+                        <span class="material-symbols-outlined text-sm">add_shopping_cart</span> Add to Cart
+                    </button>
+                    <button onclick="buyCurrentModalItemNow()" class="py-3 bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs uppercase tracking-wider rounded-xl transition-all flex items-center justify-center gap-1.5 shadow">
+                        <span class="material-symbols-outlined text-sm">local_shipping</span> Buy Now
+                    </button>
+                </div>
+            `;
+        }
     }
 
     productModal.classList.remove("hidden");
