@@ -4694,24 +4694,6 @@
     "featured": false
   },
   {
-    "code": "JW-68",
-    "name": "Necklace",
-    "category": "Jewellery",
-    "subcategory": "Necklace",
-    "price": 26,
-    "originalPrice": 28,
-    "discountPct": 7,
-    "stockStatus": "INSTOCK",
-    "image": "images/d89f547f-6318-4301-abd2-ce3a5ba2b413.jpg",
-    "images": [
-      "images/d89f547f-6318-4301-abd2-ce3a5ba2b413.jpg",
-      "images/f2ce700f-48b4-43f6-a6cb-61a36e8f7630.jpg"
-    ],
-    "size": "",
-    "description": "",
-    "featured": false
-  },
-  {
     "code": "JW-69",
     "name": "Coral stone  necklace",
     "category": "Jewellery",
