@@ -4802,23 +4802,6 @@ window.BOOTSTRAP_PRODUCTS = [
     "featured": false
   },
   {
-    "code": "JW-75",
-    "name": "Kemp-Style Necklace set",
-    "category": "Jewellery",
-    "subcategory": "Necklace",
-    "price": 46,
-    "originalPrice": 52,
-    "discountPct": 12,
-    "stockStatus": "INSTOCK",
-    "image": "images/f7523ca8-eeae-4791-8ab8-9e95a4a62e17.jpg",
-    "images": [
-      "images/f7523ca8-eeae-4791-8ab8-9e95a4a62e17.jpg"
-    ],
-    "size": "",
-    "description": "",
-    "featured": false
-  },
-  {
     "code": "JW-76",
     "name": "Elegant gold-finish necklace set",
     "category": "Jewellery",
