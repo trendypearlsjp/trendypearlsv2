@@ -411,7 +411,7 @@
     "price": 34,
     "originalPrice": 34,
     "discountPct": 0,
-    "stockStatus": "LIMITED STOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/8c016b51-9123-4238-83fd-82557b1a2fdb.jpg",
     "images": [
       "images/8c016b51-9123-4238-83fd-82557b1a2fdb.jpg"
@@ -2284,7 +2284,7 @@
     "price": 10,
     "originalPrice": 14,
     "discountPct": 29,
-    "stockStatus": "INSTOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/e9c5ae0d-e743-4b30-92da-8891d771105d.jpg",
     "images": [
       "images/e9c5ae0d-e743-4b30-92da-8891d771105d.jpg"
@@ -4310,7 +4310,7 @@
     "price": 94,
     "originalPrice": 100,
     "discountPct": 6,
-    "stockStatus": "LIMITED STOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/83844d90-bbb5-408a-9704-05b2c4ea1fda.jpg",
     "images": [
       "images/83844d90-bbb5-408a-9704-05b2c4ea1fda.jpg"
@@ -4443,9 +4443,9 @@
     "name": "saree",
     "category": "Ladies Wear",
     "subcategory": "",
-    "price": 75,
-    "originalPrice": 89,
-    "discountPct": 16,
+    "price": 68,
+    "originalPrice": 85,
+    "discountPct": 20,
     "stockStatus": "LIMITED STOCK",
     "image": "images/e52500cd-caca-4aad-8061-02391d42dc77.jpg",
     "images": [
