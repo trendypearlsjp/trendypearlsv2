@@ -837,7 +837,7 @@
   {
     "code": "LW-30",
     "name": "Kids frocks",
-    "category": "Ladies Wear",
+    "category": "Kids Wear",
     "subcategory": "",
     "price": 18,
     "originalPrice": 23.69,
@@ -871,7 +871,7 @@
   {
     "code": "LW-32",
     "name": "FROCK",
-    "category": "Ladies Wear",
+    "category": "Kids Wear",
     "subcategory": "",
     "price": 22,
     "originalPrice": 25,
@@ -939,7 +939,7 @@
   {
     "code": "LW-34",
     "name": "Necklace",
-    "category": "Ladies Wear",
+    "category": "Jewellery",
     "subcategory": "",
     "price": 39,
     "originalPrice": 46,
@@ -1058,8 +1058,8 @@
   {
     "code": "LW-35",
     "name": "Jewellery",
-    "category": "Ladies Wear",
-    "subcategory": "",
+    "category": "Jewellery",
+    "subcategory": "Bangles",
     "price": 15,
     "originalPrice": 24,
     "discountPct": 38,
@@ -1128,7 +1128,7 @@
   {
     "code": "LW-37",
     "name": "Kids frocks",
-    "category": "Ladies Wear",
+    "category": "Kids Wear",
     "subcategory": "",
     "price": 16,
     "originalPrice": 20,
@@ -1146,11 +1146,11 @@
   {
     "code": "LW-38",
     "name": "Kids frocks",
-    "category": "Ladies Wear",
+    "category": "Kids Wear",
     "subcategory": "",
-    "price": 23,
+    "price": 19,
     "originalPrice": 30,
-    "discountPct": 23,
+    "discountPct": 37,
     "stockStatus": "INSTOCK",
     "image": "images/5031150e-3915-4443-801e-a24f17b8a3c6.jpg",
     "images": [
@@ -1233,8 +1233,8 @@
   {
     "code": "LW-39",
     "name": "Premium double layer",
-    "category": "Ladies Wear",
-    "subcategory": "",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
     "price": 39,
     "originalPrice": 46,
     "discountPct": 15,
@@ -1573,11 +1573,11 @@
   {
     "code": "LW-59",
     "name": "Kids pattupavada",
-    "category": "Ladies Wear",
+    "category": "Kids Wear",
     "subcategory": "",
-    "price": 50,
+    "price": 46,
     "originalPrice": 58,
-    "discountPct": 14,
+    "discountPct": 21,
     "stockStatus": "INSTOCK",
     "image": "images/bb662809-52a8-4a12-9e07-8d048b352c32.jpg",
     "images": [
@@ -2194,8 +2194,8 @@
   {
     "code": "LW-90",
     "name": "NGAPADAM  necklace",
-    "category": "Ladies Wear",
-    "subcategory": "",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
     "price": 29,
     "originalPrice": 35,
     "discountPct": 17,
@@ -2387,8 +2387,8 @@
   {
     "code": "LW-93",
     "name": "Casual wear",
-    "category": "Ladies Wear",
-    "subcategory": "",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
     "price": 12,
     "originalPrice": 14,
     "discountPct": 14,
@@ -2577,8 +2577,8 @@
   {
     "code": "LW-96",
     "name": "Premium   stone necklace",
-    "category": "Ladies Wear",
-    "subcategory": "",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
     "price": 33,
     "originalPrice": 36,
     "discountPct": 8,
@@ -2594,8 +2594,8 @@
   {
     "code": "LW-97",
     "name": "Jhumka",
-    "category": "Ladies Wear",
-    "subcategory": "",
+    "category": "Jewellery",
+    "subcategory": "Earring",
     "price": 13,
     "originalPrice": 15,
     "discountPct": 13,
@@ -2611,8 +2611,8 @@
   {
     "code": "LW-98",
     "name": "Casual earrings",
-    "category": "Ladies Wear",
-    "subcategory": "",
+    "category": "Jewellery",
+    "subcategory": "Earring",
     "price": 12,
     "originalPrice": 15,
     "discountPct": 20,
@@ -2991,7 +2991,7 @@
   {
     "code": "LW-101",
     "name": "Invisible necklace",
-    "category": "Ladies Wear",
+    "category": "Jewellery",
     "subcategory": "",
     "price": 15,
     "originalPrice": 18,
