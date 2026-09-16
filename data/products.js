@@ -4800,5 +4800,59 @@ window.BOOTSTRAP_PRODUCTS = [
     "size": "",
     "description": "Few Pieces available",
     "featured": false
+  },
+  {
+    "code": "JW-75",
+    "name": "Kemp-Style Necklace set",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 46,
+    "originalPrice": 52,
+    "discountPct": 12,
+    "stockStatus": "INSTOCK",
+    "image": "images/f7523ca8-eeae-4791-8ab8-9e95a4a62e17.jpg",
+    "images": [
+      "images/f7523ca8-eeae-4791-8ab8-9e95a4a62e17.jpg"
+    ],
+    "size": "",
+    "description": "",
+    "featured": false
+  },
+  {
+    "code": "JW-76",
+    "name": "Elegant gold-finish necklace set",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 36,
+    "originalPrice": 44,
+    "discountPct": 18,
+    "stockStatus": "INSTOCK",
+    "image": "images/d74e8192-18ed-4ed9-a4db-a3d4e05d63a5.jpg",
+    "images": [
+      "images/d74e8192-18ed-4ed9-a4db-a3d4e05d63a5.jpg",
+      "images/ebd05c37-c37a-4dae-a663-c704d9dcab54.jpg",
+      "images/adbe1261-4cbf-4b07-832f-abdd3f6239e8.jpg"
+    ],
+    "size": "",
+    "description": "Available 2 different shades.",
+    "featured": false
+  },
+  {
+    "code": "JW-77",
+    "name": "Elegant Floral CZ Necklace Set",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 42,
+    "originalPrice": 49,
+    "discountPct": 14,
+    "stockStatus": "INSTOCK",
+    "image": "images/ac22057c-f2a9-4816-9580-22d549872b7b.jpg",
+    "images": [
+      "images/ac22057c-f2a9-4816-9580-22d549872b7b.jpg",
+      "images/04c3dcc3-f035-4f80-a93d-47449b479134.jpg"
+    ],
+    "size": "",
+    "description": "Floral CZ Necklace Set ✨A graceful gold-toned necklace featuring delicate floral and leaf detailing, beautifully finished with sparkling clear CZ stones.",
+    "featured": false
   }
 ];
