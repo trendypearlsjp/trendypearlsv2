@@ -4745,5 +4745,60 @@
     "size": "",
     "description": "",
     "featured": false
+  },
+  {
+    "code": "JW-72",
+    "name": "CZ stone leaf pattern necklace set",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 46,
+    "originalPrice": 55,
+    "discountPct": 16,
+    "stockStatus": "INSTOCK",
+    "image": "images/2b0491d5-9afb-4f6e-935c-2ca72d7f8192.jpg",
+    "images": [
+      "images/2b0491d5-9afb-4f6e-935c-2ca72d7f8192.jpg",
+      "images/76db279b-aa83-4ea8-a76a-84ece2744e40.jpg",
+      "images/3ddd9569-412d-4321-800f-e83a2d7592e4.jpg"
+    ],
+    "size": "",
+    "description": "Available in Mint green, Blush pink and Dark pink shades",
+    "featured": false
+  },
+  {
+    "code": "JW-73",
+    "name": "EXCLUSIVE TIKKA",
+    "category": "Jewellery",
+    "subcategory": "Chutti Matti",
+    "price": 19,
+    "originalPrice": 24,
+    "discountPct": 21,
+    "stockStatus": "INSTOCK",
+    "image": "images/63bccb34-ae0e-4108-aaf7-2012c9d40e99.jpg",
+    "images": [
+      "images/63bccb34-ae0e-4108-aaf7-2012c9d40e99.jpg",
+      "images/cb6daf07-6218-4c03-adf4-cc98e995f7ab.jpg",
+      "images/1ea4917a-c783-4ada-9e21-a342c462d44d.jpg"
+    ],
+    "size": "",
+    "description": "Many beautiful varieties of tikkas are available in gold, silver, and rose-gold finishes.",
+    "featured": false
+  },
+  {
+    "code": "JW-74",
+    "name": "Premium CZ stone necklace set",
+    "category": "Jewellery",
+    "subcategory": "Necklace",
+    "price": 46,
+    "originalPrice": 54,
+    "discountPct": 15,
+    "stockStatus": "INSTOCK",
+    "image": "images/ee06fe9c-4b44-437f-8a09-5a25cf76966d.jpg",
+    "images": [
+      "images/ee06fe9c-4b44-437f-8a09-5a25cf76966d.jpg"
+    ],
+    "size": "",
+    "description": "Few Pieces available",
+    "featured": false
   }
 ]
