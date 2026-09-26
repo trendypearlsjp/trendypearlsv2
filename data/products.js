@@ -480,7 +480,7 @@ window.BOOTSTRAP_PRODUCTS = [
     "price": 14,
     "originalPrice": 14,
     "discountPct": 0,
-    "stockStatus": "INSTOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/03145264-b0c4-4965-8906-e957b12dbfc4.jpg",
     "images": [
       "images/03145264-b0c4-4965-8906-e957b12dbfc4.jpg",
@@ -842,7 +842,7 @@ window.BOOTSTRAP_PRODUCTS = [
     "price": 18,
     "originalPrice": 23.69,
     "discountPct": 24,
-    "stockStatus": "INSTOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/5A8C6FC2-D70C-41AE-87F1-96716CEED2B9.png",
     "images": [
       "images/5A8C6FC2-D70C-41AE-87F1-96716CEED2B9.png"
@@ -1169,7 +1169,7 @@ window.BOOTSTRAP_PRODUCTS = [
     "price": 24,
     "originalPrice": 32,
     "discountPct": 25,
-    "stockStatus": "INSTOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/a8acd117-01a4-4c8e-b2d7-6371aaa6d04f.jpg",
     "images": [
       "images/a8acd117-01a4-4c8e-b2d7-6371aaa6d04f.jpg"
@@ -4599,7 +4599,7 @@ window.BOOTSTRAP_PRODUCTS = [
     "price": 60,
     "originalPrice": 65,
     "discountPct": 8,
-    "stockStatus": "LIMITED STOCK",
+    "stockStatus": "SOLD OUT",
     "image": "images/77c8ee93-e87e-4fe1-aeed-6b25d83c37e0.jpg",
     "images": [
       "images/77c8ee93-e87e-4fe1-aeed-6b25d83c37e0.jpg"
